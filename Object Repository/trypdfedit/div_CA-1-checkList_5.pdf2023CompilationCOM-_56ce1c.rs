@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_CA-1-checkList_5.pdf2023CompilationCOM-_56ce1c</name>
+   <tag></tag>
+   <elementGuidId>92b354a5-620b-4e1d-8cd4-812108d1519b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-4-0']/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.signoff-container.templates-list.templates-section-body.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9962eb15-8a09-4401-9cec-f12bf971e460</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>signoff-container templates-list templates-section-body ng-star-inserted</value>
+      <webElementGuid>385eac60-15f3-4885-b52e-0f708e6316bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CA-1-checkList_5.pdf2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual DocumentsIND-1-COM TYP Dec312023 EL.pdf2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual Documents</value>
+      <webElementGuid>623aeb60-dc79-46bd-ad88-9dfa066014aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-4-0&quot;)/div[@class=&quot;mat-mdc-tab-body-content ng-tns-c2396234108-667 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;signoff-container templates-list templates-section-body ng-star-inserted&quot;]</value>
+      <webElementGuid>19184ccc-3b90-4b07-aa3b-ee713478c9a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-4-0']/div/div[3]</value>
+      <webElementGuid>bf7b55be-d914-43a1-8ce3-43323057c26d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]/following::div[6]</value>
+      <webElementGuid>4b4aac37-f128-4909-98ee-96a587329362</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Clients'])[1]/following::div[16]</value>
+      <webElementGuid>a4ec7a49-be7b-46da-aa0e-8b6633c1c068</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-tab-body/div/div[3]</value>
+      <webElementGuid>fadad92b-f508-429b-93e3-754020f618e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'CA-1-checkList_5.pdf2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual DocumentsIND-1-COM TYP Dec312023 EL.pdf2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual Documents' or . = 'CA-1-checkList_5.pdf2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual DocumentsIND-1-COM TYP Dec312023 EL.pdf2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual Documents')]</value>
+      <webElementGuid>6de481c6-63de-4a93-949c-8d639f52a4e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

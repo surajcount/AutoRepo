@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>QA Onboardingand SignUP-USA</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>54bc6bf8-f20a-470b-8575-173ffca34b92</testSuiteGuid>
+   <testCaseLink>
+      <guid>15206b5e-afb9-41f2-bb5c-d9375543014a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QA Server/SignUp-Countable_USA</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>92c713c1-2ab1-413a-97b4-3f61b6e7e02d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data/SignUp Data-USA</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>92c713c1-2ab1-413a-97b4-3f61b6e7e02d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>emailSignup</value>
+         <variableId>dc15fad6-ad5d-42ad-bb79-7e609ace54c4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>92c713c1-2ab1-413a-97b4-3f61b6e7e02d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>yopmail</value>
+         <variableId>0902b80b-466e-4376-9438-843288866b21</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>02047812-3151-4183-8f12-4086150214ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QA Server/OnboardFirmTeamClient_USA</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>748bafd6-6b07-470c-a2e9-9ba639dabfe2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data/OnboardingTEAM_CLIENT_Firm_DATA_USA</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>748bafd6-6b07-470c-a2e9-9ba639dabfe2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LoginEmail_USA</value>
+         <variableId>fb8ac3a1-c2e0-461d-a78a-e21d2ddacd05</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>748bafd6-6b07-470c-a2e9-9ba639dabfe2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TeamMem_Email_USA</value>
+         <variableId>643ad394-e710-4e76-859c-53917e8665ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>748bafd6-6b07-470c-a2e9-9ba639dabfe2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ClientEmail_USA</value>
+         <variableId>d9852968-6ab4-4b57-a34e-a97e171d7c78</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

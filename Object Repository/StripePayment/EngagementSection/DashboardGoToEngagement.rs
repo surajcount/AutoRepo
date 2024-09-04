@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DashboardGoToEngagement</name>
+   <tag></tag>
+   <elementGuidId>d7c04361-364c-4b66-9212-30fad43486c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/nav-icons/engagements.svg']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/nav-icons/engagements.svg']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//img[@src='/assets/images/ui-uplift-icons/global/nav-icons/engagements.svg']</value>
+      <webElementGuid>9196b3d0-50be-466f-b3a4-acc418d50e9a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

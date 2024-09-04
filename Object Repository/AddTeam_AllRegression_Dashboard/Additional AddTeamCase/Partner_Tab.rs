@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Partner_Tab</name>
+   <tag></tag>
+   <elementGuidId>244bd7bb-a98a-42c4-9e2c-a0f7ea889302</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@role='tab']//span//span[contains(text(),'Partner')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@role='tab']//span//span[contains(text(),'Partner')]</value>
+      <webElementGuid>db27572e-a502-4093-bda0-b29cf5fda5be</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

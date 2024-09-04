@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Entity_Sub_Type_SelectC - Corp</name>
+   <tag></tag>
+   <elementGuidId>f20e0013-978c-4f5d-bc6f-8690f3b80946</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@title='C - Corp']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#a1c756bd30a8-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c2f685a9-ab02-461c-8abf-4c6150fdb7ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-option ng-star-inserted ng-option-marked</value>
+      <webElementGuid>66c4df28-e309-4eda-adc9-ab209e0f77ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>9b85a135-f1d3-4715-871c-8f614bf68209</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>caca925d-5dd6-434d-9b14-9cd09936bb73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>a1c756bd30a8-1</value>
+      <webElementGuid>a45f0778-870d-4c9e-b020-d06f64faa07c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>C - Corp</value>
+      <webElementGuid>47097845-0235-4c16-9e0f-e1bfbd705119</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a1c756bd30a8-1&quot;)</value>
+      <webElementGuid>218d2c90-c2c4-4715-b912-d9351537390e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@title='C - Corp']</value>
+      <webElementGuid>87f39f38-4ece-4b7e-bc4b-1434ea021e3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@title='C - Corp']</value>
+      <webElementGuid>70faccd4-d205-4fda-bc0c-9e7d684a69db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S - Corp'])[1]/following::div[1]</value>
+      <webElementGuid>d3498387-e1bb-4e53-928e-4a6be3abc48e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::div[7]</value>
+      <webElementGuid>3dd44088-8529-4685-8617-6cc77134d695</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LLC - Limited Liability'])[1]/preceding::div[2]</value>
+      <webElementGuid>6149a9e3-095d-4d86-bc8a-9761a5a0c819</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ng-dropdown-panel/div/div[2]/div[2]</value>
+      <webElementGuid>6acdd11b-1a52-4c03-85d9-a9239cd8698a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'a1c756bd30a8-1' and (text() = 'C - Corp' or . = 'C - Corp')]</value>
+      <webElementGuid>92d6020e-e225-4c32-adb5-1ccb90ae1931</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

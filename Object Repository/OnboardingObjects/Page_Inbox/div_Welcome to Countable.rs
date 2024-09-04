@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Welcome to Countable</name>
+   <tag></tag>
+   <elementGuidId>0fa25d21-a901-4ccc-bb4d-d3e40a17142b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/div[2]/div[2]/button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a72e154c-250f-4854-8a5b-04659e03fc8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lms</value>
+      <webElementGuid>3b417a9e-1bca-42d3-b5f5-aded5d042705</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome to Countable</value>
+      <webElementGuid>00dfafa9-5af1-4692-9de8-927a369671a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e_ZwDjAQV5ZQx0BQZ3ZQNjZmZlZmRmAD==&quot;)/button[@class=&quot;lm&quot;]/div[@class=&quot;lms&quot;]</value>
+      <webElementGuid>d28dbd6b-fc19-47d2-8e0c-d4fe8c109314</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/OnboardingObjects/Page_Inbox/iframe_Undo_ifinbox</value>
+      <webElementGuid>c28a2a56-40c4-44b3-a42d-53323359c485</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[1]/div[2]/div[2]/button[1]</value>
+      <webElementGuid>c8fda9f8-4262-4ad9-88ed-725d78494f0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='admin@adinovis.com'])[2]/following::div[1]</value>
+      <webElementGuid>7c04e009-5d02-49d4-a93b-a454cdb9d469</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to Countable'])[1]/following::div[4]</value>
+      <webElementGuid>19718b3a-9f80-49bf-8598-8da78b272f45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/div[2]</value>
+      <webElementGuid>73bc7275-61fe-42a7-a2a9-b0f10f780af7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Welcome to Countable' or . = 'Welcome to Countable')]</value>
+      <webElementGuid>dfee515c-e6c4-4192-9803-7def255b44bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

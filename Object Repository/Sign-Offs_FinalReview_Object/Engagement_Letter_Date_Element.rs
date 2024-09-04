@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Engagement_Letter_Date_Element</name>
+   <tag></tag>
+   <elementGuidId>c0d0b25c-17c5-4263-a939-be3f68e73333</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/div[2]/ntr-dashboard[1]/div[1]/div[3]/engagement-details[1]/div[1]/div[2]/app-template-singlepage-view[1]/div[1]/div[1]/div[1]/div[22]/div[1]/p[1]/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

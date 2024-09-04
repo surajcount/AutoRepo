@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Import_Trial_Balance_Compilation_Engagement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33512464-1c0a-4dc3-b3bc-b520af2346a7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_Update_Eng_3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4de33a7e-1947-41ee-9884-f973504c2ad1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b9cf211d-175c-403a-aca0-9e6d34187a92</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291129@yopmail.com'</defaultValue>
+      <description></description>
+      <id>b9cf211d-175c-403a-aca0-9e6d34187a92</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

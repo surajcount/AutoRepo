@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>flex_Success_Toaster_Message</name>
+   <tag></tag>
+   <elementGuidId>d953c509-13dc-4e14-988a-4deb5a68cae6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='toast-container']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ngx-toastr.toast-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1c62c3a0-70b4-430a-a8b9-5c7a3330ad27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ngx-toastr toast-primary</value>
+      <webElementGuid>767e94ed-49db-4676-b9ea-6bd23d1a799b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>closePlan Successfully upgraded!You have successfully upgraded your plan to the  Monthly Accelerate.Kindly ensure your peg/pact information is up to date to maintain uninterrupted access to all associated sections.</value>
+      <webElementGuid>43908814-8931-4057-8bc4-f16bd201a9c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;parentDiv&quot;)/app-stripe-integration[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;firm-billing ng-star-inserted&quot;]/div[@class=&quot;title-right ng-star-inserted&quot;]/div[@class=&quot;toast-container toast-top-right&quot;]/div[@class=&quot;ngx-toastr toast-primary&quot;]</value>
+      <webElementGuid>43d2e537-fdb3-4920-8683-81d3714520c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='toast-container']</value>
+      <webElementGuid>b1b440b6-981e-4edd-b185-cfc7b6ff82a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing'])[2]/following::div[3]</value>
+      <webElementGuid>b483260a-5248-4e8b-b772-eb7327244c51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::div[7]</value>
+      <webElementGuid>102a6a5d-4c0e-43a6-a30b-6e8a90636e9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div</value>
+      <webElementGuid>17c98808-27b8-4bbf-8cd4-d5253d40fa0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'closePlan Successfully upgraded!You have successfully upgraded your plan to the  Monthly Accelerate.Kindly ensure your peg/pact information is up to date to maintain uninterrupted access to all associated sections.' or . = 'closePlan Successfully upgraded!You have successfully upgraded your plan to the  Monthly Accelerate.Kindly ensure your peg/pact information is up to date to maintain uninterrupted access to all associated sections.')]</value>
+      <webElementGuid>f622ced5-d432-4e3f-86a2-caa24b73e2a0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

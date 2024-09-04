@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OnboardFirmTeamClient_USA -ManuallyAddress</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cefb7de8-5caa-41d9-b646-b6c0ab9aca16</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4170d3d6-a3a2-4180-97d0-4061e92be265</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd909f98-d981-414e-a76b-47c78650c85e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7538041a-f44b-4fad-b44b-96e0fb13dd02</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'qaregusa1109@yopmail.com'</defaultValue>
+      <description></description>
+      <id>4170d3d6-a3a2-4180-97d0-4061e92be265</id>
+      <masked>false</masked>
+      <name>LoginEmail_USA</name>
+   </variable>
+   <variable>
+      <defaultValue>'teamqaregusa1109@yopmail.com'</defaultValue>
+      <description></description>
+      <id>cd909f98-d981-414e-a76b-47c78650c85e</id>
+      <masked>false</masked>
+      <name>TeamMem_Email_USA</name>
+   </variable>
+   <variable>
+      <defaultValue>'cliqaregusa1109@yopmail.com'</defaultValue>
+      <description></description>
+      <id>7538041a-f44b-4fad-b44b-96e0fb13dd02</id>
+      <masked>false</masked>
+      <name>ClientEmail_USA</name>
+   </variable>
+</TestCaseEntity>

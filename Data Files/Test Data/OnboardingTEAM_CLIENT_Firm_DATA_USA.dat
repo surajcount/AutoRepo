@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>OnboardingTEAM_CLIENT_Firm_DATA_USA</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>2eda515c-1f91-4924-b739-66698c5fe26a</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>ussevqareg1111%40yopmail.com ussevqareg1111tem%40yopmail.com ussevqareg1111cli%40yopmail.com</data>
+   <data>ussevqareg1112%40yopmail.com ussevqareg1112tem%40yopmail.com ussevqareg1112cli%40yopmail.com</data>
+   <data>ussevqareg1113%40yopmail.com ussevqareg1113tem%40yopmail.com ussevqareg1113cli%40yopmail.com</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>LoginEmail_USA</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>TeamMem_Email_USA</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>ClientEmail_USA</name>
+      <size>3</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

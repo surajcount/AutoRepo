@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ContainerclickTo dismisslist_excl</name>
+   <tag></tag>
+   <elementGuidId>855ab7e6-5acc-4bec-9a2c-bb87171e35a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/app-root/app-dashboard/div/div/div/ntr-dashboard/div/div/div/mat-tab-group/mat-tab-header/div/div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.signoff-container.templates-list.templates-section-body.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ef4746ec-4600-49cc-a41a-7ab7cad45281</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>signoff-container templates-list templates-section-body ng-star-inserted</value>
+      <webElementGuid>bde7030a-7c5e-4454-a907-92286e912ad9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CA-1-checkList_5.pdf2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual DocumentsIND-1-COM TYP Dec312023 EL.pdf2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual Documents</value>
+      <webElementGuid>654f94f7-d4ef-4352-a728-98521cc137d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-4-0&quot;)/div[@class=&quot;mat-mdc-tab-body-content ng-tns-c2396234108-656 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;signoff-container templates-list templates-section-body ng-star-inserted&quot;]</value>
+      <webElementGuid>cd60627c-90ff-48dd-9c42-d8f05a49db45</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body/app-root/app-dashboard/div/div/div/ntr-dashboard/div/div/div/mat-tab-group/mat-tab-header/div/div[1]</value>
+      <webElementGuid>db8ef611-819d-477c-9ce1-9b363bd2e509</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[3]/following::div[6]</value>
+      <webElementGuid>93241166-fdc8-42bb-8c41-3d44f2a6bca7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Clients'])[1]/following::div[16]</value>
+      <webElementGuid>0023162a-bfaa-4d1e-9f3a-5a984691c316</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-tab-body/div/div[3]</value>
+      <webElementGuid>cd547afe-3c2d-489c-89b6-b264479bade7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'CA-1-checkList_5.pdf2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual DocumentsIND-1-COM TYP Dec312023 EL.pdf2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual Documents' or . = 'CA-1-checkList_5.pdf2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual DocumentsIND-1-COM TYP Dec312023 EL.pdf2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual Documents')]</value>
+      <webElementGuid>bfb8d45f-9f5d-418e-812a-f6d6caf91764</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

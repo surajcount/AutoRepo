@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Fill_Colour</name>
+   <tag></tag>
+   <elementGuidId>90a57aa1-1ebe-4180-ade0-5af2408a0ad0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Clipboard'])[1]/following::*[name()='svg'][15]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#FontColor > button.fui-Button.r1alrhcs.fui-MenuButton.ms-Button.ms-ButtonNext.fui-SplitButton__menuButton.___dzjjx30.f13eh0sx.f1khb0e9.f136y8j8.f1jnq6q7.fgiv446.f1aa9q02.f16jpd5f.f1jar5jt.fyu767a.fy9rknc.figsok6.fwrc4pm.fg3gtdo.f6pwzcr.f1palphq.f1um7c6d.fqrbt79.fepn2xe.f1jkagg5.f1osuteh.fi2ljxd.f62i5r0.f1p3nwhy.f11589ue.f1q5o8ev.f1pdflbu.f1s2uweq.fr80ssc.f1ukrpxl.fecsdlb.ff1wgvm.fiob0tu.f1j6scgf.f1x4h75k.f1h0usnq.fs4ktlq.f16h9ulv.fx2bmrt.f1ks1yx8.f1o6qegi.fcnxywj.fmxjhhp.fvu92y3.f1inhm4x.f1dk6j8u.foby26i.fmut7hd.fyp0hol.f1o7mrt1.fcdmgxe.fiwhxet.f1aopgo3.fzbde9z.f12na9cb.f95gxuk.f1n5876c.fj41uil.f1it5djm.f1e0lx47.frvgh55.frx94fk.frrbwxo.f1nye7x4.f1yz7roc > span.fui-MenuButton__menuIcon.___1448b7f.f1g7p50k.f1n0apg3.f1x82gua.f1o3cbw4.f62i5r0.fhuob2q > i.root-89 > svg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>178a015a-67bf-4306-808e-42589ad7754b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>100%</value>
+      <webElementGuid>4430fe74-3d5e-42df-84a3-a118e7b3f270</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>100%</value>
+      <webElementGuid>7b98464d-2c7d-41f6-8df1-90ef79d3c596</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0,0,2048,2048</value>
+      <webElementGuid>9e1748e6-c44d-467d-80ed-1d363fdbfb29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>04195a96-dc92-4909-983b-4562fac95a3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FontColor&quot;)/button[@class=&quot;fui-Button r1alrhcs fui-MenuButton ms-Button ms-ButtonNext fui-SplitButton__menuButton ___dzjjx30 f13eh0sx f1khb0e9 f136y8j8 f1jnq6q7 fgiv446 f1aa9q02 f16jpd5f f1jar5jt fyu767a fy9rknc figsok6 fwrc4pm fg3gtdo f6pwzcr f1palphq f1um7c6d fqrbt79 fepn2xe f1jkagg5 f1osuteh fi2ljxd f62i5r0 f1p3nwhy f11589ue f1q5o8ev f1pdflbu f1s2uweq fr80ssc f1ukrpxl fecsdlb ff1wgvm fiob0tu f1j6scgf f1x4h75k f1h0usnq fs4ktlq f16h9ulv fx2bmrt f1ks1yx8 f1o6qegi fcnxywj fmxjhhp fvu92y3 f1inhm4x f1dk6j8u foby26i fmut7hd fyp0hol f1o7mrt1 fcdmgxe fiwhxet f1aopgo3 fzbde9z f12na9cb f95gxuk f1n5876c fj41uil f1it5djm f1e0lx47 frvgh55 frx94fk frrbwxo f1nye7x4 f1yz7roc&quot;]/span[@class=&quot;fui-MenuButton__menuIcon ___1448b7f f1g7p50k f1n0apg3 f1x82gua f1o3cbw4 f62i5r0 fhuob2q&quot;]/i[@class=&quot;root-89&quot;]/svg[1]</value>
+      <webElementGuid>436b94cb-7d5e-4b9b-af89-7c026e95befc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/DraganddropObj/testXlsxedit/iframe_Capture object_frame</value>
+      <webElementGuid>76922a11-4824-4f89-a5dd-cf7d27a35af1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clipboard'])[1]/following::*[name()='svg'][15]</value>
+      <webElementGuid>2aa476ba-7db0-412c-983d-115ff4fbde13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paste'])[1]/following::*[name()='svg'][18]</value>
+      <webElementGuid>a9ecc617-9d98-4b4b-bbd5-ed81efd7891d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Font'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>5c5248e4-9ebd-4c43-b018-b7baaf9cf97f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alignment'])[1]/preceding::*[name()='svg'][14]</value>
+      <webElementGuid>44fb4c7f-ec15-461b-8534-f4fdc56f93bd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

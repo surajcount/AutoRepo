@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>spanBillingAlert_CloseButton</name>
+   <tag></tag>
+   <elementGuidId>aff4fc55-40f3-44cb-86ec-a43064a2409a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.close.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base > span.mat-mdc-button-touch-target</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='parentDiv']/app-stripe-integration/div/div[2]/div/div/div/button/span[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>17357e41-6c1c-40ae-bf3e-224369266959</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-button-touch-target</value>
+      <webElementGuid>f3ddafd7-2031-42e6-84ac-b81974a0152b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;parentDiv&quot;)/app-stripe-integration[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;firm-billing ng-star-inserted&quot;]/div[@class=&quot;title-right ng-star-inserted&quot;]/div[@class=&quot;toast-container toast-top-right&quot;]/div[@class=&quot;ngx-toastr toast-primary&quot;]/div[@class=&quot;toast-message d-flex flex-column flex-wrap gap-6&quot;]/button[@class=&quot;close mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
+      <webElementGuid>0ae754d1-3a53-426e-8d27-26898a589f64</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='parentDiv']/app-stripe-integration/div/div[2]/div/div/div/button/span[4]</value>
+      <webElementGuid>b0a9424c-5592-4c64-aa79-a032db640d98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/button/span[4]</value>
+      <webElementGuid>833c4792-4471-4bc5-a2b2-c47ccd14c06f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

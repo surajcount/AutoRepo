@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>SignUp Data-USA</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>d3fad614-489b-44f8-a93b-40cbefcc21fa</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>ussevqareg1111%40yopmail.com ussevqareg1111%40yopmail.com</data>
+   <data>ussevqareg1112%40yopmail.com ussevqareg1112%40yopmail.com</data>
+   <data>ussevqareg1113%40yopmail.com ussevqareg1113%40yopmail.com</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>emailSignup</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>yopmail</name>
+      <size>3</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

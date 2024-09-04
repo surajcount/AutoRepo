@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddClient_All_Reg_Case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3c50cc2e-633c-4ac8-8f49-ee10abf6b741</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1124ca7e-1aa0-4c97-b748-7d9df4852e4f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dfd6410c-82aa-4a51-8387-3d2b83e97079</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291129@yopmail.com'</defaultValue>
+      <description></description>
+      <id>1124ca7e-1aa0-4c97-b748-7d9df4852e4f</id>
+      <masked>false</masked>
+      <name>LoginEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'addclisuatreg291129@yopmail.com'</defaultValue>
+      <description></description>
+      <id>dfd6410c-82aa-4a51-8387-3d2b83e97079</id>
+      <masked>false</masked>
+      <name>NewClientEmail</name>
+   </variable>
+</TestCaseEntity>

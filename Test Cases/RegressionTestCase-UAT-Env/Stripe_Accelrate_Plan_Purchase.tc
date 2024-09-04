@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Stripe_Accelrate_Plan_Purchase</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>85eec680-c73b-44c5-8e73-c54f926f0616</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6bfb5cfe-7a0b-4c77-a6f2-b228714a7bf2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291129@yopmail.com'</defaultValue>
+      <description></description>
+      <id>6bfb5cfe-7a0b-4c77-a6f2-b228714a7bf2</id>
+      <masked>false</masked>
+      <name>LoginEmail</name>
+   </variable>
+</TestCaseEntity>

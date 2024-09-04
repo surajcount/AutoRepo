@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Copilot4_RHS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>35f501e6-41bc-4a84-b61e-d846fba6f556</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>116548f2-bbbe-48e1-b4df-dfeb051e096e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291122@yopmail.com'</defaultValue>
+      <description></description>
+      <id>116548f2-bbbe-48e1-b4df-dfeb051e096e</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

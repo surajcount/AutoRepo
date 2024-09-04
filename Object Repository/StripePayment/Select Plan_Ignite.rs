@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select Plan_Ignite</name>
+   <tag></tag>
+   <elementGuidId>058b98d9-474f-4a9c-a702-2be93b6af414</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.button-medium.mdc-button.mat-mdc-button.mat-flat-button.mat-secondary.mat-mdc-button-base.ng-star-inserted > span.mdc-button__label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='parentDiv']/app-plans/div[3]/div/div[2]/div[4]/button/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>aaa0f0e0-8b66-48bf-8e05-eb841ae4090e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdc-button__label</value>
+      <webElementGuid>6ea2bc7a-8919-4316-aa64-bcfba959d54d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Plan</value>
+      <webElementGuid>88728074-9ea9-4958-9c82-80e37e16076d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;parentDiv&quot;)/app-plans[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;content-block-main d-flex flex-column gap-20 bg-white&quot;]/div[@class=&quot;cards-group gap-20 column-gap-20 justify-content-center p-20&quot;]/div[@class=&quot;card flex-1 gap-6 hover-action plan ng-star-inserted&quot;]/div[@class=&quot;flexbox-column gap-0 px-3 ng-star-inserted&quot;]/button[@class=&quot;button-medium mdc-button mat-mdc-button mat-flat-button mat-secondary mat-mdc-button-base ng-star-inserted&quot;]/span[@class=&quot;mdc-button__label&quot;]</value>
+      <webElementGuid>49e38fb5-dc82-4e4d-8ebb-bf2244ae3f91</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='parentDiv']/app-plans/div[3]/div/div[2]/div[4]/button/span[2]</value>
+      <webElementGuid>8ee232a8-b860-467a-b280-8b78e3f59c23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ideal for 3+ users, and over 50 compilation engagements'])[1]/following::span[2]</value>
+      <webElementGuid>441c38a1-f207-4c0c-8452-f3bf9afb79dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Per month'])[2]/following::span[3]</value>
+      <webElementGuid>90fc6181-978f-4a6e-ade9-32b9e59ae53b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FEATURES'])[2]/preceding::span[4]</value>
+      <webElementGuid>4cb2bcea-d40a-4b07-9ab7-048c1c2f6193</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[4]/button/span[2]</value>
+      <webElementGuid>29712064-63ae-4910-ac9c-0c0b963a1e93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Select Plan' or . = 'Select Plan')]</value>
+      <webElementGuid>6f6fbfd9-9d6f-40a4-9e34-432249c8944c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

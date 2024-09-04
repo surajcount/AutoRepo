@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Success_Toaster_Message -PlanName</name>
+   <tag></tag>
+   <elementGuidId>cd8bc2ba-9c7d-476b-bd4e-f289e2e482b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/app-root/app-dashboard/div/div/div/app-user-setting/mat-drawer-container/mat-drawer-content/div/app-stripe-integration/div/div/div/div/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ngx-toastr.toast-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bf608f47-c698-432b-9822-45215f18a34d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ngx-toastr toast-primary</value>
+      <webElementGuid>bf82acca-d2ec-433d-b76e-c910367f7141</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>closePlan Successfully upgraded!You have successfully upgraded your plan to the  Monthly Accelerate.Kindly ensure your peg/pact information is up to date to maintain uninterrupted access to all associated sections.</value>
+      <webElementGuid>42ea0de8-4f93-4bf3-8b66-9665289c6104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;parentDiv&quot;)/app-stripe-integration[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;firm-billing ng-star-inserted&quot;]/div[@class=&quot;title-right ng-star-inserted&quot;]/div[@class=&quot;toast-container toast-top-right&quot;]/div[@class=&quot;ngx-toastr toast-primary&quot;]</value>
+      <webElementGuid>075152bd-d504-440e-a7aa-341ce49f1cb4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body/app-root/app-dashboard/div/div/div/app-user-setting/mat-drawer-container/mat-drawer-content/div/app-stripe-integration/div/div/div/div/div/span[2]</value>
+      <webElementGuid>f2341b5d-6d6b-4557-b360-f7b34943b65e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing'])[2]/following::div[3]</value>
+      <webElementGuid>5f9e73c9-64f8-43a3-bc8a-30620d2dad6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::div[7]</value>
+      <webElementGuid>8681ed1e-eff2-44ec-8298-c12eec82e4fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div</value>
+      <webElementGuid>94f29aa9-6742-4348-9747-5fc0b103c9d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'closePlan Successfully upgraded!You have successfully upgraded your plan to the  Monthly Accelerate.Kindly ensure your peg/pact information is up to date to maintain uninterrupted access to all associated sections.' or . = 'closePlan Successfully upgraded!You have successfully upgraded your plan to the  Monthly Accelerate.Kindly ensure your peg/pact information is up to date to maintain uninterrupted access to all associated sections.')]</value>
+      <webElementGuid>adeaf725-2e8f-4b20-acb8-eac14788a9b4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

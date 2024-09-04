@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Upload_Team_Membr_Data_Btn_onbr</name>
+   <tag></tag>
+   <elementGuidId>7e0d7c3b-749a-41f6-bfb7-5f5686cd2f27</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/app-root[1]/app-firm-onboardin[1]/div[1]/div[1]/div[1]/div[2]/mat-stepper[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/input[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

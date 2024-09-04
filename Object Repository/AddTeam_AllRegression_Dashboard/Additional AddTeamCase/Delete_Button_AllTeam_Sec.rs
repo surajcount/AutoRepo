@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Delete_Button_AllTeam_Sec</name>
+   <tag></tag>
+   <elementGuidId>7b1a52e3-2db4-47b3-93a1-1dcfccfdd0f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/transh-Icon.svg']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//img[@src='/assets/images/ui-uplift-icons/global/transh-Icon.svg']</value>
+      <webElementGuid>96f5ff3e-f204-443c-ba2f-4da94a393dbc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

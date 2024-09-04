@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pegCustbtn</name>
+   <tag></tag>
+   <elementGuidId>8c6bc09e-50b0-4324-8943-7723032d9e29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.ng-arrow-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-step-content-0-0']/div/form/div/div/ng-select/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>352e06a7-f02c-4cf0-a965-5d4704e1d874</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-arrow-wrapper</value>
+      <webElementGuid>6d62d413-3a4c-4c53-9a26-67de4c025594</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-step-content-0-0&quot;)/div[@class=&quot;stepper-body-main card ng-star-inserted&quot;]/form[@class=&quot;card-body gap-24 ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form-group row-item-4&quot;]/div[@class=&quot;form-item ng-form-field ng-star-inserted&quot;]/ng-select[@class=&quot;ng-select-searchable ng-select ng-select-single ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;ng-select-container ng-appearance-outline&quot;]/span[@class=&quot;ng-arrow-wrapper&quot;]</value>
+      <webElementGuid>6b1dec79-5e10-4e64-b51f-17176fd4c3ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-step-content-0-0']/div/form/div/div/ng-select/div/span</value>
+      <webElementGuid>be96c1f3-ad9f-4073-a575-7c6c1b51ce82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::span[1]</value>
+      <webElementGuid>0e148eb5-a716-4301-8dda-61f297525ef3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Point of Contact'])[1]/preceding::span[2]</value>
+      <webElementGuid>acd25d23-14b4-4327-807b-a842d8a9ae91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Member ID'])[1]/preceding::span[2]</value>
+      <webElementGuid>0fdbf6a2-f53d-4ec9-bfef-f3aaef71688f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ng-select/div/span</value>
+      <webElementGuid>0ad8fc28-c212-4a30-8710-f9750076ec55</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

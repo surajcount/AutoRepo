@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add_Signature_To_Frm_User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>528eb3f1-73b7-4381-b630-2728fad82d8f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d7cb069-9e54-419a-b794-648cabd804b4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291129@yopmail.com'</defaultValue>
+      <description></description>
+      <id>9d7cb069-9e54-419a-b794-648cabd804b4</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

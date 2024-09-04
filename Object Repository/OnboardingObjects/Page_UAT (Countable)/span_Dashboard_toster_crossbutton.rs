@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Dashboard_toster_crossbutton</name>
+   <tag></tag>
+   <elementGuidId>9e30d60d-bd99-46b2-bfd7-b943a3ecaa0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div[class='toast-message d-flex flex-column flex-wrap gap-6'] span[class='mat-mdc-button-touch-target']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/app-root/app-dashboard/div/div/div/app-teammembersdashboard/div/div/div/div/div/button[2]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>eb029752-3cff-44c8-9b56-db23d3aa4095</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-button-touch-target</value>
+      <webElementGuid>9f290bbd-c813-447c-a6f7-7f12922fa7a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dasboard-container layout-dashboard drawer-small&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;dashboard-main dashboard-page&quot;]/app-teammembersdashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;page-title-block&quot;]/div[@class=&quot;title-right ng-star-inserted&quot;]/div[@class=&quot;toast-container toast-top-right&quot;]/div[@class=&quot;ngx-toastr toast-primary&quot;]/div[@class=&quot;toast-message d-flex flex-column flex-wrap gap-6&quot;]/button[@class=&quot;close mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
+      <webElementGuid>3b162f60-fae8-4d7b-8791-02907956d9bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body/app-root/app-dashboard/div/div/div/app-teammembersdashboard/div/div/div/div/div/button[2]/span[1]</value>
+      <webElementGuid>012cc846-e51f-470f-937b-03e901563836</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

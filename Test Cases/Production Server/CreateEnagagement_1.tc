@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateEnagagement_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>73ae8688-1747-40c0-90c4-f92e191f0541</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eaf7630e-64ea-4a0c-bba8-4b0f4eace2ca</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291129@yopmail.com'</defaultValue>
+      <description></description>
+      <id>eaf7630e-64ea-4a0c-bba8-4b0f4eace2ca</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

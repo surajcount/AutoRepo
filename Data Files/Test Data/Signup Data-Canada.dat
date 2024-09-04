@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Signup Data-Canada</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>d3fad614-489b-44f8-a93b-40cbefcc21fa</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>cpt-9943Sc3%40yopmail.com cpt-9943Sc3%40yopmail.com</data>
+   <data>cpt-9943Sc4%40yopmail.com cpt-9943Sc4%40yopmail.com</data>
+   <data>cpt-9943Sc5%40yopmail.com cpt-9943Sc5%40yopmail.com</data>
+   <data>cpt-9943Sc6%40yopmail.com cpt-9943Sc6%40yopmail.com</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>emailSignup</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>yopmail</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

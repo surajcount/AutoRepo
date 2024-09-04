@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>c12b25aa-77c5-4a4a-8dd1-6f459c240913</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='container-controls']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>g:nth-of-type(155) > path:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='container-controls'][count(. | //*[@ref_element = 'Object Repository/DraganddropObj/testXlsxedit/iframe_Close edit mode_iframe-pdf_div (1)']) = count(//*[@ref_element = 'Object Repository/DraganddropObj/testXlsxedit/iframe_Close edit mode_iframe-pdf_div (1)'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>2b852397-9d3a-4338-9392-20106f59398b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M 289 36 L 296 62 Z</value>
+      <webElementGuid>5f7945ee-ecb3-4d75-ab04-5d4c756666eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='container-controls']</value>
+      <webElementGuid>6facc25d-7c26-437e-b3aa-15920c81f1b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/DraganddropObj/testXlsxedit/iframe_Close edit mode_iframe-pdf_div (1)</value>
+      <webElementGuid>72f54fec-cdcf-46b6-9809-9eac166fb42c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

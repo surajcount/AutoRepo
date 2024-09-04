@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__ng-arrow-Entity_SubType_USA</name>
+   <tag></tag>
+   <elementGuidId>bc3219c9-1188-415a-921e-32a11554364b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-step-content-0-2']/div/div/div[2]/form/div/div[2]/ng-select/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ng-select.ng-select-searchable.ng-select.ng-select-single.ng-untouched.ng-pristine.ng-invalid > div.ng-select-container > span.ng-arrow-wrapper</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>18838908-8098-465d-a22f-b6f4aafaf03e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-arrow-wrapper</value>
+      <webElementGuid>d8c8d877-9b56-4373-ba64-9c49c781d054</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-step-content-0-2&quot;)/div[@class=&quot;stepper-body-main gap-24 ng-star-inserted&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body gap-24&quot;]/form[@class=&quot;ng-invalid ng-star-inserted ng-touched ng-dirty&quot;]/div[@class=&quot;form-group row-item-4&quot;]/div[@class=&quot;form-item ng-form-field ng-star-inserted&quot;]/ng-select[@class=&quot;ng-select-searchable ng-select ng-select-single ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;ng-select-container&quot;]/span[@class=&quot;ng-arrow-wrapper&quot;]</value>
+      <webElementGuid>960bb02c-6f87-41bc-84b5-1226e14670e8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-step-content-0-2']/div/div/div[2]/form/div/div[2]/ng-select/div/span</value>
+      <webElementGuid>da6205da-923b-4689-9d78-0e49afa40238</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::span[1]</value>
+      <webElementGuid>f19f56d0-b8cf-4e16-be6e-2ca614d36c22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[2]/preceding::span[2]</value>
+      <webElementGuid>f7281967-9fd1-4fba-947a-17e387c8d657</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[2]/preceding::span[3]</value>
+      <webElementGuid>15eadf11-ca74-4956-ae2c-c8cdacd191a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ng-select/div/span</value>
+      <webElementGuid>0ee249b6-9dfb-45cc-8b90-aa56f1f5bb22</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

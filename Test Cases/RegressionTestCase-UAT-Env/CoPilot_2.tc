@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CoPilot_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9dffbb1-335c-429b-986b-1986a594018d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>be125454-b927-42c5-8329-a92fbd9d0935</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'serveruatreg291104@yopmail.com'</defaultValue>
+      <description></description>
+      <id>be125454-b927-42c5-8329-a92fbd9d0935</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

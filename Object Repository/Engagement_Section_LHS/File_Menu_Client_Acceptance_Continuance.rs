@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>File_Menu_Client_Acceptance_Continuance</name>
+   <tag></tag>
+   <elementGuidId>0b9d788f-219f-4b2f-83d2-6d9bfe6d592e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@title='CA-1-TestData_Excl.xlsx']//img[@alt='menu']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(//img[@alt='menu'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//img[@alt='menu'])[3]</value>
+      <webElementGuid>ea4a7d87-a4a0-4e25-9b17-a77eb93b50f1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

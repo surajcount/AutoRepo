@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_2023CompilationCOM-AUT-Dec312023Workin_e2e773</name>
+   <tag></tag>
+   <elementGuidId>23d6da95-f8d6-41f5-b464-97318e1b521e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='cdk-drop-list-40']/li/span[2]/span[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.item-file-path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>381be4b8-2303-46e9-9e00-04b275172c73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-file-path</value>
+      <webElementGuid>c53ddd8e-b547-476e-b621-4b5be143df05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual Documents</value>
+      <webElementGuid>ee954e6b-5b83-451a-bce5-df9df8d26a57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual Documents</value>
+      <webElementGuid>4e37c00e-022e-4be3-b149-28564130fd79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-drop-list-40&quot;)/li[@class=&quot;cdk-drag list-item-content h-auto py-2 ng-star-inserted&quot;]/span[@class=&quot;path-title-block flex-row&quot;]/span[@class=&quot;item-file-path&quot;]</value>
+      <webElementGuid>70ba0fa5-9fdb-4e6f-ae45-c6cb48f22d03</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='cdk-drop-list-40']/li/span[2]/span[3]</value>
+      <webElementGuid>d215bb3d-778e-431f-9655-dfc9b9895be0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='checkList_5.pdf'])[1]/following::span[1]</value>
+      <webElementGuid>2a300763-9fc9-433e-8eb7-4b6b493fa4b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CA-1-'])[1]/following::span[2]</value>
+      <webElementGuid>531197ab-fd85-4dba-bcb7-a4eddede1775</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IND-1-'])[1]/preceding::span[2]</value>
+      <webElementGuid>e88aa37b-711d-4a17-8976-043d7ae38ad0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COM TYP Dec312023 EL.pdf'])[1]/preceding::span[3]</value>
+      <webElementGuid>65791a82-062f-47f6-a7bf-88484f8165a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual Documents']/parent::*</value>
+      <webElementGuid>74be0c44-2fdb-4931-8d3e-6e831acc2a5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/span[3]</value>
+      <webElementGuid>0023867b-5512-44b0-8697-5c819ec6f66c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@title = '2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual Documents' and (text() = '2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual Documents' or . = '2023>Compilation>COM-AUT-Dec312023>Working Papers>Manual Documents')]</value>
+      <webElementGuid>bb90051c-8820-4860-98b5-6c7625c7e990</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

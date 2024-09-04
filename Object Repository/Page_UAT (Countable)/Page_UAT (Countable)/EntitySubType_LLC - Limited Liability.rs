@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EntitySubType_LLC - Limited Liability</name>
+   <tag></tag>
+   <elementGuidId>5ca795b2-8465-4753-a339-9ca683660461</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a1c756bd30a8-2']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#a1c756bd30a8-2 > div.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d2edb2a8-f4af-4fef-aa0d-5e818abf21ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>LLC - Limited Liability</value>
+      <webElementGuid>8b71aea2-cfe5-4ad0-95d6-17d89b848a38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>cc8c5741-848c-45cf-b415-29c3a0e809ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LLC - Limited Liability</value>
+      <webElementGuid>a60dcf76-e3b1-4472-8e7d-7291efed961e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a1c756bd30a8-2&quot;)/div[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>1d1f7ea7-a820-4d6c-9a8b-ebfac11710e0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a1c756bd30a8-2']/div</value>
+      <webElementGuid>62882c82-f733-4083-93b3-2e1a43f90fcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='C - Corp'])[1]/following::div[2]</value>
+      <webElementGuid>e43aea21-5422-446c-bd2b-a17f6961dca8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S - Corp'])[2]/following::div[4]</value>
+      <webElementGuid>99169809-bf43-4b0b-b805-25231f0f2bce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[2]/preceding::div[2]</value>
+      <webElementGuid>2e3f6af7-bd44-462c-8a3d-6941ad248c61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[2]/preceding::div[10]</value>
+      <webElementGuid>e124db4c-a3c1-482e-b80c-bbd275e85885</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='LLC - Limited Liability']/parent::*</value>
+      <webElementGuid>3f33bede-31ed-492d-b37e-5bf2d81ebf90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ng-dropdown-panel/div/div[2]/div[3]/div</value>
+      <webElementGuid>41496665-b907-4765-ac9f-ee389bac5b54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@title = 'LLC - Limited Liability' and (text() = 'LLC - Limited Liability' or . = 'LLC - Limited Liability')]</value>
+      <webElementGuid>f61ebf3d-7961-40a1-a427-b1c25e5d3e61</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AddClient_Entity_Selection_Corp</name>
+   <tag></tag>
+   <elementGuidId>6c6b0f97-2f9c-494f-ab7c-5397adcaf0d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@title='Corporation']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//img[@src='/assets/images/ui-uplift-icons/global/down-arrow-white.svg']</value>
+      <webElementGuid>aafc0475-2eeb-42aa-8ea7-f54a38bea3a9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

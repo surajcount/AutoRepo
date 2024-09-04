@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Save_spectrum-Menu-item ContextMenuHeade_017c93</name>
+   <tag></tag>
+   <elementGuidId>f3cc2ff3-35d3-4b01-83f3-119604c7d552</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='react-spectrum-47']/div/div[2]/div/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(2) > div > li.spectrum-Menu-item.ContextMenuHeader__ContextMenuHeaderButton___1wTDl</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>0de9e5df-f920-4f9c-aa3e-10ed8edede1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Highlight</value>
+      <webElementGuid>a296728b-ee63-4a9f-b374-629f05c4c5d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>spectrum-Menu-item ContextMenuHeader__ContextMenuHeaderButton___1wTDl</value>
+      <webElementGuid>4f4960eb-08ed-4cce-b86d-be4bce9a9f47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>50d05e1d-e89c-4781-b48d-2ac8fecb694d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>40d082d0-59ec-4407-971a-dd4305b838c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-spectrum-47&quot;)/div[@class=&quot;ContextMenuHeader__ContextMenuHeaderWrapper___1Ld29&quot;]/div[2]/div[1]/li[@class=&quot;spectrum-Menu-item ContextMenuHeader__ContextMenuHeaderButton___1wTDl&quot;]</value>
+      <webElementGuid>aece92e1-2678-4eb5-9a2a-8c366734f341</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/trypdfedit/iframe_Close edit mode_iframe-pdf_div</value>
+      <webElementGuid>b7ed9b56-81f2-4ec1-842d-9ed52becde4a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='react-spectrum-47']/div/div[2]/div/li</value>
+      <webElementGuid>9bc39071-c4c8-4a0a-8e6d-987896c89b06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::li[2]</value>
+      <webElementGuid>0b2e7d03-eb96-4aeb-859f-6bda0db043b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy text'])[1]/preceding::li[3]</value>
+      <webElementGuid>e3de9995-35aa-42ca-bce6-f34cf675dd6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Page 1'])[1]/preceding::li[8]</value>
+      <webElementGuid>7dd57698-6234-4d04-8b3e-d405025d8e0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/li</value>
+      <webElementGuid>db7bf70b-cf3b-4f85-a7c0-4b0688da221b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

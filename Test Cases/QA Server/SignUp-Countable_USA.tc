@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignUp-Countable_USA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c9231f44-95be-4d2f-821a-8cb8408e54d2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc15fad6-ad5d-42ad-bb79-7e609ace54c4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0902b80b-466e-4376-9438-843288866b21</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'usuatserverreg291102@yopmail.com'</defaultValue>
+      <description></description>
+      <id>dc15fad6-ad5d-42ad-bb79-7e609ace54c4</id>
+      <masked>false</masked>
+      <name>emailSignup</name>
+   </variable>
+   <variable>
+      <defaultValue>'usuatserverreg291102@yopmail.com'</defaultValue>
+      <description></description>
+      <id>0902b80b-466e-4376-9438-843288866b21</id>
+      <masked>false</masked>
+      <name>yopmail</name>
+   </variable>
+</TestCaseEntity>

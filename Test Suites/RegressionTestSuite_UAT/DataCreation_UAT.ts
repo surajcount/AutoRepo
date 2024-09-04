@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DataCreation_UAT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>617a0629-9b71-44d0-9568-7533dae4a8f0</testSuiteGuid>
+   <testCaseLink>
+      <guid>da635d28-5995-4c6c-88ac-65b42a2b1e64</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RegressionTestCase-UAT-Env/OnboardFirmTeamClient_CANADA</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3f26a595-57c6-4ead-a697-fbccbdf991e0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data/OnboardingTEAM_CLIENT_Firm_DATA_CANADA</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3f26a595-57c6-4ead-a697-fbccbdf991e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LoginEmail_CANADA</value>
+         <variableId>d0c5db49-028e-4442-bc20-363621a092a3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f26a595-57c6-4ead-a697-fbccbdf991e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TeamMem_Email_CANADA</value>
+         <variableId>e0844e58-6f94-490d-9ccc-42780f7d191c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f26a595-57c6-4ead-a697-fbccbdf991e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ClientEmail_CANADA</value>
+         <variableId>714c999b-f102-40fd-bbb6-85cb4bfaab84</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f26a595-57c6-4ead-a697-fbccbdf991e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>team_Memb_yopMail</value>
+         <variableId>8aac1896-143f-4458-86c8-4ed015f8408c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f26a595-57c6-4ead-a697-fbccbdf991e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Client_Memb_yopMail</value>
+         <variableId>9b8111b5-15a3-46d3-9a89-12ecfef8d391</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

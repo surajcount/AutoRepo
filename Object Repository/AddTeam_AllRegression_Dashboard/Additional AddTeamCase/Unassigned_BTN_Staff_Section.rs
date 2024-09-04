@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Unassigned_BTN_Staff_Section</name>
+   <tag></tag>
+   <elementGuidId>1208779b-2269-4cb7-9a7d-1bb651f75f66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[normalize-space()='Unassign']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[normalize-space()='Unassign']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[normalize-space()='Unassign']</value>
+      <webElementGuid>04d08ed5-61cf-4d8c-8841-19a78e4a3d73</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

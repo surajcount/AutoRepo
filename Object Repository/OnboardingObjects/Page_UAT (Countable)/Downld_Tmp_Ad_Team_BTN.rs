@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Downld_Tmp_Ad_Team_BTN</name>
+   <tag></tag>
+   <elementGuidId>119def2a-be81-4a5c-9abb-fb502443a128</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/app-root[1]/app-firm-onboardin[1]/div[1]/div[1]/div[1]/div[2]/mat-stepper[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/a[2]/span[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

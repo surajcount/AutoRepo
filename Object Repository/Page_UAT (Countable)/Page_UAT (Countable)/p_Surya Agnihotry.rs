@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Surya Agnihotry</name>
+   <tag></tag>
+   <elementGuidId>06df23b1-8b85-40b2-b97f-7b11b451196d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a067b50e3169-0']/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.name</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>a3887275-96cf-4a39-b178-d9eb0a2d435c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>3d6d9ec2-7d26-41a5-a034-6d7926f40f68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Surya Agnihotry</value>
+      <webElementGuid>ebadfb55-07b1-4b8a-8795-935336ebfe02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Surya Agnihotry</value>
+      <webElementGuid>22cb5c1c-7d05-4d02-af80-36ca158032fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a067b50e3169-0&quot;)/div[@class=&quot;partner-view user-list-item ng-star-inserted&quot;]/div[@class=&quot;item-content&quot;]/p[@class=&quot;name&quot;]</value>
+      <webElementGuid>b75f032d-3f3f-4cb7-87e6-0b24d8488039</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a067b50e3169-0']/div/div/p</value>
+      <webElementGuid>bc6de610-a5d3-4114-b443-4e148cfe7cea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SA'])[1]/following::p[1]</value>
+      <webElementGuid>eab60b82-a323-47db-8381-91067aa9828f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::p[1]</value>
+      <webElementGuid>3e43ec17-f20d-4709-af6f-2fd8532a1014</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Client Member'])[1]/preceding::p[2]</value>
+      <webElementGuid>c9b75f0b-92bf-459e-a695-9accb2294058</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[2]/preceding::p[2]</value>
+      <webElementGuid>910107d8-7e2e-4b17-abd2-5d9933de03fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/p</value>
+      <webElementGuid>a967bf89-52ac-4cd2-95e3-35d0f7ffd923</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@title = 'Surya Agnihotry' and (text() = 'Surya Agnihotry' or . = 'Surya Agnihotry')]</value>
+      <webElementGuid>d3fe246f-69af-4901-a288-29f5655e785b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

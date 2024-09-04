@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Activate_CountableFlexPlan</name>
+   <tag></tag>
+   <elementGuidId>ea38864b-90b9-4ad6-a09c-70f22e57fc37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.flexbox-row.justify-content-between > button.button-medium.mdc-button.mat-mdc-button.mdc-button--unelevated.mat-mdc-unelevated-button.mat-primary.mat-mdc-button-base > span.mdc-button__label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[normalize-space()='Activate']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1ef83c75-6967-4b11-be56-e1eba25f7683</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdc-button__label</value>
+      <webElementGuid>c5235955-1298-412e-bf07-bd4a81ef5c86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Activate </value>
+      <webElementGuid>9a1fdd3d-f830-4426-9246-23a8ec9e0c09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;parentDiv&quot;)/app-stripe-integration[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;firm-billing ng-star-inserted&quot;]/div[@class=&quot;content-block-main dashboard flex-column gap-20&quot;]/div[@class=&quot;card ng-star-inserted&quot;]/div[@class=&quot;card-body gap-6&quot;]/div[@class=&quot;flexbox-row justify-content-between&quot;]/button[@class=&quot;button-medium mdc-button mat-mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary mat-mdc-button-base&quot;]/span[@class=&quot;mdc-button__label&quot;]</value>
+      <webElementGuid>1df4766e-451f-4ac6-8c4d-6ee1c223596b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='parentDiv']/app-stripe-integration/div/div[3]/div[2]/div[2]/div/button/span[2]</value>
+      <webElementGuid>f17309ac-d3b6-4fcd-b621-a34ae2de114b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First 1 engagement(s) at no charge'])[1]/following::span[2]</value>
+      <webElementGuid>cdeb3dc2-d52c-4c7a-845e-aa44da9cb489</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='per engagement'])[1]/following::span[3]</value>
+      <webElementGuid>3d9d3dab-73a2-4b6f-bb42-e383151c4fd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Receipts'])[1]/preceding::span[4]</value>
+      <webElementGuid>f7353fc1-70cf-4bef-890d-d043311dd280</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Receipt Number'])[1]/preceding::span[4]</value>
+      <webElementGuid>9b40b02e-4c81-4638-bd3d-baaf8c7f43be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Activate']/parent::*</value>
+      <webElementGuid>5a66b150-c46a-42d4-8cba-c8c036583eac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button/span[2]</value>
+      <webElementGuid>1edae95c-6c27-402a-bb72-a035e5f749af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Activate ' or . = ' Activate ')]</value>
+      <webElementGuid>457a0ac8-72de-4512-aab4-5d8276891161</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

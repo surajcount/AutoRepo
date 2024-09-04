@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dashboard_Client_Sec</name>
+   <tag></tag>
+   <elementGuidId>dfc90941-38e5-4599-9c1a-ee066ee0374f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/nav-icons/clients.svg']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button-text.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base.ng-star-inserted > span.mdc-button__label > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>e536437f-30dd-4d4f-871a-383a22508567</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/images/ui-uplift-icons/global/email-box-icon.svg</value>
+      <webElementGuid>d986627d-d0c9-4a22-9f3f-81d1cbf153a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-1-1&quot;)/div[@class=&quot;mat-mdc-tab-body-content ng-tns-c2396234108-34 ng-trigger ng-trigger-translateTab&quot;]/div[@class=&quot;card table-responsive ng-star-inserted&quot;]/table[@class=&quot;mat-mdc-table mdc-data-table__table cdk-table mat-sort customized-sort table-countable cell-p-8&quot;]/tbody[@class=&quot;mdc-data-table__content&quot;]/tr[@class=&quot;mat-mdc-row mdc-data-table__row cdk-row rowSelectColor ng-star-inserted&quot;]/td[@class=&quot;mat-mdc-cell mdc-data-table__cell cdk-cell text-end cdk-column-action mat-column-action ng-star-inserted mat-mdc-table-sticky mat-mdc-table-sticky-border-elem-right&quot;]/div[@class=&quot;table-button-group&quot;]/button[@class=&quot;button-text mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base ng-star-inserted&quot;]/span[@class=&quot;mdc-button__label&quot;]/img[1]</value>
+      <webElementGuid>14f6494b-9b33-4f94-b0e0-8256b16c235a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//img[@src='/assets/images/ui-uplift-icons/global/nav-icons/clients.svg']</value>
+      <webElementGuid>14a061de-7ea4-412d-bebf-7459c67ec48d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[14]/div/button/span[2]/img</value>
+      <webElementGuid>168cc4f5-ef6a-4a17-b714-b7e2b1040fe1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/images/ui-uplift-icons/global/email-box-icon.svg']</value>
+      <webElementGuid>dce2d1ba-7f07-46ce-a6d4-640c3ca17eee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

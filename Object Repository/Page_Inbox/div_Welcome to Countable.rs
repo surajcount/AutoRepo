@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Welcome to Countable</name>
+   <tag></tag>
+   <elementGuidId>c7f50ab1-c307-4fde-a8b4-037166da7451</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='e_ZwDjAQN4ZGV1ZQD4ZQNjAQD0ZmH5AN==']/button/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5d761f26-78a4-4f4f-a1b1-300f9af36af1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lms</value>
+      <webElementGuid>e322e4c1-dd1d-4e85-901e-b6406eccfc06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome to Countable</value>
+      <webElementGuid>a7dbfc78-e8d0-46b0-a3e7-d5cf91733c41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e_ZwDjAQN4ZGV1ZQD4ZQNjAQD0ZmH5AN==&quot;)/button[@class=&quot;lm&quot;]/div[@class=&quot;lms&quot;]</value>
+      <webElementGuid>b687205f-9815-42cd-a996-ef00950b7163</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Inbox/iframe_Undo_ifinbox</value>
+      <webElementGuid>ee4f5f87-88f0-406a-bf22-025d506b56f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='e_ZwDjAQN4ZGV1ZQD4ZQNjAQD0ZmH5AN==']/button/div[2]</value>
+      <webElementGuid>2d326754-83f9-46b8-9d01-2c919afd2f2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='admin@adinovis.com'])[2]/following::div[1]</value>
+      <webElementGuid>51a2cf7a-1e69-458a-b854-7f83cc8f38f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to Countable'])[1]/following::div[4]</value>
+      <webElementGuid>b4fd386a-2780-406e-8ed3-cbb4e1d25f6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/div[2]</value>
+      <webElementGuid>d36245af-9d84-4bb4-88b8-872b2569b504</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Welcome to Countable' or . = 'Welcome to Countable')]</value>
+      <webElementGuid>2de3185c-c87a-4dd5-8cd9-a922bdda3407</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

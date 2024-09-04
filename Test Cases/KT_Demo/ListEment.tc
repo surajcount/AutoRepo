@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ListEment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbed186d-3f0b-460b-9fee-26fcf88c47b8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c572ee58-a7be-434b-83e8-f364f701f345</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dcc23a49-3c07-4355-bfdb-c0e08b35cb1d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7077f4ec-0ebe-4c04-9747-335c426edca0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>10</defaultValue>
+      <description></description>
+      <id>c572ee58-a7be-434b-83e8-f364f701f345</id>
+      <masked>false</masked>
+      <name>Dateee</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mar'</defaultValue>
+      <description></description>
+      <id>dcc23a49-3c07-4355-bfdb-c0e08b35cb1d</id>
+      <masked>false</masked>
+      <name>monthi</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.facebook.com/reg/'</defaultValue>
+      <description></description>
+      <id>7077f4ec-0ebe-4c04-9747-335c426edca0</id>
+      <masked>false</masked>
+      <name>FaceURL</name>
+   </variable>
+</TestCaseEntity>

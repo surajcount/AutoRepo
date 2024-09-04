@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sPlan ConfirmationPop-up</name>
+   <tag></tag>
+   <elementGuidId>71ac2e67-3cd7-4ed8-8fb7-1b8f488169ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='parentDiv']/app-stripe-integration/div/div[2]/div/div/div/button/span[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.close.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base > span.mat-mdc-button-touch-target</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>060af957-b175-4e93-908a-8603074e75f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-button-touch-target</value>
+      <webElementGuid>dbc333a1-cf50-4394-8ffd-ac921f57aadd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;parentDiv&quot;)/app-stripe-integration[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;firm-billing ng-star-inserted&quot;]/div[@class=&quot;title-right ng-star-inserted&quot;]/div[@class=&quot;toast-container toast-top-right&quot;]/div[@class=&quot;ngx-toastr toast-primary&quot;]/div[@class=&quot;toast-message d-flex flex-column flex-wrap gap-6&quot;]/button[@class=&quot;close mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
+      <webElementGuid>b839e605-721d-4c42-806b-9ac7b1379590</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='parentDiv']/app-stripe-integration/div/div[2]/div/div/div/button/span[4]</value>
+      <webElementGuid>c68e95c6-829b-4da1-9c28-f0fe60fdc404</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/button/span[4]</value>
+      <webElementGuid>f71894f8-fde2-41be-9aac-4a7dae8a32d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

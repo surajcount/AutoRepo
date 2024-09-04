@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Onboarding and SignUp Suite_Canada</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>d2dc6f62-5788-4803-b84b-dea87ac52c5a</testSuiteGuid>
+   <testCaseLink>
+      <guid>aed2c551-e154-41a1-b7ab-2bd664be30a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RegressionTestCase-UAT-Env/SignUp-Countable_Canada</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d3ae4afe-db75-46ee-ba46-19275b4d96d8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data/Signup Data-Canada</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>d3ae4afe-db75-46ee-ba46-19275b4d96d8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>emailSignup</value>
+         <variableId>78212f58-da78-4809-82ae-86615f06bbdf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d3ae4afe-db75-46ee-ba46-19275b4d96d8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>yopmail</value>
+         <variableId>b9b07514-ea31-4f71-86fa-659821a9d3df</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f7c8e115-bcc6-4d24-94d1-2e9e3504e0ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RegressionTestCase-UAT-Env/Onboarding Updated_Canada_New</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>660b2b00-95d5-49f7-97e6-3a1d0eba4012</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test Data/OnboardingTEAM_CLIENT_Firm_DATA_CANADA</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>660b2b00-95d5-49f7-97e6-3a1d0eba4012</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LoginEmail_CANADA</value>
+         <variableId>7a2a4bd7-1fd2-475b-9a23-afddf9c2b6b9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>660b2b00-95d5-49f7-97e6-3a1d0eba4012</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TeamMem_Email_CANADA</value>
+         <variableId>a28d3a80-0e92-488e-996e-4b561345a36a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>660b2b00-95d5-49f7-97e6-3a1d0eba4012</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ClientEmail_CANADA</value>
+         <variableId>d3442413-5e40-4fbd-bda4-7b25af47bf37</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>660b2b00-95d5-49f7-97e6-3a1d0eba4012</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>team_Memb_yopMail</value>
+         <variableId>bc4de472-2d88-4978-a820-0b733a639a3e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>660b2b00-95d5-49f7-97e6-3a1d0eba4012</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Client_Memb_yopMail</value>
+         <variableId>ab87f081-3739-4f2f-b68d-ddd8b0b2c577</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

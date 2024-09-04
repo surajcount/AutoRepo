@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Go to Step 2</name>
+   <tag></tag>
+   <elementGuidId>79db6fca-144a-4301-a18b-e4c49662d447</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.button-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-step-content-0-0']/div/form/div[3]/button/span[2]/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>09465566-50fb-45a6-867b-c51fe3ed3b8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-label</value>
+      <webElementGuid>642e0889-61c0-4a4c-aed4-02858def0a12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Go to Step 2 </value>
+      <webElementGuid>1b9372d0-89bb-43e7-899c-b292b69d28c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-step-content-0-0&quot;)/div[@class=&quot;stepper-body-main card ng-star-inserted&quot;]/form[@class=&quot;card-body gap-24 ng-pristine ng-valid ng-touched&quot;]/div[@class=&quot;button-group justify-content-end mt-3 mt-md-4 mt-lg-5&quot;]/button[@class=&quot;mat-stepper-next button-medium mdc-button mat-mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary mat-mdc-button-base&quot;]/span[@class=&quot;mdc-button__label&quot;]/span[@class=&quot;flexbox-row gap-8&quot;]/span[@class=&quot;button-label&quot;]</value>
+      <webElementGuid>361b31f5-0a0f-4200-a524-02aab64597e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-step-content-0-0']/div/form/div[3]/button/span[2]/span/span</value>
+      <webElementGuid>c084fd81-1a6d-462e-826c-d601ff3bb587</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::span[5]</value>
+      <webElementGuid>b836af77-441e-4004-903b-d23dd4d6c92f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hourly Rate'])[1]/following::span[5]</value>
+      <webElementGuid>0b5be15c-a22f-4658-bd9b-41d25163ba6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_right'])[1]/preceding::span[1]</value>
+      <webElementGuid>0c1395a3-9d0d-428c-aa2a-658f2c4e88f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Step 2 : Add Team Members'])[2]/preceding::span[4]</value>
+      <webElementGuid>787ef97c-fac9-455b-b6a1-6623ccec1456</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Go to Step 2']/parent::*</value>
+      <webElementGuid>e280bcd6-c3af-462b-ab74-7fa129c48a57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/span/span</value>
+      <webElementGuid>e07c6526-2e5b-4630-b006-c2029cb481c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Go to Step 2 ' or . = ' Go to Step 2 ')]</value>
+      <webElementGuid>4120007c-912d-4c04-b2de-800089e691c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

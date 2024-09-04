@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>StaffTab_Page_Container</name>
+   <tag></tag>
+   <elementGuidId>bf060c34-095a-4df1-8aed-7760a913c727</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/app-root/app-dashboard/div/div/div/app-teammember/div/div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-root/app-dashboard/div/div/div/app-teammember/div/div[1]</value>
+      <webElementGuid>354ed19f-aad5-4904-b8f0-7299e4e41cfc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
