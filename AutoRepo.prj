@@ -6,11 +6,12 @@
    <UUID>abd43a4e-fec0-4f4a-a32e-0b72e152eb2c</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>9.7.1</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
-   <modifiedVersion>9.7.1</modifiedVersion>
+   <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\Admin\git\AutoRepo\AutoRepo.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
