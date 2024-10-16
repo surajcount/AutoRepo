@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_25_Peg_Pact_Review_Pop_Up_Handeling</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2f656f3f-63e1-42ec-bf5c-6b29a88f5f4a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d0df9da-19e6-469e-980e-c091b5bb4c7f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>4d0df9da-19e6-469e-980e-c091b5bb4c7f</id>
+      <masked>false</masked>
+      <name>LoginEmail_CANADA</name>
+   </variable>
+</TestCaseEntity>

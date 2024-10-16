@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_31_Procedures_Com_Engagement_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f1a018a6-8b7b-4c37-9f61-fdbdded07bf8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39ff7828-a5ec-4b05-a956-8d9ceb454cd1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d4b7fe41-7e4a-49a6-ac48-d6d6494e32ec</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291143@yopmail.com'</defaultValue>
+      <description></description>
+      <id>39ff7828-a5ec-4b05-a956-8d9ceb454cd1</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d4b7fe41-7e4a-49a6-ac48-d6d6494e32ec</id>
+      <masked>false</masked>
+      <name>Total_Balance_CnC</name>
+   </variable>
+</TestCaseEntity>

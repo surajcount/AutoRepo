@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_28_Report_Master_Firm_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>39445500-3138-4994-b7c1-d3a1418967c5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b8bb6a32-ccce-451a-8ecf-9ad9c0011140</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291136@yopmail.com'</defaultValue>
+      <description></description>
+      <id>b8bb6a32-ccce-451a-8ecf-9ad9c0011140</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

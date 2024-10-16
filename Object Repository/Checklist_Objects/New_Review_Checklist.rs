@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Delete_Confirmation_Button</name>
+   <name>New_Review_Checklist</name>
    <tag></tag>
-   <elementGuidId>563f2fdf-6c8a-463b-95ea-21822ebc595c</elementGuidId>
+   <elementGuidId>2a07f340-fb7b-45bb-a14b-236924ec192d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//span[normalize-space()='Delete']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//p[normalize-space()='New_Cheklist_Review']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

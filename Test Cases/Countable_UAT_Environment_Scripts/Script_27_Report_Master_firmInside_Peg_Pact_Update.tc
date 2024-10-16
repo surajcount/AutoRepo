@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_27_Report_Master_firmInside_Peg_Pact_Update</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3d346c22-8e0a-4058-b5b4-0f145adee148</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2f6fb87-f394-428e-92a9-9f0a4dc19896</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291136@yopmail.com'</defaultValue>
+      <description></description>
+      <id>f2f6fb87-f394-428e-92a9-9f0a4dc19896</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_26_Reorder_Re_number</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>62294371-5488-49bc-89f0-0467cf509a40</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e9f92e0-073a-4648-88e2-cf1bc5dd6473</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291139@yopmail.com'</defaultValue>
+      <description></description>
+      <id>1e9f92e0-073a-4648-88e2-cf1bc5dd6473</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>
