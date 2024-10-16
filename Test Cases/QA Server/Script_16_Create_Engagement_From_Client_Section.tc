@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_16_Create_Engagement_From_Client_Section</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>650aea13-0322-45e6-b39e-7b9e260c1363</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0633e83f-5d18-4d7a-b8a2-a2712935bb22</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>0633e83f-5d18-4d7a-b8a2-a2712935bb22</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Procedures_Rev_Engagement_2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>95844fa1-6008-4099-9f69-7bc6df579e02</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81867aa0-f44e-4a26-995b-63403c0c089b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291143@yopmail.com'</defaultValue>
+      <description></description>
+      <id>81867aa0-f44e-4a26-995b-63403c0c089b</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script5_Inside_Engagement_LHS_All</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3f7f65f3-2aae-4483-8f40-e31b047ae9a9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66fd1e16-23d0-435b-80d2-bfbe22269a51</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>66fd1e16-23d0-435b-80d2-bfbe22269a51</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

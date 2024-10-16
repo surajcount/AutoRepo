@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_23_SignUp-Countable_USA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e41034b3-58dd-4d44-ad55-641c09e18360</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>440efe2a-32d6-47a9-af4d-49e619e694bd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e64a48a2-fed1-4841-bfcb-21a36e176d93</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'usauatreg291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>440efe2a-32d6-47a9-af4d-49e619e694bd</id>
+      <masked>false</masked>
+      <name>emailSignup</name>
+   </variable>
+   <variable>
+      <defaultValue>'usauatreg291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>e64a48a2-fed1-4841-bfcb-21a36e176d93</id>
+      <masked>false</masked>
+      <name>yopmail</name>
+   </variable>
+</TestCaseEntity>

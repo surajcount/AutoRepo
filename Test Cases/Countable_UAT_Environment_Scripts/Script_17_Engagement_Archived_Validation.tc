@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_17_Engagement_Archived_Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc835c1f-2b78-474d-b09d-05c107a8b7e9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02e4ca1a-ce03-4f30-be27-ce45fd044d0e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291143@yopmail.com'</defaultValue>
+      <description></description>
+      <id>02e4ca1a-ce03-4f30-be27-ce45fd044d0e</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

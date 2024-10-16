@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_21_Enagement_Dashboard_Status_Filter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c0a90a95-be5d-4a09-8365-3677ba2485f3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b5e963c-a805-4892-8edb-7a69c0b78224</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>2b5e963c-a805-4892-8edb-7a69c0b78224</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

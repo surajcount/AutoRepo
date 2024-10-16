@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h2[normalize-space()='7']</value>
+         <value>//h2[normalize-space()='10']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,6 +22,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//h2[normalize-space()='7']</value>
-      <webElementGuid>a0a6e889-a816-4e8c-a209-47b06262bbba</webElementGuid>
+      <webElementGuid>e688db50-f4d8-45f7-9258-fa63b6b8248a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

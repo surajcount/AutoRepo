@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>El_Amol</name>
+   <tag></tag>
+   <elementGuidId>b8998811-bc4a-4598-ae33-093cf2698016</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/div[2]/app-templates-dashboard[1]/mat-drawer-container[1]/mat-drawer[1]/div[1]/div[1]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/mat-accordion[2]/mat-expansion-panel[1]/div[1]/div[1]/mat-list[1]/mat-list-item[2]/span[1]/span[1]/div[1]/p[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

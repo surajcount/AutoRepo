@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Whats_New_Notification_Close</name>
+   <tag></tag>
+   <elementGuidId>43b519c5-5f34-4419-a93b-e435e53855f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/div[2]/app-teammembersdashboard[1]/div[4]/div[1]/button[1]/span[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

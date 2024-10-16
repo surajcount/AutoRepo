@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Enagement_Report_Content_M_Lib</name>
+   <tag></tag>
+   <elementGuidId>8ca3c074-9ac3-486a-9086-b53a443ba19b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/app-root/app-dashboard/div/div/div/app-templates-dashboard/mat-drawer-container/mat-drawer-content/div/app-reports/div/div/app-template-paginated-view/div/div/div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

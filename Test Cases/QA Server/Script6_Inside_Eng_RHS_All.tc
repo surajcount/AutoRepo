@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script6_Inside_Eng_RHS_All</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d63af70-d330-45f2-bec2-4250d84d54fc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>973428db-c4dc-4322-8ad8-87d9dd5e13e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d0d4022c-dfc6-4dde-91b6-530f417cbcb7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>973428db-c4dc-4322-8ad8-87d9dd5e13e4</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>'suatregcli291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>d0d4022c-dfc6-4dde-91b6-530f417cbcb7</id>
+      <masked>false</masked>
+      <name>EmailClientLogin</name>
+   </variable>
+</TestCaseEntity>

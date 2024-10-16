@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Drp_Dwn_Select_Sign_EL</name>
+   <tag></tag>
+   <elementGuidId>86a698bc-55cb-421c-a93a-29b6989bbb3d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div/div[@dir='ltr']/div/mat-dialog-container[@role='dialog']/div/div/div/div/mat-form-field[@floatlabel='always']/div/div/div/mat-select[@role='combobox']/div/div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

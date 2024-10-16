@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_13_Final Review_All_Cases</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>356ca1fa-2864-400f-a584-7074d392bec1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94be40cc-aadc-4cec-8c8b-d4d4aa1b036a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatregcli291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>94be40cc-aadc-4cec-8c8b-d4d4aa1b036a</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

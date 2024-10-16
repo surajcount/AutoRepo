@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Add_Template_Com_Review_Tax</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0d014e92-0c28-49ce-bd10-b521263839fd</testCaseGuid>
-</TestCaseEntity>

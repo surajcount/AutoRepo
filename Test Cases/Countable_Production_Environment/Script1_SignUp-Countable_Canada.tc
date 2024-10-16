@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script1_SignUp-Countable_Canada</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a3ba009-bf27-495a-b22c-ac0cfc8c66ae</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6fa39a83-6eb6-4fb6-a7be-db658d7cca26</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4e1da4e7-e9c6-4800-a57b-f3e0d9c05398</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>6fa39a83-6eb6-4fb6-a7be-db658d7cca26</id>
+      <masked>false</masked>
+      <name>emailSignup</name>
+   </variable>
+   <variable>
+      <defaultValue>'suatreg291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>4e1da4e7-e9c6-4800-a57b-f3e0d9c05398</id>
+      <masked>false</masked>
+      <name>yopmail</name>
+   </variable>
+</TestCaseEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>MyOrganization_Countable</name>
+   <name>Regression_Countable</name>
    <tag></tag>
    <UUID>fa9e3706-a3fe-4f58-b920-5050a685c33d</UUID>
    <freeLicense>true</freeLicense>
@@ -9,7 +9,7 @@
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\Admin\Katalon Studio\Regression_Countable\test.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\Admin\Desktop\Project Backup Latest\Regression_Countable\test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

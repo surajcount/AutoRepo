@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/div[2]/ntr-dashboard[1]/div[1]/div[3]/engagement-details[1]/div[1]/div[2]/app-template-singlepage-view[1]/div[1]/div[1]/div[1]/div[22]/div[1]/p[1]/span[2]</value>
+         <value>//p[contains(text(),'Yours truly,')]//span[contains(text(),'2024')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

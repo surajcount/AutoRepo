@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Draft_Under_Discussion_Water_Mark</name>
+   <tag></tag>
+   <elementGuidId>083212e5-8602-4a5a-a39f-7444302b508e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/div[2]/ntr-dashboard[1]/div[1]/div[3]/app-financial-statements[1]/div[1]/div[2]/app-cover-page[1]/div[1]/div[1]/div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

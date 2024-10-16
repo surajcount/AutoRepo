@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h2[normalize-space()='4']</value>
+         <value>//h2[normalize-space()='6']</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_10_Add_Update_Client_All_Case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9917fbb-36c9-42fc-a7d1-6df6a24f89a6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>356e03c0-045b-4ed9-8507-6ff02d645e23</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2959ecdb-2018-4d45-ae1e-900b37474d63</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'suatreg291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>356e03c0-045b-4ed9-8507-6ff02d645e23</id>
+      <masked>false</masked>
+      <name>LoginEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'acliservuatreg291138@yopmail.com'</defaultValue>
+      <description></description>
+      <id>2959ecdb-2018-4d45-ae1e-900b37474d63</id>
+      <masked>false</masked>
+      <name>NewClientEmail</name>
+   </variable>
+</TestCaseEntity>

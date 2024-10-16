@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_24_OnboardFirmTeamClient_USA -ManuallyAddress</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>555be00c-40de-4e46-a753-feec0bae3eed</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b61c17e5-390b-4069-8336-3df7031e2ebf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5c85613-120d-4c82-9db5-f5fb5e250c20</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b088a2c4-76c0-4714-b28b-7ee8c23fc22d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'uatregusa1109@yopmail.com'</defaultValue>
+      <description></description>
+      <id>b61c17e5-390b-4069-8336-3df7031e2ebf</id>
+      <masked>false</masked>
+      <name>LoginEmail_USA</name>
+   </variable>
+   <variable>
+      <defaultValue>'teamuatregusa1109@yopmail.com'</defaultValue>
+      <description></description>
+      <id>d5c85613-120d-4c82-9db5-f5fb5e250c20</id>
+      <masked>false</masked>
+      <name>TeamMem_Email_USA</name>
+   </variable>
+   <variable>
+      <defaultValue>'cliuatregusa1109@yopmail.com'</defaultValue>
+      <description></description>
+      <id>b088a2c4-76c0-4714-b28b-7ee8c23fc22d</id>
+      <masked>false</masked>
+      <name>ClientEmail_USA</name>
+   </variable>
+</TestCaseEntity>

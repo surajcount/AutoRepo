@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginCountable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6305b89-918a-4a99-96cd-74fc3ea84969</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>17eb7918-5214-4ddb-90e0-fd01a90e57e8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>17eb7918-5214-4ddb-90e0-fd01a90e57e8</id>
+      <masked>false</masked>
+      <name>LoginTestcase_Email</name>
+   </variable>
+</TestCaseEntity>

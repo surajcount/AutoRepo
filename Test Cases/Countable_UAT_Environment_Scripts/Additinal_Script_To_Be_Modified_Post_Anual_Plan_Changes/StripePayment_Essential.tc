@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>StripePayment_Essential</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0157487e-f3fc-4ace-9c25-ce49a408be0c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea7db2c3-0766-48f8-8f69-4cab4e906909</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'serverqareg011111@yopmail.com'</defaultValue>
+      <description></description>
+      <id>ea7db2c3-0766-48f8-8f69-4cab4e906909</id>
+      <masked>false</masked>
+      <name>LoginEmail</name>
+   </variable>
+</TestCaseEntity>

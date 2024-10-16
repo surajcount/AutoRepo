@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Review_Report_1_Content</name>
+   <tag></tag>
+   <elementGuidId>e45c7a92-9928-4c97-af81-6f04a7722d36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/div[2]/app-templates-dashboard[1]/mat-drawer-container[1]/mat-drawer-content[1]/div[1]/app-reports[1]/div[1]/div[2]/app-template-paginated-view[1]/div[1]/div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
