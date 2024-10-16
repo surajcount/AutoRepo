@@ -42,3 +42,7 @@ WebUI.scrollToElement(findTestObject('Page_Login/Pop-Up_Peg_Pact_TnC'), 10)
 
 WebUI.click(findTestObject('Page_Login/Pop-Up_Peg_Pact_TnC'))
 
+WebUI.waitForElementPresent(findTestObject('Page_Login/Review_Pop_Up'), 600)
+
+WebUI.click(findTestObject('Page_Login/Review_Pop_Up'))
+

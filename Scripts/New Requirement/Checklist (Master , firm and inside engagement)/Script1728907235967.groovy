@@ -16,11 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://uat.adinovis.com/login')
 
 WebUI.maximizeWindow()
+
+WebUI.waitForElementPresent(findTestObject('Page_UAT (Countable)/EmailElement'), 5)
 
 WebUI.setText(findTestObject('Page_UAT (Countable)/EmailElement'), EmailLogin)
 
@@ -29,3 +32,52 @@ WebUI.setEncryptedText(findTestObject('Page_UAT (Countable)/Password'), '0yu2Buh
 WebUI.click(findTestObject('Page_UAT (Countable)/span_Login'))
 
 WebUI.delay(3)
+
+WebUI.waitForElementClickable(findTestObject('Add_Firm_Template/Template_Button_Dashboard'), 10)
+
+WebUI.click(findTestObject('Add_Firm_Template/Template_Button_Dashboard'))
+
+WebUI.waitForElementPresent(findTestObject('Report_Master_Firm_Inside_Engagement/Firm_Template_Drop_Dwn'), 10)
+
+WebUI.click(findTestObject('Report_Master_Firm_Inside_Engagement/Firm_Template_Drop_Dwn'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Checklist_Objects/Checklist_Section'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Report_Master_Firm_Inside_Engagement/Report_Section_Master_Lib'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Report_Master_Firm_Inside_Engagement/Firm_Template_Section'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Report_Master_Firm_Inside_Engagement/Report_Section_Master_Lib'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Checklist_Objects/Expand_All_Button'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Checklist_Objects/Client_Acceptance_Continuance'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Checklist_Objects/Firm_Template_Addition_Button'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Checklist_Objects/Create_New_Folder_Checklist_Template'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Checklist_Objects/Folder_Name'), 'New_Cheklist')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Add_Firm_Template/Add_Button'))
+
