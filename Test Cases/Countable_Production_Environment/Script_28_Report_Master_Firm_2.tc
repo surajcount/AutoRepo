@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Script_36_Dashboard_Settings_Notification</name>
+   <name>Script_28_Report_Master_Firm_2</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5f0f522f-a9fd-40f2-b632-47368b37a6db</testCaseGuid>
+   <testCaseGuid>e4c1f122-d9c3-413c-a9fa-3be04d0a424e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a140c655-21d3-4c9c-8b3d-e9abbfdf3a3d</variableId>
+      <variableId>5abf77f7-edc0-43e6-9d89-41e7964eb3ce</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'suatreg291136@yopmail.com'</defaultValue>
       <description></description>
-      <id>a140c655-21d3-4c9c-8b3d-e9abbfdf3a3d</id>
+      <id>5abf77f7-edc0-43e6-9d89-41e7964eb3ce</id>
       <masked>false</masked>
       <name>EmailLogin</name>
    </variable>

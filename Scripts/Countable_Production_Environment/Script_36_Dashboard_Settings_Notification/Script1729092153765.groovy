@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://uat.adinovis.com/login')
+WebUI.navigateToUrl('https://platform.countable.co/login')
 
 WebUI.maximizeWindow()
 
@@ -96,7 +96,7 @@ WebUI.click(findTestObject('Dashboard_Settings/Dashboard_Section_BTN'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Dashboard_Settings/View_Team_Memeber_From_Dashboard'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Dashboard_Settings/View_Team_Memeber_From_Dashboard'))
 
 WebUI.delay(4)
 

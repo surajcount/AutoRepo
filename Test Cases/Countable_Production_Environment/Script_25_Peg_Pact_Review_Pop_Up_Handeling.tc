@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Script_36_Dashboard_Settings_Notification</name>
+   <name>Script_25_Peg_Pact_Review_Pop_Up_Handeling</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5f0f522f-a9fd-40f2-b632-47368b37a6db</testCaseGuid>
+   <testCaseGuid>419fd8f9-f5bd-4ef1-a180-58fb366d03a3</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a140c655-21d3-4c9c-8b3d-e9abbfdf3a3d</variableId>
+      <variableId>25081330-ef75-42ab-8038-d9020307f1b5</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'suatreg291136@yopmail.com'</defaultValue>
+      <defaultValue>'suatreg291138@yopmail.com'</defaultValue>
       <description></description>
-      <id>a140c655-21d3-4c9c-8b3d-e9abbfdf3a3d</id>
+      <id>25081330-ef75-42ab-8038-d9020307f1b5</id>
       <masked>false</masked>
-      <name>EmailLogin</name>
+      <name>LoginEmail_CANADA</name>
    </variable>
 </TestCaseEntity>

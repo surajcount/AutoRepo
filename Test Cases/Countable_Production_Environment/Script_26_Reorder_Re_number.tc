@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Script_36_Dashboard_Settings_Notification</name>
+   <name>Script_26_Reorder_Re_number</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5f0f522f-a9fd-40f2-b632-47368b37a6db</testCaseGuid>
+   <testCaseGuid>67e5cc5a-07c6-437f-a4f8-804902987fda</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a140c655-21d3-4c9c-8b3d-e9abbfdf3a3d</variableId>
+      <variableId>6f338778-bd47-407b-8e5c-8235afafd0df</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'suatreg291136@yopmail.com'</defaultValue>
+      <defaultValue>'suatreg291139@yopmail.com'</defaultValue>
       <description></description>
-      <id>a140c655-21d3-4c9c-8b3d-e9abbfdf3a3d</id>
+      <id>6f338778-bd47-407b-8e5c-8235afafd0df</id>
       <masked>false</masked>
       <name>EmailLogin</name>
    </variable>
