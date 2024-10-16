@@ -81,3 +81,77 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Add_Firm_Template/Add_Button'))
 
+WebUI.delay(3)
+
+WebUI.mouseOver(findTestObject('Report_Master_Firm_Inside_Engagement/Firm_Template_Section'))
+
+WebUI.click(findTestObject('Report_Master_Firm_Inside_Engagement/Firm_Template_Section'))
+
+WebUI.verifyElementPresent(findTestObject('Checklist_Objects/Verify_New_Checklist'), 3)
+
+WebUI.click(findTestObject('Checklist_Objects/Verify_New_Checklist'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Checklist_Objects/Client_Acceptance_Continuance'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Checklist_Objects/Edit_Button'))
+
+Headline_Objects = WebUI.getText(findTestObject('Checklist_Objects/Objective_Text_Headline'))
+
+println(Headline_Objects)
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Client_Section_Object/Save_Button_Edit_Client'))
+
+WebUI.mouseOver(findTestObject('Checklist_Objects/Verify_New_Checklist'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Report_Master_Firm_Inside_Engagement/Create_Duplicate_Report_Firm_Temp'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Checklist_Objects/Create_New_Folder_Checklist_Template'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Checklist_Objects/Folder_Name'), 'Duplicate_Checlist')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Checklist_Objects/Duplicate_Button'))
+
+WebUI.waitForElementPresent(findTestObject('Checklist_Objects/Verify_Duplicate_Checklist_Created'), 10)
+
+WebUI.click(findTestObject('Checklist_Objects/Verify_Duplicate_Checklist_Created'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Checklist_Objects/Verify_Duplicate_Checklist_Created'))
+
+WebUI.mouseOver(findTestObject('Checklist_Objects/Verify_Duplicate_Checklist_Created'))
+
+WebUI.click(findTestObject('Checklist_Objects/New_Checklist_Menu_Btn'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Checklist_Objects/Delete_Button'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Checklist_Objects/Delete_Confirmation_Button'))
+
+WebUI.click(findTestObject('Checklist_Objects/New_Checlist_CB'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Checklist_Objects/Delete_Icon_Btn'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Checklist_Objects/Delete_Confirmation_Button'))
+
