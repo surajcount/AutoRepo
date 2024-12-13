@@ -25,21 +25,21 @@
       <variableId>49cf9564-8e39-43c4-bc5b-bfac4cb691c4</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'uatregusa1109@yopmail.com'</defaultValue>
+      <defaultValue>'ustech03@yopmail.com'</defaultValue>
       <description></description>
       <id>7d7cfaa1-a5ab-4362-ba82-0178abd15f1b</id>
       <masked>false</masked>
       <name>LoginEmail_USA</name>
    </variable>
    <variable>
-      <defaultValue>'teamuatregusa1109@yopmail.com'</defaultValue>
+      <defaultValue>'ustechteam03@yopmail.com'</defaultValue>
       <description></description>
       <id>9e770771-01bc-4939-a27e-256de3f7dcdc</id>
       <masked>false</masked>
       <name>TeamMem_Email_USA</name>
    </variable>
    <variable>
-      <defaultValue>'cliuatregusa1109@yopmail.com'</defaultValue>
+      <defaultValue>'ustechclient03@yopmail.com'</defaultValue>
       <description></description>
       <id>49cf9564-8e39-43c4-bc5b-bfac4cb691c4</id>
       <masked>false</masked>

@@ -19,14 +19,14 @@
       <variableId>1d5504b2-b67f-45aa-8398-a1bc7ad865f4</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'suatreg291144@yopmail.com'</defaultValue>
+      <defaultValue>'tech4@yopmail.com'</defaultValue>
       <description></description>
       <id>38b3800d-481c-4462-ae64-518a5b4928b9</id>
       <masked>false</masked>
       <name>emailSignup</name>
    </variable>
    <variable>
-      <defaultValue>'suatreg291144@yopmail.com'</defaultValue>
+      <defaultValue>'tech4@yopmail.com'</defaultValue>
       <description></description>
       <id>1d5504b2-b67f-45aa-8398-a1bc7ad865f4</id>
       <masked>false</masked>

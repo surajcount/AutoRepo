@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='user-detail-main']//div[@class='avatar-content ng-star-inserted']</value>
+         <value>//div[@class='user-detail-main']//button[@class='mat-mdc-menu-trigger nav-item ng-star-inserted']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>af917e1b-fdc0-42d2-aaf0-76cfd91c25f2</webElementGuid>
+      <webElementGuid>f4d23101-75bd-4e00-92ee-4dff970c633b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>avatar-content ng-star-inserted</value>
-      <webElementGuid>2f3548f0-e16f-4135-898a-fb4a4b5cfb07</webElementGuid>
+      <webElementGuid>0ad7be4a-7ef5-43c3-ae5b-42bfc321c89f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> SA </value>
-      <webElementGuid>44d04a63-9529-411c-b43d-16ab1b6549b6</webElementGuid>
+      <webElementGuid>9cf99d11-ba28-4380-b12b-445495d32c33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +47,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dasboard-container layout-dashboard drawer-small&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;left-sidebar side-nav&quot;]/app-side-menu[1]/aside[@class=&quot;left-sidebar&quot;]/div[@class=&quot;user-detail-main&quot;]/dashboard-header[1]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item mat-mdc-list-item-single-line mdc-list-item--with-one-line&quot;]/span[@class=&quot;mdc-list-item__content&quot;]/span[@class=&quot;mat-mdc-list-item-unscoped-content mdc-list-item__primary-text&quot;]/button[@class=&quot;mat-mdc-menu-trigger nav-item ng-star-inserted&quot;]/ngx-avatars[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;avatar-container&quot;]/div[@class=&quot;avatar-content ng-star-inserted&quot;]</value>
-      <webElementGuid>d556802e-2c35-46f5-8f37-c70b86d2b44f</webElementGuid>
+      <webElementGuid>fcd3a10a-b027-4007-89dd-c7360bd97448</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

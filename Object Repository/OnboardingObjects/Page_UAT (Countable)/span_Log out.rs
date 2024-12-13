@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mat-menu-panel-2']/div/button/span/span</value>
+         <value>//span[contains(text(),'Log out')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c29bb11b-cd8b-4dcc-a2b8-5afdd9842a5f</webElementGuid>
+      <webElementGuid>e5a5b22e-7897-4ae2-b987-1e450bf66114</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Log out</value>
-      <webElementGuid>7cbbf8a3-1c49-48ef-9623-c15d09b27193</webElementGuid>
+      <webElementGuid>b133e768-b830-493a-9cbb-d118001186a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-menu-panel-2&quot;)/div[@class=&quot;mat-mdc-menu-content ng-tns-c681116372-9&quot;]/button[@class=&quot;mat-mdc-menu-item mat-mdc-focus-indicator ng-tns-c681116372-9 cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-mdc-menu-item-text&quot;]/span[1]</value>
-      <webElementGuid>7acb1dcf-eef6-453b-9a31-02d261054080</webElementGuid>
+      <webElementGuid>8b7c5537-300a-4226-9518-f27fe4280ec8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-menu-panel-2']/div/button/span/span</value>
-      <webElementGuid>feabd243-5a6c-42bd-80ee-719525c213bc</webElementGuid>
+      <webElementGuid>6c5194af-ece2-4939-a683-35c745b82047</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/following::span[2]</value>
-      <webElementGuid>d830e6b7-2e6e-4718-8a89-b22208fb4da6</webElementGuid>
+      <webElementGuid>2743c040-0774-4426-b800-76e4fac89a2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Log out']/parent::*</value>
-      <webElementGuid>206ce924-42cc-4833-ab60-9e000e419e44</webElementGuid>
+      <webElementGuid>18acdf75-0315-4bfa-b550-6397c8a3ee22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/button/span/span</value>
-      <webElementGuid>b5ce6791-f731-4434-b3fa-a8ce1c167e7c</webElementGuid>
+      <webElementGuid>77cc8d33-a9ee-4a7d-a104-a11abe16a100</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +79,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Log out' or . = 'Log out')]</value>
-      <webElementGuid>2d82009a-a4a5-4f6d-8948-b5754473bb80</webElementGuid>
+      <webElementGuid>847ed98d-c4dc-47a9-a414-d1e1524d24ab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>119def2a-be81-4a5c-9abb-fb502443a128</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[1]/app-root[1]/app-firm-onboardin[1]/div[1]/div[1]/div[1]/div[2]/mat-stepper[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/a[2]/span[2]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//a[.='Download Template'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

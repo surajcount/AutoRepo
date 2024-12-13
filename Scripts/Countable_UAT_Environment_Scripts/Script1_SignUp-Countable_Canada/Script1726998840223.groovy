@@ -34,11 +34,11 @@ WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Counta
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/mat-option_Canada'))
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_First Name_mat-input-2'), 'Atin')
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_First Name_mat-input-2'), 'Techincal')
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Last Name_mat-input-3'), 'Countable')
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Last Name_mat-input-3'), 'Feasibility')
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Firm Name_mat-input-4'), 'Atin Qunatum Limited')
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Firm Name_mat-input-4'), 'Tech grooming professional corporation')
 
 WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Firm size (No. of users)_mat-input-5'), 
     '10')

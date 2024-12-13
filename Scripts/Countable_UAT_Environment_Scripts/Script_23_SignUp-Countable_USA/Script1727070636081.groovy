@@ -26,7 +26,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://uat.adinovis.com/login')
+WebUI.navigateToUrl(UAT)
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/a_Sign Up'))
 
@@ -34,11 +34,11 @@ WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Counta
 
 WebUI.click(findTestObject('Page_UAT (Countable)/Page_UAT (Countable)/sign_United States_select'))
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_First Name_mat-input-2'), 'Suraj')
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_First Name_mat-input-2'), 'US Tech')
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Last Name_mat-input-3'), 'Agnihotry')
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Last Name_mat-input-3'), 'Grooming')
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Firm Name_mat-input-4'), 'Quntum Soft')
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Firm Name_mat-input-4'), 'Techniical Concept corporation')
 
 WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Firm size (No. of users)_mat-input-5'), 
     '20')

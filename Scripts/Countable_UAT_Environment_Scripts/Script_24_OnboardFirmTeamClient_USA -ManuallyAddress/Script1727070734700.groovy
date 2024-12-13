@@ -58,6 +58,60 @@ WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/div_Member ID
 
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Go to Step 2'))
 
+WebUI.delay(3)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Upload_R_Btn_Team_member'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Downld_Tmp_Ad_Team_BTN'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Guide_To_Crt_Temp_BTN'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Guide_Pop_Up_Close_BTN'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Guide_To_Crt_Temp_BTN'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Downld_PDF_Guide_Ad_Team'))
+
+WebUI.delay(3)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(3)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.uploadFile(findTestObject('OnboardingObjects/Page_UAT (Countable)/Upload_Team_Membr_Data_Btn_onbr'), 'C:\\Users\\Admin\\Downloads\\AccountTeamImport (17).csv')
+
+WebUI.waitForElementPresent(findTestObject('Client_All_RegressionCase/UploadCSV_Client/Cancel_Import_Button'), 30)
+
+WebUI.click(findTestObject('Client_All_RegressionCase/UploadCSV_Client/Cancel_Import_Button'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.uploadFile(findTestObject('OnboardingObjects/Page_UAT (Countable)/Upload_Team_Membr_Data_Btn_onbr'), 'C:\\Users\\Admin\\Downloads\\AccountTeamImport (17).csv')
+
+WebUI.delay(4)
+
+WebUI.waitForElementPresent(findTestObject('AddTeam_AllRegression_Dashboard/Data_Upload_Btn'), 10)
+
+WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Data_Upload_Btn'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_UAT (Countable)/Go to Step 3'), 10)
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/input_Point of Contact_Partner_r_btn_addtTeam'))
 
 WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_First name_AddTeam'), 'Sarya')
@@ -77,6 +131,54 @@ WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/span_Super Ad
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/FinalButton_Add Team Member'))
 
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Go to Step 3'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Import_Client_Radio_BTN_Onbrd'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Guide_Templ_Cli_Obrd'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Guide_Pop_Up_Close_BTN'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Guide_Templ_Cli_Obrd'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Downld_PDF_Guide_Ad_Team'))
+
+WebUI.delay(3)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(3)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.delay(1)
+
+WebUI.uploadFile(findTestObject('OnboardingObjects/Page_UAT (Countable)/UplodClient_Data_Onboarding_Import'), 'C:\\Users\\Admin\\Downloads\\AccountClientImport_USA (3).csv')
+
+WebUI.waitForElementPresent(findTestObject('Client_All_RegressionCase/UploadCSV_Client/Cancel_Import_Button'), 30)
+
+WebUI.click(findTestObject('Client_All_RegressionCase/UploadCSV_Client/Cancel_Import_Button'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
+
+WebUI.uploadFile(findTestObject('OnboardingObjects/Page_UAT (Countable)/UplodClient_Data_Onboarding_Import'), 'C:\\Users\\Admin\\Downloads\\AccountClientImport_USA (3).csv')
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Data_Upload_Btn'))
+
+WebUI.delay(4)
 
 WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Entity Name_addClient'), 'Cleitreg')
 

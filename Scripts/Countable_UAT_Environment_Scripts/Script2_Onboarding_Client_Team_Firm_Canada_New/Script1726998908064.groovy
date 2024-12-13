@@ -59,7 +59,7 @@ WebUI.click(findTestObject('Page_UAT (Countable)/div_No'), FailureHandling.CONTI
 
 WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Firm_Title'), 'Partner')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Firm_First Name'), 'Surya')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Firm_First Name'), 'Jervin')
 
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/div_Member IDLicense NoFirst NameLast NameB_75727a'))
 
@@ -99,7 +99,7 @@ WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.uploadFile(findTestObject('OnboardingObjects/Page_UAT (Countable)/Upload_Team_Membr_Data_Btn_onbr'), 'C:\\Users\\Admin\\Desktop\\UploadTeam_Data\\AccountTeamImport.csv')
+WebUI.uploadFile(findTestObject('OnboardingObjects/Page_UAT (Countable)/Upload_Team_Membr_Data_Btn_onbr'), 'C:\\Users\\Admin\\Downloads\\AccountTeamImport (17).csv')
 
 WebUI.waitForElementPresent(findTestObject('Client_All_RegressionCase/UploadCSV_Client/Cancel_Import_Button'), 30)
 
@@ -107,7 +107,7 @@ WebUI.click(findTestObject('Client_All_RegressionCase/UploadCSV_Client/Cancel_Im
 
 WebUI.delay(2)
 
-WebUI.uploadFile(findTestObject('OnboardingObjects/Page_UAT (Countable)/Upload_Team_Membr_Data_Btn_onbr'), 'C:\\Users\\Admin\\Desktop\\UploadTeam_Data\\AccountTeamImport.csv')
+WebUI.uploadFile(findTestObject('OnboardingObjects/Page_UAT (Countable)/Upload_Team_Membr_Data_Btn_onbr'), 'C:\\Users\\Admin\\Downloads\\AccountTeamImport (17).csv')
 
 WebUI.delay(4)
 
@@ -121,9 +121,9 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/input_Point of Contact_Partner_r_btn_addtTeam'))
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_First name_AddTeam'), 'Amol')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_First name_AddTeam'), 'Tech')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Last name_AddTeam'), 'Gupta')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Last name_AddTeam'), 'Team')
 
 WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Email_AddTeamMember'), TeamMem_Email_CANADA)
 
@@ -171,7 +171,7 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('OnboardingObjects/Page_UAT (Countable)/UplodClient_Data_Onboarding_Import'), 'C:\\Users\\Admin\\Desktop\\UploadClient_Data\\AccountClientImport_v2.csv')
+WebUI.uploadFile(findTestObject('OnboardingObjects/Page_UAT (Countable)/UplodClient_Data_Onboarding_Import'), 'C:\\Users\\Admin\\Downloads\\AccountClientImport_v2 (8).csv')
 
 WebUI.waitForElementPresent(findTestObject('Client_All_RegressionCase/UploadCSV_Client/Cancel_Import_Button'), 30)
 
@@ -179,7 +179,7 @@ WebUI.click(findTestObject('Client_All_RegressionCase/UploadCSV_Client/Cancel_Im
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('OnboardingObjects/Page_UAT (Countable)/UplodClient_Data_Onboarding_Import'), 'C:\\Users\\Admin\\Desktop\\UploadClient_Data\\AccountClientImport_v2.csv')
+WebUI.uploadFile(findTestObject('OnboardingObjects/Page_UAT (Countable)/UplodClient_Data_Onboarding_Import'), 'C:\\Users\\Admin\\Downloads\\AccountClientImport_v2 (8).csv')
 
 WebUI.delay(4)
 
@@ -187,7 +187,7 @@ WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Data_Upload_Btn'))
 
 WebUI.delay(4)
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Entity Name_addClient'), 'AmolInfo')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Entity Name_addClient'), EntityName)
 
 WebUI.click(findTestObject('Page_UAT (Countable)/ng-arrow_entity_type_addClient'))
 
@@ -256,6 +256,10 @@ WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_
     '0yu2BuhvF5H+L+Dr3iRPjA==')
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/span_Login_mat-mdc-button-touch-target'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Keep_Default_timezone'))
 
 WebUI.delay(2)
 

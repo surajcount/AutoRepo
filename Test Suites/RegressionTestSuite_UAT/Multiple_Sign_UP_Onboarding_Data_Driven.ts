@@ -84,5 +84,11 @@
          <value>Client_Memb_yopMail</value>
          <variableId>8b29dc95-524b-4f8e-a59a-747355a3c3b8</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>69c22db4-f7cb-460f-9236-1da7d969890c</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
