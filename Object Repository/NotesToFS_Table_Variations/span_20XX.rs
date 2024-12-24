@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_20XX</name>
+   <tag></tag>
+   <elementGuidId>98697fb3-6cda-427f-8e68-99eda5160d7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.flexbox-column.gap-0 > span.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='cdk-drop-list-0']/thead/tr/th[4]/span/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>29d4488e-63a7-49db-9765-0ea2db08f08a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>3b7b56bc-2417-44de-88e4-05e34e18f9c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20XX</value>
+      <webElementGuid>50d3c68c-49ca-4dfd-bff8-fa09101c3f09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-drop-list-0&quot;)/thead[1]/tr[@class=&quot;mat-mdc-header-row mdc-data-table__header-row cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;mat-mdc-header-cell mdc-data-table__header-cell cdk-header-cell fs-col-newadded text-end cdk-column-currYear mat-column-currYear fw-semibold ng-star-inserted&quot;]/span[@class=&quot;flexbox-row gap-8 justify-content-end ng-star-inserted&quot;]/span[@class=&quot;flexbox-column gap-0&quot;]/span[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>477cc481-372f-4d85-9cb9-17b5105744ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='cdk-drop-list-0']/thead/tr/th[4]/span/span/span</value>
+      <webElementGuid>05297679-eb70-45b3-ade5-d16efbf797e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Year'])[1]/following::span[1]</value>
+      <webElementGuid>f0283f6e-cd8f-485d-aa27-79bd7e914b83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_down'])[1]/following::span[18]</value>
+      <webElementGuid>406d8e3f-7355-49a3-957c-eae37927dcb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prior Year'])[1]/preceding::span[6]</value>
+      <webElementGuid>2c083a7e-1a8a-472a-b90e-1209cef37abb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/preceding::span[14]</value>
+      <webElementGuid>4d0d9454-1116-461b-ad5d-7d0d9ec9db74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='20XX']/parent::*</value>
+      <webElementGuid>6f13ba9f-1624-49fd-9fde-b12c8facfba8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[4]/span/span/span</value>
+      <webElementGuid>e75d87d5-9ebc-4018-ae6f-335679d38f16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '20XX' or . = '20XX')]</value>
+      <webElementGuid>6afe9ff3-55cd-47c5-afcc-59ff02f938c2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

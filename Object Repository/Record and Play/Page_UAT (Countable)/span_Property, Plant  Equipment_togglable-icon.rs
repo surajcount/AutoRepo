@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Property, Plant  Equipment_togglable-icon</name>
+   <tag></tag>
+   <elementGuidId>45725f36-222a-4255-907f-582e96e35502</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-panel-title.mat-expansion-panel-header-title.ng-tns-c1676997785-2949 > div.title-content > span.togglable-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-expansion-panel-header[@id='mat-expansion-panel-header-54']/span/mat-panel-title/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>674b02cd-675a-4a03-ae62-b08284567453</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>togglable-icon</value>
+      <webElementGuid>88d24da0-c190-484f-96e5-e6d4adb435f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-expansion-panel-header-54&quot;)/span[@class=&quot;mat-content ng-tns-c1676997785-2949&quot;]/mat-panel-title[@class=&quot;mat-expansion-panel-header-title ng-tns-c1676997785-2949&quot;]/div[@class=&quot;title-content&quot;]/span[@class=&quot;togglable-icon&quot;]</value>
+      <webElementGuid>4b21b70f-ce14-40c4-acbf-27ef4374f064</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-expansion-panel-header[@id='mat-expansion-panel-header-54']/span/mat-panel-title/div/span</value>
+      <webElementGuid>bde1f312-1c47-49a9-9a16-f225c84acdc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property, Plant &amp; Equipment'])[1]/following::span[2]</value>
+      <webElementGuid>d46e85b7-14fd-41e5-b7d3-98dda99ab15e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basis of accounting – Note 4'])[1]/following::span[5]</value>
+      <webElementGuid>f7672f9f-0511-488c-b416-5dca4a853bab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Table Variations'])[1]/preceding::span[2]</value>
+      <webElementGuid>a62a1ccd-53e4-4078-84ab-f5f6caad7cc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automated Column'])[1]/preceding::span[6]</value>
+      <webElementGuid>41605c1b-9123-43a1-a17d-709a98f57c19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/mat-accordion/mat-expansion-panel[3]/mat-expansion-panel-header/span/mat-panel-title/div/span</value>
+      <webElementGuid>f3f576a1-3b80-4b3a-b016-c4f7a7cfb090</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

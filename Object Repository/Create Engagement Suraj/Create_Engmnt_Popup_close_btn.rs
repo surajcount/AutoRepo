@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Create_Engmnt_Popup_close_btn</name>
+   <tag></tag>
+   <elementGuidId>780a4986-dd06-4189-94c1-4c89df97c42d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button[class='close mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base'] span[class='mat-mdc-button-touch-target']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//span)[61]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(//span)[61]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//span)[61]</value>
+      <webElementGuid>8e40e9b6-0411-4d66-a31f-03ca6daf6675</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

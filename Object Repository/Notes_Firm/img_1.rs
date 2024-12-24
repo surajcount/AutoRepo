@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_1</name>
+   <tag></tag>
+   <elementGuidId>8ec43f30-b453-4541-9eaf-126640175f59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Automated Notes')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mat-panel-title.mat-expansion-panel-header-title.ng-tns-c1676997785-100 > div.title-content > span.togglable-icon > img[alt=&quot;Toogle&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Toogle Automated Notes&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>1a4f24d8-56da-402e-8718-8cf691897d10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/images/ui-uplift-icons/global/toggle-icon-up.svg</value>
+      <webElementGuid>ff9e32d6-0b82-4fa6-8074-13d269e899b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Toogle</value>
+      <webElementGuid>0c200e21-a626-44e7-b2b8-d677fe15093f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-expansion-panel-header-28&quot;)/span[@class=&quot;mat-content ng-tns-c1676997785-100&quot;]/mat-panel-title[@class=&quot;mat-expansion-panel-header-title ng-tns-c1676997785-100&quot;]/div[@class=&quot;title-content&quot;]/span[@class=&quot;togglable-icon&quot;]/img[1]</value>
+      <webElementGuid>c23797e9-c0ec-453c-82e1-bcf907a96440</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-expansion-panel-header[@id='mat-expansion-panel-header-28']/span/mat-panel-title/div/span[2]/img</value>
+      <webElementGuid>45c8bbfd-f887-4c0c-b483-6be97925dd74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[@alt='Toogle'])[2]</value>
+      <webElementGuid>e367a8db-c0e1-449e-90f7-4c4744435516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-expansion-panel[2]/mat-expansion-panel-header/span/mat-panel-title/div/span[2]/img</value>
+      <webElementGuid>7f78125f-c755-487e-b74e-cf8162574b12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/images/ui-uplift-icons/global/toggle-icon-up.svg' and @alt = 'Toogle']</value>
+      <webElementGuid>d5162c80-9c86-4770-9efc-84309c1ce634</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

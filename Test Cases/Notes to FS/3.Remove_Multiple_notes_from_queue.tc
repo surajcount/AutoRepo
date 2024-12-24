@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3.Remove_Multiple_notes_from_queue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3277cde-4dd1-4d3b-a824-3d115245a33a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_keyboard_arrow_down_mat-mdc-button-tou_3e6c77</name>
+   <tag></tag>
+   <elementGuidId>4104e189-1547-4dfe-85db-36f54f95ffa9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-mdc-menu-trigger.button-medium.mdc-button.mat-mdc-button.mdc-button--outlined.mat-mdc-outlined-button.mat-dark.mat-mdc-button-base.cdk-focused.cdk-mouse-focused > span.mat-mdc-button-touch-target</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-accordion-child-51']/div/div/div/div/div[2]/div/app-fs-table/div/div/div/div[2]/button/span[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f20bd47c-de15-4adb-a5af-7989d06c807d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-button-touch-target</value>
+      <webElementGuid>9e03e80c-8077-4701-8dd0-601dc6c33b2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-51&quot;)/div[@class=&quot;mat-expansion-panel-body ng-tns-c1859850774-2764&quot;]/div[@class=&quot;align-items-center d-flex flex-column gap-20 flex-nowrap w-100 ng-star-inserted&quot;]/div[@class=&quot;gap-8 flex-column d-flex w-100&quot;]/div[@class=&quot;align-items-center d-flex flex-row flex-nowrap gap-8 w-100 ng-star-inserted&quot;]/div[@class=&quot;w-100 overflow-auto&quot;]/div[@class=&quot;datahtml w-100 ng-star-inserted&quot;]/app-fs-table[1]/div[@class=&quot;card overflow-hidden ng-star-inserted&quot;]/div[@class=&quot;card-body p-0 gap-20&quot;]/div[@class=&quot;flexbox-row align-items-center justify-content-between px-2 pt-3&quot;]/div[@class=&quot;button-group justify-content-end gap-8&quot;]/button[@class=&quot;mat-mdc-menu-trigger button-medium mdc-button mat-mdc-button mdc-button--outlined mat-mdc-outlined-button mat-dark mat-mdc-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
+      <webElementGuid>f8f7a70b-fd9c-4004-8450-1f22b188e1ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-51']/div/div/div/div/div[2]/div/app-fs-table/div/div/div/div[2]/button/span[4]</value>
+      <webElementGuid>63667410-cca6-4590-85f9-99f96fe8dc22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-fs-table/div/div/div/div[2]/button/span[4]</value>
+      <webElementGuid>ea707924-155c-46f1-8435-4c8950ce4254</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

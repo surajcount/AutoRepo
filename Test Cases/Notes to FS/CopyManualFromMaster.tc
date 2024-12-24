@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CopyManualFromMaster</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>649470f2-61ff-4f7a-b5ac-0c3c7f899f2d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h5_qaauto01yopmail.com</name>
+   <tag></tag>
+   <elementGuidId>afa6c2f2-6c43-4d33-86f5-b9f35e4db262</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h5[title=&quot;qaauto01@yopmail.com&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Thank you for choosing Countable.'])[1]/following::h5[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>c4366ea7-3ea7-4fe8-9bf8-0e91fa9c5dae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>qaauto01@yopmail.com</value>
+      <webElementGuid>a49ae56a-8be4-4da8-8a12-82fd8a98c3c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>qaauto01@yopmail.com</value>
+      <webElementGuid>0ee0a3bc-4d9e-4231-8228-b06f144f1917</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-signup[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;user-in-main&quot;]/div[@class=&quot;right-block&quot;]/div[@class=&quot;content-block br-12 bg-white gap-24&quot;]/div[@class=&quot;text-center ng-star-inserted&quot;]/div[@class=&quot;mb-32&quot;]/h5[1]</value>
+      <webElementGuid>1288096e-bb2b-4a6d-be0a-542143852aeb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thank you for choosing Countable.'])[1]/following::h5[1]</value>
+      <webElementGuid>235fe290-8d93-4b4a-9385-4bdc1ff58d10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='support@countable.co'])[1]/following::h5[1]</value>
+      <webElementGuid>79d3f578-d757-4f88-a034-4a7e8037686f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login Now'])[1]/preceding::h5[1]</value>
+      <webElementGuid>33afcd06-45f6-499e-9ce9-3af886dc9f48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='qaauto01@yopmail.com']/parent::*</value>
+      <webElementGuid>65a4f742-b2da-4229-ab66-f8683c34dff8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h5</value>
+      <webElementGuid>1a788d28-a255-47f2-bf39-bd8b6374052b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[@title = 'qaauto01@yopmail.com' and (text() = 'qaauto01@yopmail.com' or . = 'qaauto01@yopmail.com')]</value>
+      <webElementGuid>0c41ae9c-ef6e-4c07-acdc-47bb006d709f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

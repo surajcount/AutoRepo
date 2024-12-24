@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Billing_Page_Annual_User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92a6b28d-cc9d-4b19-bc1a-c53df6f96853</testCaseGuid>
+</TestCaseEntity>

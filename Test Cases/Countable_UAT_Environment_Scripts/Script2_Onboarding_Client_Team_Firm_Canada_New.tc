@@ -43,42 +43,42 @@
       <variableId>69c22db4-f7cb-460f-9236-1da7d969890c</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'tech4@yopmail.com'</defaultValue>
+      <defaultValue>'tech5@yopmail.com'</defaultValue>
       <description></description>
       <id>c0c13d47-6905-497f-ad6c-3768d1d926b7</id>
       <masked>false</masked>
       <name>LoginEmail_CANADA</name>
    </variable>
    <variable>
-      <defaultValue>'techteam4@yopmail.com'</defaultValue>
+      <defaultValue>'techteam5@yopmail.com'</defaultValue>
       <description></description>
       <id>0bd6479a-5227-4422-8971-26c8c1527267</id>
       <masked>false</masked>
       <name>TeamMem_Email_CANADA</name>
    </variable>
    <variable>
-      <defaultValue>'techclient4@yopmail.com'</defaultValue>
+      <defaultValue>'techclient5@yopmail.com'</defaultValue>
       <description></description>
       <id>a560696e-f59c-4d33-b6c5-e6339acb61e5</id>
       <masked>false</masked>
       <name>ClientEmail_CANADA</name>
    </variable>
    <variable>
-      <defaultValue>'techteam4@yopmail.com'</defaultValue>
+      <defaultValue>'techteam5@yopmail.com'</defaultValue>
       <description></description>
       <id>d0a5fd1f-df9c-4e49-9782-fa257a1e0e19</id>
       <masked>false</masked>
       <name>team_Memb_yopMail</name>
    </variable>
    <variable>
-      <defaultValue>'techclient4@yopmail.com'</defaultValue>
+      <defaultValue>'techclient5@yopmail.com'</defaultValue>
       <description></description>
       <id>8b29dc95-524b-4f8e-a59a-747355a3c3b8</id>
       <masked>false</masked>
       <name>Client_Memb_yopMail</name>
    </variable>
    <variable>
-      <defaultValue>'AutoTech4'</defaultValue>
+      <defaultValue>'AutoTech5'</defaultValue>
       <description></description>
       <id>69c22db4-f7cb-460f-9236-1da7d969890c</id>
       <masked>false</masked>

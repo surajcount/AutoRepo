@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add_multiple_notestoQueue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70581eeb-e841-4511-8cba-e5c3d10e7f1d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_5.1.Test1</name>
+   <tag></tag>
+   <elementGuidId>5378629a-89ac-4c3f-a94d-fb7a367447fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-panel-title.mat-expansion-panel-header-title.ng-tns-c1676997785-2765 > div.title-content.hover-action > span.item-title.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-expansion-panel-header[@id='mat-expansion-panel-header-51']/span/mat-panel-title/div/span[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ef22e4c0-9179-4a3b-bdbb-7c76711df825</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-title ng-star-inserted</value>
+      <webElementGuid>d4b159ea-82ae-44f3-bca0-26be2262bf70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 5.1.Test1 </value>
+      <webElementGuid>12a59152-1721-4a1d-b90c-ec39cc1fd72c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-expansion-panel-header-51&quot;)/span[@class=&quot;mat-content ng-tns-c1676997785-2765 mat-content-hide-toggle&quot;]/mat-panel-title[@class=&quot;mat-expansion-panel-header-title ng-tns-c1676997785-2765&quot;]/div[@class=&quot;title-content hover-action&quot;]/span[@class=&quot;item-title ng-star-inserted&quot;]</value>
+      <webElementGuid>8b4cae75-2e78-4047-9f96-7fe38c6081cf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-expansion-panel-header[@id='mat-expansion-panel-header-51']/span/mat-panel-title/div/span[5]</value>
+      <webElementGuid>4f762e41-8da2-43b1-8337-e79161780ebc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_down'])[1]/following::span[85]</value>
+      <webElementGuid>bebaff97-213f-407c-b24e-7fdf115a0f36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add notes'])[1]/following::span[85]</value>
+      <webElementGuid>17071a7c-4326-43f8-970a-a892a015a032</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes added successfully'])[1]/preceding::span[164]</value>
+      <webElementGuid>9a557e5e-8986-4e61-aa1b-fe049c4b65b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='5.1.Test1']/parent::*</value>
+      <webElementGuid>0622e920-c0b5-4c39-9f76-cfa5f5d75678</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-expansion-panel[5]/div/div/mat-accordion/mat-expansion-panel/mat-expansion-panel-header/span/mat-panel-title/div/span[5]</value>
+      <webElementGuid>99a4db0a-625e-4aa8-8a52-66255058868e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' 5.1.Test1 ' or . = ' 5.1.Test1 ')]</value>
+      <webElementGuid>d07b8b00-16b2-4dfa-9ec7-7116cac3d910</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

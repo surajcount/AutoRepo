@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_1</name>
+   <tag></tag>
+   <elementGuidId>e57726d7-42cd-47c7-a840-5096cf592167</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.fontStyle.button-small-icon-action.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base.ng-star-inserted.cdk-focused.cdk-mouse-focused > span.mdc-button__label > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/button/span[2]/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>f689f40a-a5a9-4554-92e5-d0eafa0290cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../../../../assets/images/ui-uplift-icons/global/italic-01.svg</value>
+      <webElementGuid>39af7938-7473-4e2d-a753-ae3d6693ad0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dasboard-container layout-dashboard drawer-small&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;dashboard-main&quot;]/app-templates-dashboard[@class=&quot;ng-star-inserted&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container countable-drawer templates mat-drawer-container-has-open&quot;]/mat-drawer-content[@class=&quot;mat-drawer-content overflow-hidden&quot;]/div[@class=&quot;contant-block-main flex-1 h-100 overflow-x-auto templates-content dashboard-main bg-white p-0 gap-0&quot;]/app-notes[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;notes dashboard-main ng-star-inserted&quot;]/div[@class=&quot;content-block-main h-100 d-flex flex-column flex-nowrap gap-20&quot;]/div[@class=&quot;notes-container d-flex flex-row flex-nowrap align-items-center w-100 gap-8 ng-star-inserted&quot;]/div[@class=&quot;datahtml w-100 ng-star-inserted&quot;]/app-fs-table[1]/div[@class=&quot;card overflow-hidden ng-star-inserted&quot;]/div[@class=&quot;card-body p-0 gap-20&quot;]/div[@class=&quot;flexbox-row align-items-center justify-content-between px-2 pt-3&quot;]/div[@class=&quot;button-group flex-1&quot;]/button[@class=&quot;fontStyle button-small-icon-action mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mdc-button__label&quot;]/img[1]</value>
+      <webElementGuid>8d571f63-f6ff-4c65-ab54-687cbc8ac18a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/button/span[2]/img</value>
+      <webElementGuid>b6aa9e11-78c0-4078-8720-10679edd32fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '../../../../assets/images/ui-uplift-icons/global/italic-01.svg']</value>
+      <webElementGuid>0c62cdf5-db2e-44c0-a8ca-bd1ff1fadfe5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
