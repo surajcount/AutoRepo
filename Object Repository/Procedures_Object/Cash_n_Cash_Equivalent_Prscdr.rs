@@ -6,12 +6,11 @@
    <elementGuidId>89734bd0-513f-45e7-88ea-49dc7017e236</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//p[normalize-space()='Cash and cash equivalents']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//p[normalize-space()='Cash and cash equivalents']|//p[contains(normalize-space(),'Cash and cash equivalents')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

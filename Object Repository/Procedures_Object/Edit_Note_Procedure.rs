@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Edit_Note_Procedure</name>
+   <tag></tag>
+   <elementGuidId>19b18c18-a4c4-4220-95db-5d6d944a5743</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[starts-with(text(),'Edit')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//img[@src='/assets/images/ui-uplift-icons/global/edit-pencile-Icon.svg']</value>
+      <webElementGuid>86187bd5-93ca-44f6-8ab8-01ac9c4bbc4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//span[text()='Edit']</value>
+      <webElementGuid>9da6b1da-3419-4bee-8ee6-5f132e9610e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

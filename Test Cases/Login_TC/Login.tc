@@ -16,13 +16,19 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>720c1a4c-059a-44a0-8707-37a4213e3932</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>866dd640-d7a6-4cc7-b370-92fed668b5a6</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>720c1a4c-059a-44a0-8707-37a4213e3932</variableId>
+      <variableId>65f433d1-05e3-4628-9da0-4b370aee6f24</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -38,6 +44,13 @@
       <name>UAT</name>
    </variable>
    <variable>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
+      <description></description>
+      <id>720c1a4c-059a-44a0-8707-37a4213e3932</id>
+      <masked>false</masked>
+      <name>UATUSER</name>
+   </variable>
+   <variable>
       <defaultValue>GlobalVariable.PROD</defaultValue>
       <description></description>
       <id>866dd640-d7a6-4cc7-b370-92fed668b5a6</id>
@@ -45,11 +58,11 @@
       <name>PROD</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.UAT_User</defaultValue>
+      <defaultValue>GlobalVariable.EmailLogin_PROD</defaultValue>
       <description></description>
-      <id>720c1a4c-059a-44a0-8707-37a4213e3932</id>
+      <id>65f433d1-05e3-4628-9da0-4b370aee6f24</id>
       <masked>false</masked>
-      <name>UATUSER</name>
+      <name>PRODLogin</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.QA1</defaultValue>

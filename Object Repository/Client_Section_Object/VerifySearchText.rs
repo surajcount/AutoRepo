@@ -4,14 +4,19 @@
    <name>VerifySearchText</name>
    <tag></tag>
    <elementGuidId>c1d9d9b6-f527-4515-9c4c-5fa3bca107af</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[normalize-space()='ReshamPal']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(text(),'AutoTech')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

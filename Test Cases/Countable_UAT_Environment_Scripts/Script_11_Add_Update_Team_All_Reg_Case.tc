@@ -30,32 +30,45 @@
       <value></value>
       <variableId>bf1a685f-36f4-4b29-ae18-c81b8f56a197</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cef4fb35-a072-4725-b379-ea73d42a8dc3</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'suatreg291143@yopmail.com'</defaultValue>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
       <description></description>
       <id>9997a542-29db-4f07-b6a1-7e3a6af542dc</id>
       <masked>false</masked>
       <name>LoginEmail</name>
    </variable>
    <variable>
-      <defaultValue>'C:\\Users\\Admin\\Desktop\\UploadTeam_Data\\SalesInvoiceTemplate.csv'</defaultValue>
+      <defaultValue>GlobalVariable.Client_Upload_Onboarding</defaultValue>
       <description></description>
       <id>2c04c0e8-a5ea-441a-b33c-0ad343b950a1</id>
       <masked>false</masked>
       <name>IncorrectFormat</name>
    </variable>
    <variable>
-      <defaultValue>'C:\\Users\\Admin\\Desktop\\UploadTeam_Data\\CorrectData.csv'</defaultValue>
+      <defaultValue>GlobalVariable.CorrectTeam</defaultValue>
       <description></description>
       <id>80cbade0-c656-4511-bab3-52bb3e3c1ba6</id>
       <masked>false</masked>
       <name>CorrectDataFile</name>
    </variable>
    <variable>
-      <defaultValue>'tmservuatreg43103@yopmail.com'</defaultValue>
+      <defaultValue>'team11812@yopmail.com'</defaultValue>
       <description></description>
       <id>bf1a685f-36f4-4b29-ae18-c81b8f56a197</id>
       <masked>false</masked>
       <name>TeamMemberEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ExistingTeam</defaultValue>
+      <description></description>
+      <id>cef4fb35-a072-4725-b379-ea73d42a8dc3</id>
+      <masked>false</masked>
+      <name>ExistingTeam</name>
    </variable>
 </TestCaseEntity>

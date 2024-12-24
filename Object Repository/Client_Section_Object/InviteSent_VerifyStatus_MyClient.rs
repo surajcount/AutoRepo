@@ -6,15 +6,21 @@
    <elementGuidId>416caa82-890e-4f1f-aabd-281c9530e91d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/div[2]/app-client[1]/div[1]/div[1]/div[2]/div[2]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[5]/p[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/div[2]/app-client[1]/div[1]/div[1]/div[2]/div[2]/mat-tab-group[1]/div[1]/mat-tab-body[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[5]/p[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//tr[1]/td[6]/p</value>
+      <webElementGuid>2faf5176-2dc2-48af-ad2c-b9b0312f3fcb</webElementGuid>
+   </webElementXpaths>
 </WebElementEntity>

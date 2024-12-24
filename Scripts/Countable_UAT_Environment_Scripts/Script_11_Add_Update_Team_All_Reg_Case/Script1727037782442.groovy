@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 'This Script Covers addition and updating team member info for firm user.\r\nThis script have adding client through file upload flow where validation of \r\nduplicate/existing and incoorect file format has done.\r\nEnsure to have the respective data in corresponding uploaded file.\r\nUpdate the variable used for adding team member.'
-WebUI.navigateToUrl('https://uat.adinovis.com/login')
+WebUI.navigateToUrl(GlobalVariable.UAT)
 
 WebUI.findWebElement(findTestObject('Page_UAT (Countable)/EmailElement'), 0)
 
@@ -46,11 +46,11 @@ WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Choose Category_Obje
 
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Category_Partner_M'))
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/input_Field_First Name_M'), 'Surya')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/input_Field_First Name_M'), 'Narayan')
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/input_Last Name_M'), 'Rama')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/input_Last Name_M'), 'Singh')
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/input_Title_M'), 'Partner')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/input_Title_M'), 'Mr')
 
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/span_ng-arrow-AccessType'))
 
@@ -83,7 +83,9 @@ WebUI.uploadFile(findTestObject('AddTeam_AllRegression_Dashboard/Upload_inputdat
 
 WebUI.delay(3)
 
-WebUI.uploadFile(findTestObject('AddTeam_AllRegression_Dashboard/Upload_inputdata_file'), 'C:\\Users\\Admin\\Desktop\\UploadTeam_Data\\UploadTeam_DataExisting_Teamdata.csv')
+WebUI.click(findTestObject('Notes_Firm/Toast_Container'))
+
+WebUI.uploadFile(findTestObject('AddTeam_AllRegression_Dashboard/Upload_inputdata_file'), ExistingTeam)
 
 WebUI.verifyElementText(findTestObject('AddTeam_AllRegression_Dashboard/p_Email already exist. Please re-check the record information'), 
     'Email already exist. Please re-check the record information', FailureHandling.CONTINUE_ON_FAILURE)
@@ -98,11 +100,11 @@ WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/span_Confirm'))
 
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/DashBoard_Team_Icon'))
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Search Button_Team'), 'Sury')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Search Button_Team'), 'Narayan')
 
 WebUI.clearText(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Search Button_Team'))
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Search Button_Team'), 'manager')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Search Button_Team'), 'mrs')
 
 WebUI.clearText(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Search Button_Team'), FailureHandling.STOP_ON_FAILURE)
 
@@ -141,7 +143,7 @@ WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCa
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/DropDownArrow_BTN_Asgn_Partner'))
 
 WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Search_ListAssign_Partner_StaffTab'), 
-    'Sur')
+    'Har')
 
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Select_Partner_To_Assign'))
 

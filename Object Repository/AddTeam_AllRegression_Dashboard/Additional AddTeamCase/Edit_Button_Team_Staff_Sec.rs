@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,6 +22,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/div[2]/app-teammember[1]/div[1]/div[2]/div[2]/mat-tab-group[1]/div[1]/mat-tab-body[3]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[14]/div[1]/button[2]/span[2]/img[1]</value>
-      <webElementGuid>e95e2029-19c2-4f67-a7a2-935812005aa6</webElementGuid>
+      <webElementGuid>a01dc3df-2509-45a2-b0da-3b966ac84634</webElementGuid>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>(//img[@src='/assets/images/ui-uplift-icons/global/edit-pencile-Icon.svg'])[1]</value>
+      <webElementGuid>e942bac0-953f-408b-a92d-beb42300ae66</webElementGuid>
+   </webElementXpaths>
 </WebElementEntity>

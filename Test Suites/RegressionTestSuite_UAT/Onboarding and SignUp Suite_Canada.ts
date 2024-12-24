@@ -15,7 +15,7 @@
       <guid>44a32694-ce33-43c0-bd16-5b34e05d3732</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Countable_UAT_Environment_Scripts/Script1_SignUp-Countable_Canada</testCaseId>
+      <testCaseId>Test Cases/Countable_UAT_Environment_Scripts/Script1_SignUp-Countable_Canada_Done</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -29,12 +29,18 @@
          <value></value>
          <variableId>1d5504b2-b67f-45aa-8398-a1bc7ad865f4</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e066a8a4-ba71-4ed8-aa11-2c311a2cc2ec</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>4c46be7b-1cfc-4811-b5ae-8867576a8cad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Countable_UAT_Environment_Scripts/Script2_Onboarding_Client_Team_Firm_Canada_New</testCaseId>
+      <testCaseId>Test Cases/Countable_UAT_Environment_Scripts/Script2_Onboarding_Client_Team_Firm_Canada_Done</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -71,6 +77,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>69c22db4-f7cb-460f-9236-1da7d969890c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5a7b3113-92f6-4da9-8fba-f15e73629359</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

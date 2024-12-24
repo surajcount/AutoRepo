@@ -6,12 +6,11 @@
    <elementGuidId>d7c8a9e4-dfe0-440b-86aa-6b317000b4fc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[normalize-space()='T2 (Corporations)']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[normalize-space()='T2 (Corporations)']|//span[normalize-space()='1120S (S Corp)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

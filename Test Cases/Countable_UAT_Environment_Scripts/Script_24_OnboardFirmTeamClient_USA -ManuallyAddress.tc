@@ -24,25 +24,38 @@
       <value></value>
       <variableId>49cf9564-8e39-43c4-bc5b-bfac4cb691c4</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa7fdec5-70df-49f9-a59b-34d41d01d38a</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'ustech03@yopmail.com'</defaultValue>
+      <defaultValue>'ustech05@yopmail.com'</defaultValue>
       <description></description>
       <id>7d7cfaa1-a5ab-4362-ba82-0178abd15f1b</id>
       <masked>false</masked>
       <name>LoginEmail_USA</name>
    </variable>
    <variable>
-      <defaultValue>'ustechteam03@yopmail.com'</defaultValue>
+      <defaultValue>'ustechteam05@yopmail.com'</defaultValue>
       <description></description>
       <id>9e770771-01bc-4939-a27e-256de3f7dcdc</id>
       <masked>false</masked>
       <name>TeamMem_Email_USA</name>
    </variable>
    <variable>
-      <defaultValue>'ustechclient03@yopmail.com'</defaultValue>
+      <defaultValue>'ustechclient05@yopmail.com'</defaultValue>
       <description></description>
       <id>49cf9564-8e39-43c4-bc5b-bfac4cb691c4</id>
       <masked>false</masked>
       <name>ClientEmail_USA</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.USA_CorrectClient</defaultValue>
+      <description></description>
+      <id>aa7fdec5-70df-49f9-a59b-34d41d01d38a</id>
+      <masked>false</masked>
+      <name>clientData</name>
    </variable>
 </TestCaseEntity>

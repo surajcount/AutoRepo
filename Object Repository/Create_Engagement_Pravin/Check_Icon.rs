@@ -6,15 +6,21 @@
    <elementGuidId>970e8088-3b2c-447a-86d4-c2bbb60de16b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@title='done']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@title='done']|//button[@color='success']|//button[@color='secondary']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//button[@color='success']</value>
+      <webElementGuid>14c996fb-b7a8-4f78-8154-319696718f8c</webElementGuid>
+   </webElementXpaths>
 </WebElementEntity>

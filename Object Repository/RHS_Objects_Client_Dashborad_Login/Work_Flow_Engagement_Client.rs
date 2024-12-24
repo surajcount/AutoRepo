@@ -6,12 +6,11 @@
    <elementGuidId>fc7d120c-f28a-4656-a6e6-25795bafeb6c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[@title='Workflow']//span[1]|//span[normalize-space()='Workflow']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@title='Workflow']//span[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

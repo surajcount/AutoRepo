@@ -6,12 +6,11 @@
    <elementGuidId>f3d2e36b-0560-4f98-9b57-5ec0ab63f29d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//tr/td[1]/button)[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[starts-with(@title, 'COM')]//a</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

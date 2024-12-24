@@ -116,7 +116,7 @@ WebUI.click(findTestObject('Create Engagement_Objects/Review_TEMPLATE_Eng_Creati
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Create Engagement_Objects/Review_Template_RS_2400'))
+WebUI.click(findTestObject('Create Engagement_Objects/Review_Template'))
 
 WebUI.delay(4)
 

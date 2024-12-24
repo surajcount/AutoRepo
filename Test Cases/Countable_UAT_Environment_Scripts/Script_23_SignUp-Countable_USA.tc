@@ -32,14 +32,14 @@
       <name>UAT</name>
    </variable>
    <variable>
-      <defaultValue>'ustech03@yopmail.com'</defaultValue>
+      <defaultValue>'ustech05@yopmail.com'</defaultValue>
       <description></description>
       <id>440efe2a-32d6-47a9-af4d-49e619e694bd</id>
       <masked>false</masked>
       <name>emailSignup</name>
    </variable>
    <variable>
-      <defaultValue>'ustech03@yopmail.com'</defaultValue>
+      <defaultValue>'ustech05@yopmail.com'</defaultValue>
       <description></description>
       <id>e64a48a2-fed1-4841-bfcb-21a36e176d93</id>
       <masked>false</masked>

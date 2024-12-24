@@ -6,12 +6,11 @@
    <elementGuidId>15e5db99-c09c-4473-bffc-6f55e4160fba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h6[normalize-space()='SuryaCountable']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//h6[@class='ellipse no-marg name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

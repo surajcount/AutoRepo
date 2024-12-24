@@ -6,12 +6,11 @@
    <elementGuidId>1c4b2e4e-e1ea-47b5-855b-ec0e19bdd6ee</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody/tr[1]/td[14]/div[1]/button[1]/span[2]/img[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//img[@src='/assets/images/ui-uplift-icons/global/email-box-icon.svg'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

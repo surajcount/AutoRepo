@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 'This is Script is designed to Create Compolation/Review and Tax Engagement.\r\nPlease note as we are creating around 9 Engagement of all types in this script so,\r\nUser mush have Acelarate plan Purchased prior running this script completely. '
-WebUI.navigateToUrl('https://uat.adinovis.com/login')
+WebUI.navigateToUrl(UAT)
 
 WebUI.maximizeWindow()
 
@@ -110,7 +110,7 @@ WebUI.waitForElementPresent(findTestObject('Create Engagement_Objects/Review_TEM
 
 WebUI.click(findTestObject('Create Engagement_Objects/Review_TEMPLATE_Eng_Creation'))
 
-WebUI.click(findTestObject('Create Engagement_Objects/Review_Template_RS_2400'))
+WebUI.click(findTestObject('Create Engagement_Objects/Review_Template'))
 
 WebUI.delay(4)
 
@@ -264,7 +264,7 @@ WebUI.click(findTestObject('Create Engagement_Objects/Template_Selection_MSTR_LI
 
 WebUI.click(findTestObject('Create Engagement_Objects/Review_TEMPLATE_Eng_Creation'))
 
-WebUI.click(findTestObject('Create Engagement_Objects/Review_Template_RS_2400'))
+WebUI.click(findTestObject('Create Engagement_Objects/Review_Template'))
 
 WebUI.delay(4)
 
@@ -414,7 +414,7 @@ WebUI.click(findTestObject('Create Engagement_Objects/Firm_Teamplate_Create_Enga
 
 WebUI.click(findTestObject('Create Engagement_Objects/Firm_Template_Created_Review_Engagement'))
 
-WebUI.click(findTestObject('Create Engagement_Objects/Review_Template_RS_2400'))
+WebUI.click(findTestObject('Create Engagement_Objects/Review_Template'))
 
 WebUI.delay(4)
 

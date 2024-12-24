@@ -12,11 +12,24 @@
       <value></value>
       <variableId>39596b66-e749-4d40-9ee6-fb9b7815000e</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1162f105-5627-452a-8449-ebf966987cb5</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'suatreg291139@yopmail.com'</defaultValue>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
       <description></description>
       <id>39596b66-e749-4d40-9ee6-fb9b7815000e</id>
       <masked>false</masked>
       <name>EmailLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.UAT</defaultValue>
+      <description></description>
+      <id>1162f105-5627-452a-8449-ebf966987cb5</id>
+      <masked>false</masked>
+      <name>UAT</name>
    </variable>
 </TestCaseEntity>

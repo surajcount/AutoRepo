@@ -14,7 +14,7 @@
          <value>//span[normalize-space()='Invite All']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -23,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//span[normalize-space()='Invite All']</value>
-      <webElementGuid>5ecd6dbc-3941-4bf7-a367-4546666cf35d</webElementGuid>
+      <webElementGuid>de449850-0368-4110-ae49-eea3d3727b50</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

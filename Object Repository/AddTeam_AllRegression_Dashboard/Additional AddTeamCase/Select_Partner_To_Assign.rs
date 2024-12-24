@@ -22,6 +22,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//p[@title='Surya Agnihotry']</value>
-      <webElementGuid>6b15ae72-5730-4ebb-97cb-d1e94207eab4</webElementGuid>
+      <webElementGuid>6d06a045-1afe-4161-b82f-df9173dd7678</webElementGuid>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>(//div[@class='partner-view user-list-item'])[1]</value>
+      <webElementGuid>0dab3a3a-3a30-4a10-b515-7e6a1e8238da</webElementGuid>
+   </webElementXpaths>
 </WebElementEntity>

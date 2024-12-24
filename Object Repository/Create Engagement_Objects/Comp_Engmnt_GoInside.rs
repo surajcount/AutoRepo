@@ -6,12 +6,11 @@
    <elementGuidId>0a1a53e3-901f-4397-81c2-dfa136467a29</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='text-ellipse text-button mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base']//span[@class='mdc-button__label']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//p[@class='Progress badge badge-In badge-pills badge-small'][normalize-space()='In Progress'])[1]/parent::div/preceding-sibling::div[2]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

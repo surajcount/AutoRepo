@@ -15,7 +15,7 @@
       <guid>86c0a957-facd-4197-ae0e-19f076454b91</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Countable_UAT_Environment_Scripts/Script1_SignUp-Countable_Canada</testCaseId>
+      <testCaseId>Test Cases/Countable_UAT_Environment_Scripts/Script1_SignUp-Countable_Canada_Done</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>db3999fc-3012-49f1-9ffd-a6127e304134</id>
@@ -38,12 +38,18 @@
          <value>yopmail</value>
          <variableId>1d5504b2-b67f-45aa-8398-a1bc7ad865f4</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e066a8a4-ba71-4ed8-aa11-2c311a2cc2ec</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>fc39977a-b8ad-459c-ab0e-47d18fa15afd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Countable_UAT_Environment_Scripts/Script2_Onboarding_Client_Team_Firm_Canada_New</testCaseId>
+      <testCaseId>Test Cases/Countable_UAT_Environment_Scripts/Script2_Onboarding_Client_Team_Firm_Canada_Done</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6d53aa62-6d5c-4473-a105-2e5256ffd3f8</id>
@@ -89,6 +95,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>69c22db4-f7cb-460f-9236-1da7d969890c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5a7b3113-92f6-4da9-8fba-f15e73629359</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
