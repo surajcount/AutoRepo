@@ -108,8 +108,14 @@
       <value></value>
       <variableId>79476eea-8a81-4bb2-a1ec-ad895f1b3de8</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c226ffae-b706-4527-a3c5-ef52c2d93db7</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'suatreg291143@yopmail.com'</defaultValue>
+      <defaultValue>GlobalVariable.Email_Signup_Canada</defaultValue>
       <description></description>
       <id>0288f9c9-5a02-4988-9048-3f933b6259e8</id>
       <masked>false</masked>
@@ -226,5 +232,12 @@
       <id>79476eea-8a81-4bb2-a1ec-ad895f1b3de8</id>
       <masked>false</masked>
       <name>clsignoffdate</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.UAT</defaultValue>
+      <description></description>
+      <id>c226ffae-b706-4527-a3c5-ef52c2d93db7</id>
+      <masked>false</masked>
+      <name>UAT</name>
    </variable>
 </TestCaseEntity>

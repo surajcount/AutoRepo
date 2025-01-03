@@ -150,7 +150,7 @@ WebUI.verifyTextPresent('Engagement created successfully', false)
 
 WebUI.delay(5)
 
-WebUI.delay(150, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Create Engagement_Objects/Client_Section_Icon'), 60)
 
 WebUI.click(findTestObject('Create Engagement_Objects/Client_Section_Icon'))
 

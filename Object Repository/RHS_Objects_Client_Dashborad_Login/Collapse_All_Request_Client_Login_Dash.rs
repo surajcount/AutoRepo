@@ -6,12 +6,11 @@
    <elementGuidId>c3fc7d4f-6457-4f4a-9e0d-9344b7c62026</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//img[@title='Collapse All']|//i[@title='Collapse All']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@title='Collapse All']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

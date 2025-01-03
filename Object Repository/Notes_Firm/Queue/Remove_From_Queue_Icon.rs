@@ -6,11 +6,11 @@
    <elementGuidId>07d86232-3437-4e92-8750-e3e912da71f6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/remove-file-red.svg']|//button[@color='error']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@src='/assets/images/ui-uplift-icons/global/remove-file-red.svg']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

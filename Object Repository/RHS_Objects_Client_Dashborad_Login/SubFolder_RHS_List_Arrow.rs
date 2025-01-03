@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='ng-select-container']//span[@class='ng-arrow-wrapper']</value>
+         <value>//div[@class='ng-select-container']//span[@class='ng-arrow-wrapper']|//ng-select[@formcontrolname='subFolder']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

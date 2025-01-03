@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@title='Text Folder test']/following::img[1]</value>
+         <value>//span[@title='Text Folder test']/following::img[1]|//span[@title='Text Folder test']/following::button[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,11 +6,11 @@
    <elementGuidId>19f69be0-3fe7-4808-93a4-84bb1334db83</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//mat-option[3]//span[1]|//div[@role='listbox']/div/div[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-option[3]//span[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

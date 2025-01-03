@@ -6,12 +6,11 @@
    <elementGuidId>e60930b4-05db-4f84-aa1a-6f2bb30deb89</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/send-white.svg']|//button[@title='Send']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@src='/assets/images/ui-uplift-icons/global/send-white.svg']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

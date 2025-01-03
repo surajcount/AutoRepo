@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//img[@alt='Expand All']</value>
+         <value>//img[@alt='Expand All']|//button[@title='Expand All']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -39,6 +39,8 @@ WebUI.click(findTestObject('Page_UAT (Countable)/span_Login'))
 
 WebUI.maximizeWindow()
 
+WebUI.click(findTestObject('Page_Login/Close_Welcome_toaster'))
+
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Button_Onboard Your Firm Now'))
 
 WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_Address'), 'Taber')
@@ -220,6 +222,8 @@ WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Button_Add Cl
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Go to Step 4'))
 
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Button_Finish'))
+
+WebUI.delay(4)
 
 JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 

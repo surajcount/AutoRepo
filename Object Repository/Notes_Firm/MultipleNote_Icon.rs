@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//img[@src='/assets/images/ui-uplift-icons/global/add-file-white.svg']</value>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/add-file-white.svg']|//button[contains(@class,'mat-mdc-menu-trigger button-medium-icon mdc-button mat-mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary mat-mdc-button-base ng-star-inserted')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

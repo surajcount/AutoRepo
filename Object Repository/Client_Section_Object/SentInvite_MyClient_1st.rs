@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//img[@src='/assets/images/ui-uplift-icons/global/email-box-icon.svg'])[1]</value>
+         <value>(//img[@src='/assets/images/ui-uplift-icons/global/email-box-icon.svg'])[1]|(//button[@title='Invite'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

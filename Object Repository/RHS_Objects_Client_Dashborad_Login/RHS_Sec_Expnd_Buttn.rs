@@ -6,12 +6,11 @@
    <elementGuidId>2f80a8cd-870e-4b58-a758-910d96b31a15</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='transparent-btn toggle-btn']//i[@class='material-icons']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@class='transparent-btn toggle-btn']//i[@class='material-icons']|//button[@class='transparent-btn toggle-btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

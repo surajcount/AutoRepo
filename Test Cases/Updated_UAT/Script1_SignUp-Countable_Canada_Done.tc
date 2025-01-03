@@ -28,6 +28,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>bc20db55-3d5f-4f4a-8cc2-cc6dbb084b4f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>e147a976-14e8-4222-9b06-562c3ba7976e</variableId>
    </variableLinks>
    <variable>
@@ -50,6 +56,13 @@
       <id>17d335b1-a524-41e8-9dfe-7770f36de2d4</id>
       <masked>false</masked>
       <name>yopmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://qa2.adinovis.com/login'</defaultValue>
+      <description></description>
+      <id>bc20db55-3d5f-4f4a-8cc2-cc6dbb084b4f</id>
+      <masked>false</masked>
+      <name>QA</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.PROD</defaultValue>

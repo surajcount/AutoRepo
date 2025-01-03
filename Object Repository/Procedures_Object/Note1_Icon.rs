@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//img[@src='/assets/images/ui-uplift-icons/global/file-gray.svg'])[1]</value>
+         <value>(//img[@src='/assets/images/ui-uplift-icons/global/file-gray.svg'])[1]|(//button[@title='Note'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

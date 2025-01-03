@@ -6,11 +6,11 @@
    <elementGuidId>f7b1fac9-1eb2-4d58-a043-77f9d76a19cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@role='option']//span[contains(text(),'Compilation report')]|//div[@role='option']//span[contains(text(),'Compilation Report')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@role='option']//span[contains(text(),'Compilation report')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

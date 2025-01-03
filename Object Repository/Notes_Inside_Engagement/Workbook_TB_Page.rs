@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//img[@src='/assets/images/ui-uplift-icons/global/workbook-gray.svg']</value>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/workbook-gray.svg']|(//button[@title='Workbook'])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

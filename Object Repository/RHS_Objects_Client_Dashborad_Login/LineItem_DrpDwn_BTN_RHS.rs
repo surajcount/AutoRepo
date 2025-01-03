@@ -6,12 +6,11 @@
    <elementGuidId>669929b2-d122-48a4-8f9f-bbdc4b1042b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-tab-body/div/app-document-hub-request/div/form[@autocomplete='off']/mat-form-field[@floatlabel='always']/div/div/div/mat-select[@placeholder='Select Line item']/div/div[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//mat-tab-body/div/app-document-hub-request/div/form[@autocomplete='off']/mat-form-field[@floatlabel='always']/div/div/div/mat-select[@placeholder='Select Line item']/div/div[1]|//ng-select[@formcontrolname='issueOn']|//ng-select[@formcontrolname='commentOn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

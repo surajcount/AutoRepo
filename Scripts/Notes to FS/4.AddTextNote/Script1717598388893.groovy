@@ -31,15 +31,19 @@ WebUI.setText(findTestObject('Notes_Firm/FolderName'), 'Text Folder test')
 
 WebUI.click(findTestObject('Notes_Firm/ConfirmFolderName'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Notes_Firm/Kebab/Kebab_Text_Folder'))
 
 WebUI.click(findTestObject('Notes_Firm/Create_Note'))
 
 WebUI.setText(findTestObject('Notes_Firm/Note_Name'), 'Text note')
 
+WebUI.click(findTestObject('Notes_Firm/Add_Note'))
+
 WebUI.click(findTestObject('Notes_Firm/Toast_Container'))
 
-WebUI.click(findTestObject('Notes_Firm/Add_Note'))
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Notes_Firm/Add_Type'))
 

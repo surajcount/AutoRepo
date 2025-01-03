@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type='file']</value>
+         <value>//input[@type='file']|//img[@src='/assets/images/ui-uplift-icons/global/attach-file-gray.svg']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

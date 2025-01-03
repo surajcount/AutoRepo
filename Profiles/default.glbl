@@ -31,22 +31,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'tech11@yopmail.com'</initValue>
+      <initValue>'qateam03@yopmail.com'</initValue>
       <name>Email_Signup_Canada</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'tech11@yopmail.com'</initValue>
+      <initValue>'qateam03@yopmail.com'</initValue>
       <name>Onboard_Login_Canada</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'techteam11@yopmail.com'</initValue>
+      <initValue>'qatechteam03@yopmail.com'</initValue>
       <name>Onboard_Team_Can</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'techclient11@yopmail.com'</initValue>
+      <initValue>'qaclient03@yopmail.com'</initValue>
       <name>Onboard_Client_Can</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

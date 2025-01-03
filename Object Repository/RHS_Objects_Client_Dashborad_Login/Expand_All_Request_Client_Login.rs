@@ -6,12 +6,11 @@
    <elementGuidId>70ca4ffe-dc70-4c3a-94a5-4c59fcaf0ab8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//img[@title='Expand All']|//i[@title='Expand All']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@title='Expand All']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

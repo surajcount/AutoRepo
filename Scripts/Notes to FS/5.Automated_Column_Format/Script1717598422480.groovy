@@ -32,6 +32,8 @@ WebUI.setText(findTestObject('Notes_Firm/FolderName'), 'Table Variations')
 
 WebUI.click(findTestObject('Notes_Firm/ConfirmFolderName'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Notes_Firm/Kebab/KebabOfFolder'))
 
 WebUI.click(findTestObject('Notes_Firm/Create_Note'))
@@ -39,6 +41,8 @@ WebUI.click(findTestObject('Notes_Firm/Create_Note'))
 WebUI.setText(findTestObject('Notes_Firm/Note_Name'), 'Automated Column')
 
 WebUI.click(findTestObject('Notes_Firm/Add_Note'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Notes_Firm/Add_Type'))
 
@@ -161,6 +165,8 @@ WebUI.click(findTestObject('Notes_Firm/Format/Apply_on_popup'))
 WebUI.verifyTextPresent('Column(s) updated successfully', false)
 
 WebUI.click(findTestObject('Notes_Firm/Toast_Container'))
+
+WebUI.delay(3)
 
 WebUI.mouseOver(findTestObject('Notes_Firm/Table_Header'))
 

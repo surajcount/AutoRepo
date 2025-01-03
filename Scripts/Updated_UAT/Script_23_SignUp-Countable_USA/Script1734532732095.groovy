@@ -26,7 +26,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(UAT)
+WebUI.navigateToUrl(QA2)
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/a_Sign Up'))
 
@@ -112,9 +112,9 @@ WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Counta
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/span_Dashboard_toster_crossbutton'))
+WebUI.click(findTestObject('Page_Login/Close_Welcome_toaster'))
 
-WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/div_SA'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Page_Login/User_profile'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/span_Log out'))
 

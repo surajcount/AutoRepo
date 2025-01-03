@@ -1,48 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Script6_Inside_Eng_RHS_All</name>
+   <name>Script6_Inside_Eng_RHS_Requests - Tax</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b2cdf411-881a-4fc8-9e61-5b7d82f22e3a</testCaseGuid>
+   <testCaseGuid>afc83db8-4875-4ecd-a382-9221b8d213a8</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>77eac8c9-92fa-4581-825b-2cbc4bbaea08</variableId>
+      <variableId>e44c7ca1-cc62-4a18-b515-6d5506f27fff</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d0b5cf36-4534-4908-9cfb-9d5e88873a4d</variableId>
+      <variableId>ea029d81-dece-429a-b0f3-0456501600c9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e3029d35-78ef-42bd-9a6e-eff65ae2f1b4</variableId>
+      <variableId>d95e7312-ac81-4466-aa99-0de1eb7f2646</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c5e73b1-274b-4a45-9a19-4da33fb2b8db</variableId>
    </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
       <description></description>
-      <id>77eac8c9-92fa-4581-825b-2cbc4bbaea08</id>
+      <id>e44c7ca1-cc62-4a18-b515-6d5506f27fff</id>
       <masked>false</masked>
       <name>EmailLogin</name>
    </variable>
    <variable>
-      <defaultValue>'automationtbcsv@yopmail.com'</defaultValue>
+      <defaultValue>'automationnotes@yopmail.com\r\n'</defaultValue>
       <description></description>
-      <id>d0b5cf36-4534-4908-9cfb-9d5e88873a4d</id>
+      <id>ea029d81-dece-429a-b0f3-0456501600c9</id>
       <masked>false</masked>
       <name>EmailClientLogin</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.UAT</defaultValue>
       <description></description>
-      <id>e3029d35-78ef-42bd-9a6e-eff65ae2f1b4</id>
+      <id>d95e7312-ac81-4466-aa99-0de1eb7f2646</id>
       <masked>false</masked>
       <name>UAT</name>
+   </variable>
+   <variable>
+      <defaultValue>'T2'</defaultValue>
+      <description></description>
+      <id>7c5e73b1-274b-4a45-9a19-4da33fb2b8db</id>
+      <masked>false</masked>
+      <name>Search_Eng_Type</name>
    </variable>
 </TestCaseEntity>

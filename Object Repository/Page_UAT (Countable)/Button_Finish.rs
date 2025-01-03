@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='cdk-step-content-0-3']/div/div/div[3]/button[2]/span[2]</value>
+         <value>//div[@id='cdk-step-content-0-3']/div/div/div[3]/button[2]/span[2]|//span[normalize-space()='Finish']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f76e5302-1967-45ee-89c7-7b3e404cb1f5</webElementGuid>
+      <webElementGuid>0fa71785-ca3e-46ce-a514-26eae9c0b840</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mdc-button__label</value>
-      <webElementGuid>7627e589-870d-4104-a161-d8a8717ec1bb</webElementGuid>
+      <webElementGuid>ec12657f-4d3a-47f7-93b7-3bc9a360abaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Finish </value>
-      <webElementGuid>91168b23-9e70-4724-90f3-27c1f42f77c4</webElementGuid>
+      <webElementGuid>60f5f2eb-7cc6-4fe7-9716-05ab0b383dbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-step-content-0-3&quot;)/div[@class=&quot;stepper-body-main gap-24 cust-size ng-star-inserted&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-footer button-group&quot;]/button[@class=&quot;button-medium mdc-button mat-mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary mat-mdc-button-base&quot;]/span[@class=&quot;mdc-button__label&quot;]</value>
-      <webElementGuid>ebbf2776-5b01-429d-a6ec-123af62b455f</webElementGuid>
+      <webElementGuid>1bb0ff16-0d91-4e16-b770-5ea96fd17a3d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-step-content-0-3']/div/div/div[3]/button[2]/span[2]</value>
-      <webElementGuid>bba7efea-c0e6-47b6-93a7-514aa86840cb</webElementGuid>
+      <webElementGuid>09c04643-dc09-4e54-a855-58e2c3cb1432</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[3]/following::span[4]</value>
-      <webElementGuid>7fb3a02d-8a45-4390-bf6f-9b53c90b6aaa</webElementGuid>
+      <webElementGuid>97e416e0-cd26-4a83-b7fb-6afdd050bfd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='teamreg1114@yopmail.com'])[2]/following::span[6]</value>
-      <webElementGuid>21283ab9-0501-49b7-b733-07685b70f182</webElementGuid>
+      <webElementGuid>82711f95-5d75-4422-afae-917e15f91089</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Finish']/parent::*</value>
-      <webElementGuid>e7e9c81b-cd5e-447a-a710-4e6ab87182ab</webElementGuid>
+      <webElementGuid>41d5435b-bd40-4c94-a759-4308a39e944b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div[3]/button[2]/span[2]</value>
-      <webElementGuid>9b5f5390-4e8d-4de4-bf85-6dfa6f790440</webElementGuid>
+      <webElementGuid>0a5d8594-da45-4eb9-95a5-fabe38f24409</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Finish ' or . = ' Finish ')]</value>
-      <webElementGuid>ad180236-df78-4bad-a910-e9cf65a40168</webElementGuid>
+      <webElementGuid>f192280c-c28c-49b9-b8fd-d0e8dfe6d451</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>f2b4b0d0-9474-4300-92a1-672fc2e856ff</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@src='/assets/images/ui-uplift-icons/global/down-arrow-white.svg']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/down-arrow-white.svg']|//span[contains(text(),'Add Client')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,6 +22,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//img[@src='/assets/images/ui-uplift-icons/global/down-arrow-white.svg']</value>
-      <webElementGuid>539da5bb-c379-4640-ae06-261833dc872a</webElementGuid>
+      <webElementGuid>d93fde4b-fd39-4077-8cbf-b484161462a3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

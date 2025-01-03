@@ -29,6 +29,8 @@ WebUI.verifyTextNotPresent('No categories created yet', false)
 
 WebUI.click(findTestObject('Notes_Firm/span_PSP_Katalon_1'))
 
+WebUI.mouseOver(findTestObject('Notes_Firm/PPE_Note'))
+
 WebUI.click(findTestObject('Notes_Firm/Kebab/PPE_Kebab'))
 
 WebUI.click(findTestObject('Notes_Firm/Queue/Remove_From_Queue'))

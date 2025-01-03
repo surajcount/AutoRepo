@@ -6,12 +6,11 @@
    <elementGuidId>3faab304-2f0b-4b0b-a394-b446b351a6b9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@role='option']//div//div//input[@type='checkbox']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@role='option']//div//div//input[@type='checkbox']|(//div/div/div/div/span[@class='check-box'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

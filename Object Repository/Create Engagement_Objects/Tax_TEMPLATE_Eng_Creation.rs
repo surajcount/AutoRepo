@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-panel-title[@title='Tax']//img[@alt='Toogle']</value>
+         <value>//mat-panel-title[@title='Tax']//img[@alt='Toogle']|//span[contains(text(),'Tax')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

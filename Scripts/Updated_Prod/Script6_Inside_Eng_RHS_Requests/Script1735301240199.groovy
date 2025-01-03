@@ -26,7 +26,7 @@ import org.openqa.selenium.By as By
 'This script covers the features of RHS section and entire flow of RHS.\r\nSend request and send in batch.\r\nIt also covers the client flow of request resolution. Validation on Count colour and Text size.\r\nPrequisite:\r\nEnsure to use the corresponding login of firm and client email variable as given \r\nwhile onboarding script.\r\nLoginEmail_CANADA\r\nClientEmail_CANADA\r\n\r\n'
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(UAT)
+WebUI.navigateToUrl(PROD)
 
 WebUI.maximizeWindow()
 
@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Create Engagement_Objects/Dashboard_Button'))
 
 WebUI.waitForElementPresent(findTestObject('Create Engagement_Objects/SearchBox_Dashboard'), 0)
 
-WebUI.setText(findTestObject('Create Engagement_Objects/SearchBox_Dashboard'), 'COM')
+WebUI.setText(findTestObject('Create Engagement_Objects/SearchBox_Dashboard'), Search_Eng_Type)
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -98,7 +98,7 @@ WebUI.waitForElementClickable(findTestObject('RHS_Objects_Client_Dashborad_Login
 
 WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Line_Item_List_Intendend_Use_Value'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Priority_DocReq_RHS_CLIOnbrd'))
 
@@ -138,6 +138,30 @@ WebUI.scrollToElement(findTestObject('RHS_Objects_Client_Dashborad_Login/Send_Re
 
 WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Send_Doc_Req_BTN'))
 
+WebUI.delay(3)
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Select_Engagement_Folder'))
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Client_Onbrding_Folder_RHS'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Choose_engagement_folder_requests'))
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Independence_Folder'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('There are no requests to show up', false)
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Choose_engagement_folder_requests'))
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Sub_Folder_CLI_Acpt_RHS'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextNotPresent('There are no requests to show up', false)
+
 WebUI.delay(2)
 
 JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
@@ -148,7 +172,7 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.delay(1)
 
-WebUI.navigateToUrl(UAT)
+WebUI.navigateToUrl(PROD)
 
 WebUI.setText(findTestObject('Page_UAT (Countable)/EmailElement'), EmailClientLogin)
 
@@ -224,6 +248,14 @@ WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Expand_CA_List_Re
 
 WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/View_Doc_Request_CA_Client_Login'))
 
+WebUI.uploadFile(findTestObject('RHS_Objects_Client_Dashborad_Login/Doc_Req_File_Upld'), 'C:\\Users\\Admin\\Desktop\\Upload_Functions_Test\\Client_Reply\\adj entry prod.doc')
+
+WebUI.uploadFile(findTestObject('RHS_Objects_Client_Dashborad_Login/Doc_Req_File_Upld'), 'C:\\Users\\Admin\\Desktop\\Upload_Functions_Test\\Client_Reply\\Adjusting Entries (20).csv')
+
+WebUI.uploadFile(findTestObject('RHS_Objects_Client_Dashborad_Login/Doc_Req_File_Upld'), 'C:\\Users\\Admin\\Desktop\\Upload_Functions_Test\\Client_Reply\\Trial Balance Grouping (89).xlsx')
+
+WebUI.uploadFile(findTestObject('RHS_Objects_Client_Dashborad_Login/Doc_Req_File_Upld'), 'C:\\Users\\Admin\\Desktop\\Upload_Functions_Test\\Client_Reply\\Time Zone Test.pdf')
+
 //WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Download_Request_Doc_Client_Dash'))
 //
 //WebUI.delay(5)
@@ -246,7 +278,7 @@ WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/View_Doc_Request_
 //    10)
 //
 //WebUI.delay(3)
-WebUI.setText(findTestObject('RHS_Objects_Client_Dashborad_Login/Reply_to_Request_CA'), 'Request Resolved Succefully')
+WebUI.setText(findTestObject('RHS_Objects_Client_Dashborad_Login/Reply_to_Request_CA'), 'Request Resolved Successfully')
 
 WebUI.delay(1)
 
@@ -260,7 +292,7 @@ WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.UAT)
+WebUI.navigateToUrl(PROD)
 
 WebUI.maximizeWindow()
 
@@ -278,7 +310,7 @@ WebUI.click(findTestObject('Create Engagement_Objects/Dashboard_Button'))
 
 WebUI.waitForElementPresent(findTestObject('Create Engagement_Objects/SearchBox_Dashboard'), 0)
 
-WebUI.setText(findTestObject('Create Engagement_Objects/SearchBox_Dashboard'), 'COM')
+WebUI.setText(findTestObject('Create Engagement_Objects/SearchBox_Dashboard'), Search_Eng_Type)
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -289,6 +321,38 @@ WebUI.delay(5)
 WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/RHS_Sec_Expnd_Buttn'))
 
 WebUI.delay(4)
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/All_Request_Section_RHS'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Expand_ClientAcceptance_Request'))
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/View_Doc_Request_FirmSide'))
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/DocumentKebab_Menu'))
+
+WebUI.click(findTestObject('Client_All_RegressionCase/Download_Doc_From_Repo'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/DocumentKebab_Menu'))
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Approve_Document'))
+
+WebUI.verifyTextPresent('Document has been approved', false)
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Resolve_Request'))
+
+WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/InviteAll_Yes_Button'))
+
+WebUI.verifyTextPresent('Request resolve successfully', false)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Back_Arrow_to_request'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/New_Request_RHS_Documents'))
 
@@ -541,6 +605,22 @@ WebUI.delay(3)
 WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Send_All_Batch_Req_Button'))
 
 WebUI.delay(3)
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Available_Section_RHS'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/All_Request_Section_RHS'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/1st_Request_Kebab_AllRequestTab'))
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Delete_Request'))
+
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Delete_Request_Popup'))
+
+WebUI.verifyTextPresent('Successfully deleted all requests', false)
 
 WebUI.closeBrowser()
 

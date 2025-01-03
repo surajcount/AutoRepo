@@ -96,14 +96,14 @@
       <name>Client_Memb_yopMail</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.Entity_Name</defaultValue>
+      <defaultValue>GlobalVariable.Client_Entity_Name</defaultValue>
       <description></description>
       <id>262579cb-878e-461d-936a-65670aa7965a</id>
       <masked>false</masked>
       <name>EntityName</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.Canada_Client_Upload</defaultValue>
+      <defaultValue>GlobalVariable.Client_Upload_Onboarding</defaultValue>
       <description></description>
       <id>24f9162b-2ebe-4e2e-9750-d4eef7d63e6e</id>
       <masked>false</masked>

@@ -24,6 +24,12 @@
       <value></value>
       <variableId>6dea6f3f-249a-46cd-a870-ea0932545cf2</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7b12982a-2536-42de-a7cc-a2723a84829d</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.UAT</defaultValue>
       <description></description>
@@ -44,5 +50,12 @@
       <id>6dea6f3f-249a-46cd-a870-ea0932545cf2</id>
       <masked>false</masked>
       <name>yopmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://qa2.adinovis.com/login'</defaultValue>
+      <description></description>
+      <id>7b12982a-2536-42de-a7cc-a2723a84829d</id>
+      <masked>false</masked>
+      <name>QA2</name>
    </variable>
 </TestCaseEntity>

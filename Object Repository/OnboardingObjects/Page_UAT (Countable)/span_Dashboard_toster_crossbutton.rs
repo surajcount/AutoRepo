@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div[class='toast-message d-flex flex-column flex-wrap gap-6'] span[class='mat-mdc-button-touch-target']</value>
+         <value>div[class='toast-message d-flex flex-column flex-wrap gap-6'] span[class='mat-mdc-button-touch-target']|//button[contains(@class,'close')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>eb029752-3cff-44c8-9b56-db23d3aa4095</webElementGuid>
+      <webElementGuid>f353fa51-5bb4-4e0e-aee9-8081e0b1a150</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-mdc-button-touch-target</value>
-      <webElementGuid>9f290bbd-c813-447c-a6f7-7f12922fa7a4</webElementGuid>
+      <webElementGuid>b6eade18-f6fb-4045-a484-25152d51ecb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dasboard-container layout-dashboard drawer-small&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;dashboard-main dashboard-page&quot;]/app-teammembersdashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;page-title-block&quot;]/div[@class=&quot;title-right ng-star-inserted&quot;]/div[@class=&quot;toast-container toast-top-right&quot;]/div[@class=&quot;ngx-toastr toast-primary&quot;]/div[@class=&quot;toast-message d-flex flex-column flex-wrap gap-6&quot;]/button[@class=&quot;close mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
-      <webElementGuid>3b162f60-fae8-4d7b-8791-02907956d9bb</webElementGuid>
+      <webElementGuid>6ead450f-f616-45ea-b546-3b30d6a152b9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,6 +47,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//body/app-root/app-dashboard/div/div/div/app-teammembersdashboard/div/div/div/div/div/button[2]/span[1]</value>
-      <webElementGuid>012cc846-e51f-470f-937b-03e901563836</webElementGuid>
+      <webElementGuid>ba68745a-d805-4bd4-a75e-1cc48653cc4c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

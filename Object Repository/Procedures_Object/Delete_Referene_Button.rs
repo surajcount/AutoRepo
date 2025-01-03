@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='list-item-content cursor-default']//img[@alt='icon']</value>
+         <value>//div[@class='list-item-content cursor-default']//img[@alt='icon']|//button[@class='button-text mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base']//i[@class='fa-regular fa-trash-can text-error']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,6 @@
       <matchCondition>equals</matchCondition>
       <type>Main</type>
       <value>//img[@src='/assets/images/ui-uplift-icons/global/trash-04.svg']</value>
-      <webElementGuid>9db9d0e1-661b-449a-85c3-39b412128406</webElementGuid>
+      <webElementGuid>7b1ee073-9fc7-4dd4-a3e8-b88c3d2b8429</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

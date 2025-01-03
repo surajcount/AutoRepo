@@ -4,5 +4,6 @@
    <name>Add_Single_To_Queue_Firm</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>356563cf-7d7a-45d5-b186-ae4c449cd6c2</testCaseGuid>
 </TestCaseEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>e939a376-cd33-4ea0-8c2e-8a913308a98b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@title='Bold']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@title='Bold']//img[@alt='icon']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

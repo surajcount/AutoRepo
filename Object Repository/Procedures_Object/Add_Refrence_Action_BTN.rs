@@ -6,12 +6,11 @@
    <elementGuidId>569332b8-9a6a-4e3f-9d95-cb3aa09e6ea7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/div[2]/ntr-dashboard[1]/div[1]/div[3]/procedures[1]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[10]/div[1]/button[1]/span[2]/img[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/div[2]/ntr-dashboard[1]/div[1]/div[3]/procedures[1]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[10]/div[1]/button[1]/span[2]/img[1]|(//td[10]/div/button[1])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,11 @@
    <elementGuidId>da554a39-99f0-45c3-b58e-c4d25fce047d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@title='Assets']//img[@alt='Toogle']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@title='Assets']//img[@alt='Toogle']|//div[@title='Assets']//span[@class='togglable-icon']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

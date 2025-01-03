@@ -6,12 +6,11 @@
    <elementGuidId>ef7704ee-8887-4b29-aa87-c41c040eb938</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//img[@alt='copy']|//button[@title='Copy to firm templates']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@alt='copy']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,11 @@
    <elementGuidId>3a8511ee-3553-4e34-ab1c-dcecc4422d95</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@title='All']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[@title='All']|//div[@title='All']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

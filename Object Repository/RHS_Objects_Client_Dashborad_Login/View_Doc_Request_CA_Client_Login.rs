@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-tab-body/div/div/mat-accordion[@multi='true']/mat-expansion-panel/div[@role='region']/div/mat-list[@role='list']/mat-list-item[@role='listitem']/span/span/div[1]|(//div[@role='region'])[1]</value>
+         <value>//mat-tab-body/div/div/mat-accordion[@multi='true']/mat-expansion-panel/div[@role='region']/div/mat-list[@role='list']/mat-list-item[@role='listitem']/span/span/div[1]|(//div[@role='region'])[1]|(//li[@class='right-drawer-list-item ng-star-inserted'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

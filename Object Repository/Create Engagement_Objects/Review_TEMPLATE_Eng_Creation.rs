@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-panel-title[@title='Review']//img[@alt='Toogle']</value>
+         <value>//mat-panel-title[@title='Review']//img[@alt='Toogle']|//span[@class='item-title'][normalize-space()='Review']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
