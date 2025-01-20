@@ -6,12 +6,11 @@
    <elementGuidId>fcc8ad00-69bd-4c75-bf2f-f54ef889cd39</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//img[@src='/assets/images/ui-uplift-icons/global/kebab-menu-icon.svg'])[2]|(//i[@class='fas fa-ellipsis-vertical'])[last()]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//img[@src='/assets/images/ui-uplift-icons/global/kebab-menu-icon.svg'])[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

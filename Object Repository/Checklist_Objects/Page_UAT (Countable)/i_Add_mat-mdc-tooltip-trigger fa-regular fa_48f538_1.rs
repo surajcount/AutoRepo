@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Add_mat-mdc-tooltip-trigger fa-regular fa_48f538_1</name>
+   <tag></tag>
+   <elementGuidId>0dd76002-a784-4d5c-b4b8-7b559ca4b516</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.mat-mdc-tooltip-trigger.fa-regular.fa-message-question.blue-icons</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>1df6b710-957b-47c3-bde6-184371ba3b4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>mattooltip</name>
+      <type>Main</type>
+      <value>Add a question</value>
+      <webElementGuid>644a2b57-c115-467a-b9d6-9cea313b8246</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-tooltip-trigger fa-regular fa-message-question blue-icons</value>
+      <webElementGuid>8c569c6b-1cd1-4d29-8be5-1e18d2561cc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>cdk-describedby-message-ng-1-18</value>
+      <webElementGuid>da110b61-6538-4cff-8a44-053941ef634c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cdk-describedby-host</name>
+      <type>Main</type>
+      <value>ng-1</value>
+      <webElementGuid>49e40467-af9d-4afe-953e-955b0f09834d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dasboard-container layout-dashboard drawer-small&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;dashboard-main&quot;]/app-templates-dashboard[@class=&quot;ng-star-inserted&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container countable-drawer templates mat-drawer-container-has-open&quot;]/mat-drawer-content[@class=&quot;mat-drawer-content overflow-hidden&quot;]/div[@class=&quot;contant-block-main flex-1 h-100 overflow-x-auto templates-content dashboard-main bg-white p-0 gap-0&quot;]/app-firm-planning[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;checklist-client-planning px-24 bg-gray-50&quot;]/div[@class=&quot;checklist-client-planning-body&quot;]/div[@class=&quot;checklist-client-planning-footer1 mt-20 ng-star-inserted&quot;]/div[@class=&quot;rounded-social-buttons&quot;]/a[@class=&quot;social-button&quot;]/i[@class=&quot;mat-mdc-tooltip-trigger fa-regular fa-message-question blue-icons&quot;]</value>
+      <webElementGuid>9bc9777a-8749-4a45-afef-1cca419251c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/i</value>
+      <webElementGuid>07da8111-1d92-4ffc-974f-8c347a8de42e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

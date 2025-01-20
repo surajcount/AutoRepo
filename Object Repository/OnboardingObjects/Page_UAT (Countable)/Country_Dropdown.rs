@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Country_Dropdown</name>
+   <tag></tag>
+   <elementGuidId>bd44a416-d7d2-45e5-a17b-88eb6933d843</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-select[@id='mat-select-0']/div/div[2]|//mat-select[@panelclass='countryDropdown']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-mdc-select-arrow-wrapper.ng-tns-c2400438669-4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b7061f52-d7c0-4e65-ba1f-6d635239c0c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-select-arrow-wrapper ng-tns-c2400438669-4</value>
+      <webElementGuid>b43d6afd-1c00-47df-ada8-47dbfcfa19f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-select-0&quot;)/div[@class=&quot;mat-mdc-select-trigger ng-tns-c2400438669-4&quot;]/div[@class=&quot;mat-mdc-select-arrow-wrapper ng-tns-c2400438669-4&quot;]</value>
+      <webElementGuid>13177a12-057f-4f90-a35d-bd34111b98f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-select[@id='mat-select-0']/div/div[2]</value>
+      <webElementGuid>083a99e3-3095-4404-b292-f31d56347199</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a country'])[2]/following::div[1]</value>
+      <webElementGuid>a819f34b-25c7-41b8-a1ca-c6bb54d5c835</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a country'])[1]/following::div[3]</value>
+      <webElementGuid>5235fe8d-99f6-440f-b030-4f811eb357ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[1]/preceding::div[7]</value>
+      <webElementGuid>21c8e58c-2d5d-4d84-a726-d9729903c5f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/preceding::div[15]</value>
+      <webElementGuid>8c5778ec-2b07-4e56-9f6a-cf640f9c2935</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-select/div/div[2]</value>
+      <webElementGuid>55973af3-292b-48d6-93b5-ec0d10da714a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

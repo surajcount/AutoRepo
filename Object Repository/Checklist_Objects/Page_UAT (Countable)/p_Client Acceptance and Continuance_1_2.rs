@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Client Acceptance and Continuance_1_2</name>
+   <tag></tag>
+   <elementGuidId>79136fb2-385d-4dd7-afe1-0545415b872e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cdk-accordion-child-519 > div.mat-expansion-panel-body > mat-list.mat-mdc-list.mat-mdc-list-base.mdc-list.templates-list-items.ng-star-inserted > mat-list-item.mat-mdc-list-item.mdc-list-item.listitem.mat-mdc-list-item-single-line.mdc-list-item--with-one-line.ng-star-inserted > span.mdc-list-item__content > span.mat-mdc-list-item-unscoped-content.mdc-list-item__primary-text > div.list-item-content > p.item-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-accordion-child-519']/div/mat-list/mat-list-item/span/span/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f3878105-b613-419a-8de3-e619b243fa8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-title</value>
+      <webElementGuid>7480657c-c4fd-4aab-a38d-6db0863d1d53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Client Acceptance and Continuance</value>
+      <webElementGuid>bbd9e35d-ca4d-4fea-b2d7-c0237f56f2ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-519&quot;)/div[@class=&quot;mat-expansion-panel-body&quot;]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list templates-list-items ng-star-inserted&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item listitem mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted&quot;]/span[@class=&quot;mdc-list-item__content&quot;]/span[@class=&quot;mat-mdc-list-item-unscoped-content mdc-list-item__primary-text&quot;]/div[@class=&quot;list-item-content&quot;]/p[@class=&quot;item-title&quot;]</value>
+      <webElementGuid>5aacd0b1-f352-4114-a0e7-64f86099449b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-519']/div/mat-list/mat-list-item/span/span/div/p</value>
+      <webElementGuid>9729758e-8ee1-457c-9e9c-b9e97dd78990</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PravinTest 0701 (5 checklists)'])[1]/following::p[1]</value>
+      <webElementGuid>4026b113-9f7c-4897-90e3-c4779c8913a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New_Cheklist (1 checklists)'])[1]/following::p[2]</value>
+      <webElementGuid>25d77619-193d-4c75-8c2d-dee93a9efad0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-accordion[20]/mat-expansion-panel/div/div/div/mat-list/mat-list-item/span/span/div/p</value>
+      <webElementGuid>9182d360-664a-45eb-ae43-695e149705a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Client Acceptance and Continuance' or . = 'Client Acceptance and Continuance')]</value>
+      <webElementGuid>b123b338-f982-4701-87a4-fcb4b28fe753</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

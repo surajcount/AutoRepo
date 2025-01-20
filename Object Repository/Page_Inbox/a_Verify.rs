@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Verify')]</value>
+         <value>//a[contains(text(),'Verify')]|//button[normalize-space()='Set Password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b221414e-4a22-444c-9e16-17fcae9cd2b3</webElementGuid>
+      <webElementGuid>14f8f5e4-a603-464b-b5d4-7771381f22b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://uat.adinovis.com/setpassword?token=N2M2OTNiOTItMGQ4NS00N2IxLTljNmUtNWJmNWJhMWRjMTQ2</value>
-      <webElementGuid>b896fdd4-4eb9-4412-a585-83a6a4350fe6</webElementGuid>
+      <webElementGuid>f8f1495f-5e41-4e76-bd21-bfd20bd089f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
       <type>Main</type>
       <value>Verify
                                     Email</value>
-      <webElementGuid>3d0f6fce-d4f4-473c-ac5f-c6f2b9e79beb</webElementGuid>
+      <webElementGuid>2d71d76b-9d89-4d49-9fdd-e8f830ed6c55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mail&quot;)/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/a[1]</value>
-      <webElementGuid>2e25389f-ae17-4231-9931-babcdb9032a8</webElementGuid>
+      <webElementGuid>d17357ec-d652-449f-aeb8-48ec1527cd23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Page_Inbox/iframe_Undo_ifmail</value>
-      <webElementGuid>27baf8e3-7c31-4dbc-81ed-48a5f5b7977a</webElementGuid>
+      <webElementGuid>9ab72c77-55a1-4701-a1d1-f85c27bb8b63</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[contains(text(),'Verify')]</value>
-      <webElementGuid>b8580a9c-6cc4-49bb-b339-b6615d738e8b</webElementGuid>
+      <webElementGuid>0d7718d3-5c3e-49d8-bc1e-139ba0e4db8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <type>Main</type>
       <value>//a[contains(text(),'Verify
                                     Email')]</value>
-      <webElementGuid>d5104a64-bf18-4683-b734-ee546fe9bf7c</webElementGuid>
+      <webElementGuid>4917fa91-2627-4d60-adc5-a10c2373bb1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://uat.adinovis.com/setpassword?token=N2M2OTNiOTItMGQ4NS00N2IxLTljNmUtNWJmNWJhMWRjMTQ2')]</value>
-      <webElementGuid>1733c86e-8403-4784-81a5-a86c262b5208</webElementGuid>
+      <webElementGuid>596d2191-1a82-4721-9164-60fc60197b78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
-      <webElementGuid>627e7e95-5ca5-43c5-912d-f0b3666215ad</webElementGuid>
+      <webElementGuid>12e0e490-2a9d-4962-badb-e64cc2855c66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,6 @@
       <value>//a[@href = 'https://uat.adinovis.com/setpassword?token=N2M2OTNiOTItMGQ4NS00N2IxLTljNmUtNWJmNWJhMWRjMTQ2' and (text() = 'Verify
                                     Email' or . = 'Verify
                                     Email')]</value>
-      <webElementGuid>dcc7a519-5a7e-4bf7-969c-d3a623100ac1</webElementGuid>
+      <webElementGuid>0e75d1dd-c80d-46e0-ae2e-125caaa03242</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

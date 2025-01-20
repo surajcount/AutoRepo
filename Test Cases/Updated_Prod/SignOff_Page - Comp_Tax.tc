@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignOff_Page - Comp_Tax</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aaed3a8a-22ea-445f-8de7-4f41301fd93e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>215a9216-9622-4db4-bf3b-09697136b772</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>188d9eec-c873-44b1-8039-c09b17925288</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6bd4596b-c36b-4412-9b93-95ea4456c755</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.EmailLogin_PROD</defaultValue>
+      <description></description>
+      <id>215a9216-9622-4db4-bf3b-09697136b772</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PROD</defaultValue>
+      <description></description>
+      <id>188d9eec-c873-44b1-8039-c09b17925288</id>
+      <masked>false</masked>
+      <name>PROD</name>
+   </variable>
+   <variable>
+      <defaultValue>'com'</defaultValue>
+      <description></description>
+      <id>6bd4596b-c36b-4412-9b93-95ea4456c755</id>
+      <masked>false</masked>
+      <name>SearchEntity_Type</name>
+   </variable>
+</TestCaseEntity>

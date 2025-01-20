@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='d-flex flex-column gap-8']//span[contains(text(),'Subtotal:')]/following-sibling::span</value>
+         <value>//div[@class='d-flex flex-column gap-8']//span[contains(text(),'Subtotal:')]/following-sibling::span|(//div[contains(@class,'d-flex')]/span[contains(.,'Subtotal:')]/following-sibling::span)[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

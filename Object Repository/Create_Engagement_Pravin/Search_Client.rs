@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@aria-expanded='true']//input[@type='text']</value>
+         <value>//div[@aria-expanded='true']//input[@type='text']|(//input[@type='text'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

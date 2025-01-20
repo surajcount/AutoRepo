@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(UAT)
+WebUI.navigateToUrl(PROD)
 
-WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email_mat-input-0'), UATUSER)
+WebUI.setText(findTestObject('Object Repository/LoginPage/User_Email'), PRODLogin)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Password_mat-input-1'), '0yu2BuhvF5H+L+Dr3iRPjA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/User_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
 
 WebUI.click(findTestObject('Object Repository/LoginPage/LoginButton'))
 

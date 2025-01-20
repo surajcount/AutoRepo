@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Script_34_Checklist (Master , firm and inside engagement)_1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5dc675a0-e63f-4e8d-b898-5585a9e72143</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>261ca20e-3588-49a9-9c46-27c3af7762b9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
+      <description></description>
+      <id>261ca20e-3588-49a9-9c46-27c3af7762b9</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+</TestCaseEntity>

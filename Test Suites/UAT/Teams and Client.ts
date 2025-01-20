@@ -15,7 +15,7 @@
       <guid>a65764fc-abf2-43b8-9373-f8f98329a300</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Updated_UAT/Script_11_Add_Update_Team_All_Reg_Case - RoughWork</testCaseId>
+      <testCaseId>Test Cases/Updated_UAT/Script_11_Add_Update_Team_All_Reg_Case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

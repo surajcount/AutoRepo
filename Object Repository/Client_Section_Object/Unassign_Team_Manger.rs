@@ -6,12 +6,11 @@
    <elementGuidId>bd6f37ac-0d8c-4d12-9a7f-85306a76094f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[normalize-space()='Unassign']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[@class='button-label'][normalize-space()='Unassign']|//span[normalize-space()='Unassign']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

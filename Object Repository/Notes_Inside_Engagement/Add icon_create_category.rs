@@ -6,12 +6,11 @@
    <elementGuidId>ee34d803-5d77-4278-b401-986ccd5dbeeb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/plus-gray.svg']|//i[@class='fa-solid fa-plus']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@src='/assets/images/ui-uplift-icons/global/plus-gray.svg']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -66,6 +66,12 @@
       <value></value>
       <variableId>88480371-838c-4a1f-b01d-909b6d4f13eb</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ca26ff7-dbd7-4ee5-9233-aceeea168984</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.Onboard_Login_Canada</defaultValue>
       <description></description>
@@ -88,7 +94,7 @@
       <name>ClientEmail_CANADA</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.Onboard_Team_Can</defaultValue>
+      <defaultValue>GlobalVariable.Team_CSV</defaultValue>
       <description></description>
       <id>5f0d779a-d19e-4b56-a07a-1c62e7b3d8d8</id>
       <masked>false</masked>
@@ -135,5 +141,12 @@
       <id>88480371-838c-4a1f-b01d-909b6d4f13eb</id>
       <masked>false</masked>
       <name>UAT</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Team_CSV</defaultValue>
+      <description></description>
+      <id>0ca26ff7-dbd7-4ee5-9233-aceeea168984</id>
+      <masked>false</masked>
+      <name>CSV_Team_Member</name>
    </variable>
 </TestCaseEntity>

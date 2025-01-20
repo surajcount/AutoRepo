@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Checklists_fa-regular fa-circle-xmark</name>
+   <tag></tag>
+   <elementGuidId>efa457cd-5ec2-4494-876d-9de3e1e64045</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa-regular.fa-circle-xmark</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='cdk-drop-list-0']/tbody/tr/td[3]/div/button/span[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>d28f7d9f-256b-43ce-bb66-0fd6d781a056</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa-regular fa-circle-xmark</value>
+      <webElementGuid>e6a9e631-a333-4386-bf8e-0fb579895159</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-drop-list-0&quot;)/tbody[@class=&quot;mdc-data-table__content ng-star-inserted&quot;]/tr[@class=&quot;mat-mdc-row mdc-data-table__row cdk-row cdk-drag ng-star-inserted&quot;]/td[@class=&quot;mat-mdc-cell mdc-data-table__cell cdk-cell mtemplate-cell overflow-auto cdk-column-mappedTemplate mat-column-mappedTemplate ng-star-inserted&quot;]/div[@class=&quot;mapped-temp-edit flexbox-row flex-nowrap align-items-center w-100 gap-0&quot;]/button[@class=&quot;button-text mr-1 hover-action-item py-10 mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mdc-button__label&quot;]/i[@class=&quot;fa-regular fa-circle-xmark&quot;]</value>
+      <webElementGuid>44d1b2dd-b1a2-4dd4-8224-424a2b4d57e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='cdk-drop-list-0']/tbody/tr/td[3]/div/button/span[2]/i</value>
+      <webElementGuid>e6ff165b-8e77-4f7a-a198-7e0b6801439e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div/button/span[2]/i</value>
+      <webElementGuid>c0f43196-bc83-45e6-b6cc-d4859f9bb1b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

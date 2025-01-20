@@ -206,7 +206,7 @@ WebUI.click(findTestObject('Client_Section_Object/Save_Button_Edit_Client'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Client_Section_Object/Tab_All Clients'))
+WebUI.click(findTestObject('Client_Section_Object/Tab_My_Clients'))
 
 WebUI.click(findTestObject('Client_Section_Object/Assign_Team_Manager_Drp_Down_Img'))
 
@@ -317,6 +317,8 @@ WebUI.click(findTestObject('Notes_Firm/Toast_Container'))
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Client_All_RegressionCase/Expand_Folder_Repository'))
+
+WebUI.mouseOver(findTestObject('Client_All_RegressionCase/Docs_Repository'))
 
 WebUI.click(findTestObject('Client_All_RegressionCase/Kebab_1st_Document'))
 

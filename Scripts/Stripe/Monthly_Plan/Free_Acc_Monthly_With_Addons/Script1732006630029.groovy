@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
@@ -18,6 +19,8 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login_TC/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -93,7 +96,7 @@ System.out.print(PlanC)
 if (PlanCharges == PlanC) {
     System.out.print('Test Passed : Plan charges calculated correctly ')
 } else {
-    System.out.print('Test Failed : Plan charges calculated incorrectly ')
+    KeywordUtil.markFailed('Test Failed : Plan charges calculated incorrectly')
 }
 
 String CF = WebUI.getText(findTestObject('Stripe/Countable_Flex_Charge'))
@@ -168,7 +171,7 @@ System.out.print('Total New plan charges= ' + TotalNewPlan)
 if (Total == TotalNewPlan) {
     System.out.print('Test Passed :Total is correct ')
 } else {
-    System.out.print('Test Failed :Total is incorrect ')
+    KeywordUtil.markFailed('Test Failed : Total calculated incorrectly')
 }
 
 //WebUI.click(findTestObject('Stripe/Select_Payment_Frequency'))
@@ -287,6 +290,8 @@ if (Tax_RHS == Tax_RHS_Checkout) {
 } else {
     System.out.print(((('Test Failed :Tax not matching- Actual Tax is : ' + Tax_RHS) + ' But its showing ') + Tax_RHS_Checkout) + 
         ' on checkout page')
+
+    KeywordUtil.markFailed('Test Failed : Tax calculated incorrectly')
 }
 
 //Total_RHS
@@ -307,7 +312,7 @@ System.out.print(Total_RHS_Check)
 if (Total_RHS == Total_RHS_Check) {
     System.out.print('Test Passed: Total Verified')
 } else {
-    System.out.print('Test Failed')
+    KeywordUtil.markFailed('Test Failed : Total calculated incorrectly')
 }
 
 double AmountDueNowCheck = Total_RHS_Check
@@ -331,6 +336,8 @@ if (AmountDueNowCheck == Amount_Due_Now_On_Payment_Page) {
 } else {
     System.out.print(((((('Test Failed: Amount MisMatched ' + 'Amount Due now on Checkout page=') + AmountDueNowCheck) + 
         ' ') + 'Amount due now on payment page=') + Amount_Due_Now_On_Payment_Page) + ' ')
+
+    KeywordUtil.markFailed('Test Failed ')
 }
 
 WebUI.switchToFrame(findTestObject('Stripe/Secure_Payment_Frame'), 5)
@@ -345,5 +352,7 @@ WebUI.setText(findTestObject('Stripe/CVV_Code'), '123')
 
 WebUI.delay(5)
 
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ESCAPE))
+WebUI.delay(3)
 WebUI.click(findTestObject('Stripe/Pay_Now'))
 

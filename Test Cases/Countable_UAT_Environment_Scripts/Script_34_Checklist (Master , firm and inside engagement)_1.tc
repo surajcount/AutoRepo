@@ -13,7 +13,7 @@
       <variableId>9a0eca11-b70f-4c01-a25e-34906be75ad9</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'suatreg291138@yopmail.com'</defaultValue>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
       <description></description>
       <id>9a0eca11-b70f-4c01-a25e-34906be75ad9</id>
       <masked>false</masked>

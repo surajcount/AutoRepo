@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Replace</name>
+   <tag></tag>
+   <elementGuidId>938d4d3e-a69c-4224-a276-54c006af4305</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.button-medium.mdc-button.mat-mdc-button.mdc-button--outlined.mat-mdc-outlined-button.mat-dark.mat-mdc-button-base.ng-star-inserted.cdk-focused.cdk-mouse-focused > span.mdc-button__label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::span[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0e217031-9ab8-4593-a67a-ee1350d686e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdc-button__label</value>
+      <webElementGuid>2418307f-3f7e-40f1-9ab6-ffb4b09ee037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Replace</value>
+      <webElementGuid>7f882d2d-b68a-436b-921d-8c8cbfdeaf3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dasboard-container layout-dashboard drawer-small&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;dashboard-main&quot;]/ntr-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ntr-panel d-flex w-100 h-100 ntr-Left-side-menu-enabled ntr-right-panel-desabled signOff-disabled&quot;]/div[@class=&quot;page-wraper bg-white overflow-hidden flex-1&quot;]/client-acceptance[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column h-100 w-100 overflow-hidden&quot;]/div[@class=&quot;page-title-block pt-1 bg-white&quot;]/div[@class=&quot;title-block-right button-group justify-content-start justify-content-lg-end&quot;]/button[@class=&quot;button-medium mdc-button mat-mdc-button mdc-button--outlined mat-mdc-outlined-button mat-dark mat-mdc-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mdc-button__label&quot;]</value>
+      <webElementGuid>03de4fcc-4caf-470e-b5eb-5633fdd8b946</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::span[4]</value>
+      <webElementGuid>320dfe61-a757-4cd5-8d45-f6fb5d60702b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client acceptance and continuance'])[2]/following::span[6]</value>
+      <webElementGuid>d9a7af45-9ecb-4977-83f9-e55daa1a08b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::span[5]</value>
+      <webElementGuid>37f20283-5588-4f11-8bc6-b3e67f52deeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Objective'])[1]/preceding::span[9]</value>
+      <webElementGuid>5afed4a7-e7a7-4dec-9b59-8b991d52b739</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Replace']/parent::*</value>
+      <webElementGuid>7ce4281c-ecdf-46a1-bce9-f48a8bc1cdb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button[2]/span[2]</value>
+      <webElementGuid>11789101-c596-4a59-b939-80b79d4d489b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Replace' or . = 'Replace')]</value>
+      <webElementGuid>da8a08bf-f090-483b-9e9e-2df943a808d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

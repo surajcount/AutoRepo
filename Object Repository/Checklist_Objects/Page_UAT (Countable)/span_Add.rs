@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Add</name>
+   <tag></tag>
+   <elementGuidId>8e548951-7a58-447c-99d5-5348ba42bb21</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mdc-button.mat-mdc-button.mdc-button--outlined.mat-mdc-outlined-button.mat-dark.mat-mdc-button-base.cdk-focused.cdk-mouse-focused > span.mdc-button__label > span.flexbox-row.gap-8 > span.button-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='check_box'])[1]/following::span[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9c0acd6a-561c-4eeb-ad6d-64a3968010d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-label</value>
+      <webElementGuid>c893a8f6-8e6c-4986-91f8-dd6865c067ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add</value>
+      <webElementGuid>f9ae3ea2-7628-436f-b403-c5ddaeaa68c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dasboard-container layout-dashboard drawer-small&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;dashboard-main&quot;]/app-templates-dashboard[@class=&quot;ng-star-inserted&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container countable-drawer templates mat-drawer-container-has-open&quot;]/mat-drawer-content[@class=&quot;mat-drawer-content overflow-hidden&quot;]/div[@class=&quot;contant-block-main flex-1 h-100 overflow-x-auto templates-content dashboard-main bg-white p-0 gap-0&quot;]/app-firm-planning[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;checklist-client-planning px-24 bg-gray-50&quot;]/div[@class=&quot;checklist-client-planning-body&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;card mt-20 checklist-client-planning-ques ng-star-inserted&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column gap-8&quot;]/div[@class=&quot;pb-20&quot;]/button[@class=&quot;mdc-button mat-mdc-button mdc-button--outlined mat-mdc-outlined-button mat-dark mat-mdc-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mdc-button__label&quot;]/span[@class=&quot;flexbox-row gap-8&quot;]/span[@class=&quot;button-label&quot;]</value>
+      <webElementGuid>1b743fda-55ea-4d7b-8a91-4473ed3f4224</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='check_box'])[1]/following::span[6]</value>
+      <webElementGuid>402364dd-601f-4991-bb23-0c8dc89a288f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a follow-up question'])[1]/preceding::span[4]</value>
+      <webElementGuid>cb802919-a924-4da5-ad9e-69627e727d2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='notes'])[1]/preceding::span[4]</value>
+      <webElementGuid>29645cfd-01ee-42a7-9f9d-ed3196c7ca6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add']/parent::*</value>
+      <webElementGuid>36f33999-f4ad-4a8f-a4fb-24ba4ca779d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/button/span[2]/span/span</value>
+      <webElementGuid>b70db3ca-dc23-4e6d-aec2-23ba9fc0b65a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Add' or . = 'Add')]</value>
+      <webElementGuid>a2b310a6-0144-4380-98bf-2c25ec79bfd0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

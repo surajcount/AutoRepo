@@ -6,12 +6,11 @@
    <elementGuidId>4e64de80-2744-4272-ae2e-9d1304d9638f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/transh-Icon.svg']|//span[@class='button-label']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@src='/assets/images/ui-uplift-icons/global/transh-Icon.svg']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

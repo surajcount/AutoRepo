@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Access_Checkboxes</name>
+   <tag></tag>
+   <elementGuidId>14c6edc2-6a13-4636-bfbb-a211884b0f9d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/p[contains(text(),'${permissionName}')]/following-sibling::mat-checkbox</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div/p[contains(text(),'${permissionName}')]/following-sibling::mat-checkbox</value>
+      <webElementGuid>569a942e-578f-4344-a6dd-2a6807ce0845</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//mat-checkbox[contains(@class,'mat-mdc-checkbox-checked')]</value>
+      <webElementGuid>8437aefa-70f4-4b28-bfe8-2f70f3f40b9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//mat-checkbox/div/div</value>
+      <webElementGuid>97e7991b-7cd2-4256-88cf-686ea079a22c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div/p[contains(text(),'Edit firm information')]/following-sibling::mat-checkbox[contains(@class,'mat-mdc-checkbox-checked')]</value>
+      <webElementGuid>c26c4df0-87b7-4590-93fc-784147db697a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div/p[contains(text(),'${permissionName}')]/following::mat-checkbox</value>
+      <webElementGuid>a5bbeb9f-9c08-4b4c-b280-33fb66689bf2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

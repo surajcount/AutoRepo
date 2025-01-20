@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_create a new folder</name>
+   <tag></tag>
+   <elementGuidId>b5af1ac6-3391-4996-828f-0c63423b1ee4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-mdc-dialog-0']/div/div/form/div/div[3]/h6/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>11de4ba1-51a5-4c22-a4dc-194b0738df4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-link</value>
+      <webElementGuid>7c74db8b-13e9-4302-bd70-13388cf5f1d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> create a new folder </value>
+      <webElementGuid>bfdad939-3865-476f-ba87-e454f64eeaec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-mdc-dialog-0&quot;)/div[@class=&quot;mat-mdc-dialog-inner-container mdc-dialog__container&quot;]/div[@class=&quot;mat-mdc-dialog-surface mdc-dialog__surface&quot;]/form[@class=&quot;ng-star-inserted ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;countable-dialog&quot;]/div[@class=&quot;mat-mdc-dialog-actions mdc-dialog__actions dialog-footer flex-column gap-8&quot;]/h6[@class=&quot;text-center ng-star-inserted&quot;]/span[@class=&quot;text-link&quot;]</value>
+      <webElementGuid>f06cd9a7-6ddb-44d7-ba20-8db6a3edbe3f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-mdc-dialog-0']/div/div/form/div/div[3]/h6/span</value>
+      <webElementGuid>d8eadc08-69e4-40cc-b063-bb03609c16cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[1]/following::span[3]</value>
+      <webElementGuid>220e265e-aa94-4cd9-9a1c-ad87d63a3404</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='create a new folder']/parent::*</value>
+      <webElementGuid>a49d5a1a-0e86-4050-bdec-1e05a0a1d675</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h6/span</value>
+      <webElementGuid>de33a612-e2e6-458c-b698-aacdf3bba110</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' create a new folder ' or . = ' create a new folder ')]</value>
+      <webElementGuid>880df49d-fafc-48a4-b51b-4dae767d1656</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -10,12 +10,12 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[5]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.button-medium.mdc-button.mat-mdc-button.mdc-button--unelevated.mat-mdc-unelevated-button.mat-primary.mat-mdc-button-base > span.mdc-button__label</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = ' Add ' or . = ' Add ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button-medium.mdc-button.mat-mdc-button.mdc-button--unelevated.mat-mdc-unelevated-button.mat-primary.mat-mdc-button-base > span.mdc-button__label|//span[normalize-space()='Add']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>60ee20d4-f186-441f-aafa-e46788e87bae</webElementGuid>
+      <webElementGuid>a7c24d61-52af-4e8e-88d8-495016994785</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mdc-button__label</value>
-      <webElementGuid>2ef2afd4-4f77-4d61-93a3-98fefb415877</webElementGuid>
+      <webElementGuid>afbd55a1-b7a9-4ec6-95ae-7e0173c96dce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Add </value>
-      <webElementGuid>4199c29b-121a-4f78-82d9-7c98c9142889</webElementGuid>
+      <webElementGuid>463f670b-9943-42ef-8004-18bf21a23085</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dasboard-container layout-dashboard drawer-small&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;dashboard-main&quot;]/app-add-team-member[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column w-100 h-100 overflow-hidden ng-star-inserted&quot;]/div[@class=&quot;page-title-block&quot;]/div[@class=&quot;title-block-right button-group&quot;]/button[@class=&quot;button-medium mdc-button mat-mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary mat-mdc-button-base&quot;]/span[@class=&quot;mdc-button__label&quot;]</value>
-      <webElementGuid>1b109201-7617-47fd-8652-29225a20f731</webElementGuid>
+      <webElementGuid>2e6fc442-aec7-4c97-8443-439f0f21d446</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[5]</value>
-      <webElementGuid>4ec0502d-c0a4-4535-b815-afe244956b9f</webElementGuid>
+      <webElementGuid>7c5ce2f4-9643-47ab-80d7-ac8c5cce4471</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Member'])[1]/following::span[7]</value>
-      <webElementGuid>b8094f12-e8da-4bfe-92a6-7762fb6e2632</webElementGuid>
+      <webElementGuid>23e288cb-dd72-4b64-8631-4c1a13375401</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic Details'])[1]/preceding::span[4]</value>
-      <webElementGuid>0fb6fa26-70fb-4210-941d-c69b16e3c673</webElementGuid>
+      <webElementGuid>8cf43f78-808c-4cf8-babb-b5b4ba85c964</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Category'])[1]/preceding::span[4]</value>
-      <webElementGuid>1bf9b57e-1c1d-49dd-9260-c092d66ba1b1</webElementGuid>
+      <webElementGuid>bf1302c2-1e41-4dc0-a746-4bd3e891e0df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Add']/parent::*</value>
-      <webElementGuid>fe88e0f1-3cb2-4a5c-ac6e-84dba4936c43</webElementGuid>
+      <webElementGuid>24ea43c7-d67f-4f8d-87cf-ea47ca45ec62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/span[2]</value>
-      <webElementGuid>ede15040-2215-4e78-80f9-e38aa7573350</webElementGuid>
+      <webElementGuid>6abfbaa3-7f35-4755-a8e5-7da3817de727</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Add ' or . = ' Add ')]</value>
-      <webElementGuid>0a39d042-5dd8-4667-ae5c-746d2aded76f</webElementGuid>
+      <webElementGuid>7d55a9ed-b108-4830-82b4-71857f7383f3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

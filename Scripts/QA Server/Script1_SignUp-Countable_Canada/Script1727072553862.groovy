@@ -30,25 +30,25 @@ WebUI.navigateToUrl('https://qa1.adinovis.com/')
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/a_Sign Up'))
 
-WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/div_Select a country_mat-mdc-select-arrow-w_aaa692'))
+WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Country_Dropdown'))
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/mat-option_Canada'))
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_First Name_mat-input-2'), 'Atin')
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/First Name'), 'Atin')
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Last Name_mat-input-3'), 'Countable')
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Last Name'), 'Countable')
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Firm Name_mat-input-4'), 'Atin Qunatum Limited')
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Firm_Name'), 'Atin Qunatum Limited')
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Firm size (No. of users)_mat-input-5'), 
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Firm size (No. of users)'), 
     '10')
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_E-mail_mat-input-6'), emailSignup)
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/E-mail'), emailSignup)
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Phone number_mat-input-7'), 
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Phone number'), 
     '(123) 456-7890')
 
-WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/span_How did you hear about us_ng-arrow-wrapper'), 
+WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/How_did_you_hear_about'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
@@ -61,11 +61,11 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_UAT (Countable)/SelectXero_Dev_Partner'))
 
-WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Please Specify_mat-mdc-checkbox-2-input'))
+WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Please Specify_checkbox'))
 
-WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/div_Create your accountSelect a countryCana_3007f5'))
+WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Create your accountSelect a countryCan'))
 
-WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/span_Sign Up Now_mat-mdc-button-touch-target'))
+WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Sign_Up_Now'))
 
 JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 

@@ -6,12 +6,11 @@
    <elementGuidId>5881a419-093c-4bac-96b4-6aa5358d34a2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//td[@title='Unassigned']//img[@alt='Icon']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[@title='Unassigned']//img[@alt='Icon']|(//td[11]/button/span/span[contains(text(),'Unassigned')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

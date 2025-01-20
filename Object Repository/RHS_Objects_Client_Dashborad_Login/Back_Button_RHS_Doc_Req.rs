@@ -6,12 +6,11 @@
    <elementGuidId>c7855cfd-632d-4254-8fa9-f92d7716eea4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@src='/assets/images/ui-uplift-icons/global/back-arrow-gray.svg']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/back-arrow-gray.svg']|//span[normalize-space()='Cancel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -4,22 +4,24 @@
    <name>img_Icon_TeamAddtion_Option_BTN</name>
    <tag></tag>
    <elementGuidId>3835f208-a859-400a-a042-c970c9504d60</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//img[@alt='icon']</value>
+         <value>//img[@alt='icon']|//span[contains(text(),'Add Team')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/assets/images/ui-uplift-icons/global/down-arrow-white.svg' and @alt = 'icon']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>img[alt=&quot;icon&quot;]</value>
       </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +30,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>62e15621-cafa-48f6-a15f-0507a03195f9</webElementGuid>
+      <webElementGuid>fcc49027-b5d6-4d2e-99f5-f0d7bd0be3a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +38,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/assets/images/ui-uplift-icons/global/down-arrow-white.svg</value>
-      <webElementGuid>6973c809-195c-435e-b7c0-ce58885fcc81</webElementGuid>
+      <webElementGuid>bc9fff35-7a04-40c2-85ce-a4ed9080d8f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +46,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>icon</value>
-      <webElementGuid>85eb0aa6-3dea-4bcd-96f3-d06205ce8012</webElementGuid>
+      <webElementGuid>68c171bd-94b3-4622-87e5-7f64a8850ffd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dasboard-container layout-dashboard drawer-small&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;dashboard-main&quot;]/app-teammember[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;page-wraper&quot;]/div[@class=&quot;page-title-block&quot;]/div[@class=&quot;float-right&quot;]/button[@class=&quot;mat-mdc-menu-trigger button-medium mdc-button mat-mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary mat-mdc-button-base&quot;]/span[@class=&quot;mdc-button__label&quot;]/img[1]</value>
-      <webElementGuid>4317cd68-406c-437c-b601-14eed7aa77b3</webElementGuid>
+      <webElementGuid>8759f4e6-642f-4b09-b27b-054aa03cf188</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,7 +62,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='icon']</value>
-      <webElementGuid>33c96e94-793f-4eff-a641-8093b9142677</webElementGuid>
+      <webElementGuid>a675ac4e-594e-4068-b4e7-4a525140d046</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/img</value>
-      <webElementGuid>97048c00-275d-4d8e-8072-11d9f64b437d</webElementGuid>
+      <webElementGuid>563973e8-f7f1-468a-a50c-b9ed86e5b6f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/assets/images/ui-uplift-icons/global/down-arrow-white.svg' and @alt = 'icon']</value>
-      <webElementGuid>5ae26b01-6bea-4dd8-9d9f-deab3472a87e</webElementGuid>
+      <webElementGuid>419242ad-3ac6-4537-8b64-38a04d699db9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

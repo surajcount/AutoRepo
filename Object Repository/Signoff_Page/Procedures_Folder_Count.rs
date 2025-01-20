@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Procedures_Folder_Count</name>
+   <tag></tag>
+   <elementGuidId>a605e7eb-4012-49e7-9dbd-c17d36710eb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-expansion-panel[contains(@class,\'procedures-main\')]/div/div/mat-expansion-panel|//mat-expansion-panel[contains(@class,\'procedures-main\')]/div/div/div/mat-expansion-panel</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

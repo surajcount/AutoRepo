@@ -5,70 +5,57 @@
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>99195e86-97c4-44c1-8150-b78201bd4f50</testCaseGuid>
+   <testCaseGuid>80695a61-d314-4fe7-ba3d-7197bd2eade0</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6c81694c-b0ac-495e-8fb4-023a7a9c5881</variableId>
+      <variableId>e6f8dc40-6335-497f-86a2-afe78b7a517f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>edb3dad8-57b8-4844-ade6-85a81569e396</variableId>
+      <variableId>9a540d67-1175-4b18-a8e8-9dbd2fdea922</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ee00977d-c399-46f5-9beb-bdf79acf1db4</variableId>
+      <variableId>35cc924e-ea12-4eec-8a63-48ab5fd6f598</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b8eaaf76-e1da-4741-b8cc-bd729feec0d4</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>45f2fb1e-4087-4241-af75-06fd2916ecac</variableId>
+      <variableId>da6ee61a-82bc-414c-8a18-1bbb71079396</variableId>
    </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.EmailLogin_PROD</defaultValue>
       <description></description>
-      <id>6c81694c-b0ac-495e-8fb4-023a7a9c5881</id>
+      <id>e6f8dc40-6335-497f-86a2-afe78b7a517f</id>
       <masked>false</masked>
       <name>EmailLogin</name>
    </variable>
    <variable>
-      <defaultValue>'automationnotesv31@yopmail.com'</defaultValue>
+      <defaultValue>'client33v@yopmail.com'</defaultValue>
       <description></description>
-      <id>edb3dad8-57b8-4844-ade6-85a81569e396</id>
+      <id>9a540d67-1175-4b18-a8e8-9dbd2fdea922</id>
       <masked>false</masked>
       <name>EmailClientLogin</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.UAT</defaultValue>
-      <description></description>
-      <id>ee00977d-c399-46f5-9beb-bdf79acf1db4</id>
-      <masked>false</masked>
-      <name>UAT</name>
-   </variable>
-   <variable>
-      <defaultValue>'Com'</defaultValue>
-      <description></description>
-      <id>b8eaaf76-e1da-4741-b8cc-bd729feec0d4</id>
-      <masked>false</masked>
-      <name>Search_Eng_Type</name>
-   </variable>
-   <variable>
       <defaultValue>GlobalVariable.PROD</defaultValue>
       <description></description>
-      <id>45f2fb1e-4087-4241-af75-06fd2916ecac</id>
+      <id>35cc924e-ea12-4eec-8a63-48ab5fd6f598</id>
       <masked>false</masked>
       <name>PROD</name>
+   </variable>
+   <variable>
+      <defaultValue>'com'</defaultValue>
+      <description></description>
+      <id>da6ee61a-82bc-414c-8a18-1bbb71079396</id>
+      <masked>false</masked>
+      <name>Search_Eng_Type</name>
    </variable>
 </TestCaseEntity>

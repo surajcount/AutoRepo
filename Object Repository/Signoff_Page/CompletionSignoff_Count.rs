@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CompletionSignoff_Count</name>
+   <tag></tag>
+   <elementGuidId>6b690ba2-5067-41b1-9596-3aeca852f947</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-expansion-panel[contains(@class,\'completion-signoff\')]/div/div/mat-expansion-panel|//mat-expansion-panel[contains(@class,\'completion-signoff\')]/div/div/div/mat-expansion-panel</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

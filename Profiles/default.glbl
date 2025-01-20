@@ -31,22 +31,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'qateam03@yopmail.com'</initValue>
+      <initValue>'uatteam03@yopmail.com'</initValue>
       <name>Email_Signup_Canada</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'qateam03@yopmail.com'</initValue>
+      <initValue>'uatteam03@yopmail.com'</initValue>
       <name>Onboard_Login_Canada</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'qatechteam03@yopmail.com'</initValue>
+      <initValue>'uatteammember03@yopmail.com'</initValue>
       <name>Onboard_Team_Can</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'qaclient03@yopmail.com'</initValue>
+      <initValue>'uatclient03@yopmail.com'</initValue>
       <name>Onboard_Client_Can</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'canadaannual01@yopmail.com'</initValue>
+      <initValue>'countableqa@yopmail.com'</initValue>
       <name>EmailLogin_PROD</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -66,7 +66,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'AutoTestMultiple'</initValue>
+      <initValue>'Auto UAT Client 03'</initValue>
       <name>Client_Entity_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\Admin\\Desktop\\Upload_Functions_Test\\AccountClientImport_v2 (8).csv'</initValue>
+      <initValue>'C:\\Users\\Admin\\Desktop\\Upload_Functions_Test\\Onboard_Client_Canada.csv'</initValue>
       <name>Client_Upload_Onboarding</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -86,7 +86,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\Admin\\Desktop\\Upload_Functions_Test\\AccountClientImport (6).csv'</initValue>
+      <initValue>'C:\\Users\\Admin\\Desktop\\Upload_Functions_Test\\Existing_client_canada.csv'</initValue>
       <name>Canada_AlreadyExists_Client</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -131,27 +131,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\Admin\\Desktop\\Upload_Functions_Test\\Onboard_Team.csv'</initValue>
+      <initValue>'C:\\Users\\Admin\\Desktop\\Upload_Functions_Test\\Onboard_Team_Canada.csv'</initValue>
       <name>Onboarding_Team</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'usatech02@yopmail.com'</initValue>
+      <initValue>'usatech03@yopmail.com'</initValue>
       <name>Email_Signup_USA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'usatech02@yopmail.com'</initValue>
+      <initValue>'usatech03@yopmail.com'</initValue>
       <name>Onboard_Login_USA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'usatechteam02@yopmail.com'</initValue>
+      <initValue>'usatechteam03@yopmail.com'</initValue>
       <name>Onboard_Team_USA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'usatechclient02@yopmail.com'</initValue>
+      <initValue>'usatechclient03@yopmail.com'</initValue>
       <name>Onboard_Client_USA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -163,5 +163,15 @@
       <description></description>
       <initValue>'12/31/2023'</initValue>
       <name>Engagement_Year_EndDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\Admin\\Desktop\\Upload_Functions_Test\\Onboard_Team_USA.csv'</initValue>
+      <name>Onboarding_Team_USA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'merlinj@yopmail.com'</initValue>
+      <name>Team_CSV</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

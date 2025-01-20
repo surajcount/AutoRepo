@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//img[@src='/assets/images/ui-uplift-icons/global/next-arrow-green.svg']</value>
+         <value>//img[@src='/assets/images/ui-uplift-icons/global/next-arrow-green.svg']|//span[contains(text(),'View in workbook')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='user-detail-main']//button[@class='mat-mdc-menu-trigger nav-item ng-star-inserted']</value>
+         <value>//div[@class='user-detail-main']//button[@class='mat-mdc-menu-trigger nav-item ng-star-inserted']|//div[@class='user-detail-main d-none d-lg-block']//div[@class='avatar-container']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

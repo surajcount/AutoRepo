@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Search_fas fa-ellipsis-vertical</name>
+   <tag></tag>
+   <elementGuidId>87659204-c910-427b-bcc0-e49643ea7b35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-mdc-menu-trigger.kebab-menu-button.kebab-button.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base.ng-star-inserted.cdk-focused.cdk-mouse-focused > span.mdc-button__label > i.fas.fa-ellipsis-vertical</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-accordion-child-284']/div/mat-list/mat-list-item/span/span/div/button/span[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>b4591e8a-0d72-4ec8-be67-8c6d2b6bc4d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-ellipsis-vertical</value>
+      <webElementGuid>fc99e071-3302-45e4-9d1c-d95c92b013ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-284&quot;)/div[@class=&quot;mat-expansion-panel-body&quot;]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list templates-list-items level-one ng-star-inserted&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item template-child-title mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted&quot;]/span[@class=&quot;mdc-list-item__content&quot;]/span[@class=&quot;mat-mdc-list-item-unscoped-content mdc-list-item__primary-text&quot;]/div[@class=&quot;list-item-content&quot;]/button[@class=&quot;mat-mdc-menu-trigger kebab-menu-button kebab-button mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mdc-button__label&quot;]/i[@class=&quot;fas fa-ellipsis-vertical&quot;]</value>
+      <webElementGuid>5385e3fe-11d2-45ec-80ab-40475d77f1c0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-284']/div/mat-list/mat-list-item/span/span/div/button/span[2]/i</value>
+      <webElementGuid>7655d228-e2cf-4ed8-8093-a7b1221f4eb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-accordion[14]/mat-expansion-panel/div/div/div/mat-list/mat-list-item/span/span/div/button/span[2]/i</value>
+      <webElementGuid>57d549b5-7b35-4a3f-890d-8814103e6773</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

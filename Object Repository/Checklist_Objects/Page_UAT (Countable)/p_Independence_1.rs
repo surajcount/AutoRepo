@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Independence_1</name>
+   <tag></tag>
+   <elementGuidId>1e2467c0-2535-455b-bee4-9d2c3de3d965</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-accordion-child-257']/div/mat-list/mat-list-item[2]/span/span/a/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>db4c7d1d-aec7-4232-bd58-991ae7ec28c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-title ng-star-inserted</value>
+      <webElementGuid>c31f8efe-ecc5-4a39-a576-c86e5ab51f70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Independence</value>
+      <webElementGuid>0c5fd214-f181-4c2a-a6fe-c6edd7ee1a33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Independence </value>
+      <webElementGuid>8a6fc70b-3078-43bf-9003-93039f78c13e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-257&quot;)/div[@class=&quot;mat-expansion-panel-body&quot;]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list templates-list-items level-one ng-star-inserted&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted&quot;]/span[@class=&quot;mdc-list-item__content&quot;]/span[@class=&quot;mat-mdc-list-item-unscoped-content mdc-list-item__primary-text&quot;]/a[@class=&quot;list-item-content&quot;]/p[@class=&quot;item-title ng-star-inserted&quot;]</value>
+      <webElementGuid>eb5768b5-2ca5-4d34-8d18-a5bdeef9a9ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-257']/div/mat-list/mat-list-item[2]/span/span/a/p</value>
+      <webElementGuid>146615bb-72cd-4ec6-a217-90e432226a71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::p[71]</value>
+      <webElementGuid>f997b75e-f23f-4a8f-b2cb-14b405527116</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Library'])[1]/following::p[71]</value>
+      <webElementGuid>c683ec2c-4ed3-4a2e-9f4e-72804c1127aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Templates'])[3]/preceding::p[4]</value>
+      <webElementGuid>8dad76e9-d542-4b5f-93b7-fd40a79e2e2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Acceptance and Continuance'])[9]/preceding::p[4]</value>
+      <webElementGuid>06b873dd-ad27-41a3-b9de-cc98e9c8bc76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-expansion-panel[20]/div/div/div/mat-list/mat-list-item[2]/span/span/a/p</value>
+      <webElementGuid>1e1289bd-5b26-422d-a8c2-0634efa96ccb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@title = 'Independence' and (text() = ' Independence ' or . = ' Independence ')]</value>
+      <webElementGuid>b4947ce7-2678-464b-9871-946c4e09463b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

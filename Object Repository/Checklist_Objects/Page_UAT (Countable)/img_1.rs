@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_1</name>
+   <tag></tag>
+   <elementGuidId>e45c8636-2a68-4f07-9395-d3124b11399d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-item > span.nav-icon > img[alt=&quot;Icon&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//img[@alt='Icon'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>e69e68ba-2a7b-4bc2-943a-7fb5267fe864</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/images/ui-uplift-icons/global/nav-icons/dashboard.svg</value>
+      <webElementGuid>7cee1d38-4748-43a6-a6d7-4ce35d5c3cd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Icon</value>
+      <webElementGuid>af1bcf64-6480-4b95-9078-ea28e71dd493</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dasboard-container layout-dashboard drawer-small&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;left-sidebar side-nav&quot;]/app-side-menu[1]/aside[@class=&quot;left-sidebar ng-star-inserted&quot;]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list left-nav&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted&quot;]/span[@class=&quot;mdc-list-item__content&quot;]/span[@class=&quot;mat-mdc-list-item-unscoped-content mdc-list-item__primary-text&quot;]/a[@class=&quot;nav-item&quot;]/span[@class=&quot;nav-icon&quot;]/img[1]</value>
+      <webElementGuid>8834945a-3d84-43f7-b201-2fd8d3588c20</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[@alt='Icon'])[2]</value>
+      <webElementGuid>403cd5cb-4a0d-4821-80d1-5e4f3e8558ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span/img</value>
+      <webElementGuid>3840e658-02f1-49be-840c-00aa0255d0e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/images/ui-uplift-icons/global/nav-icons/dashboard.svg' and @alt = 'Icon']</value>
+      <webElementGuid>7ec29152-ab93-48c7-ac70-0c30ffebd13a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

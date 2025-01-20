@@ -6,12 +6,11 @@
    <elementGuidId>144a9fff-b9b6-4592-9d30-473f3366a6d0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@title='New Request']//span[@class='mdc-button__label']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@title='New Request']//span[@class='mdc-button__label']|//span[contains(text(),'New Request')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Documents_Items_Count</name>
+   <tag></tag>
+   <elementGuidId>2c77c4f6-9b5f-465a-9a00-9291bd0f79bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-expansion-panel[contains(@class,\'documents-panel\')]/div/div/mat-expansion-panel|//mat-expansion-panel[contains(@class,\'documents-panel\')]/div/div/div/mat-expansion-panel</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

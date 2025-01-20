@@ -26,6 +26,9 @@ import org.openqa.selenium.By as By
 import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 import java.util.Calendar as Calendar
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
 WebUI.openBrowser('')
 
@@ -59,7 +62,7 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Engagement_Section_LHS/ClientOnbrding_Chk_List'))
 
 //Client Onboarding
-String s = '//mat-expansion-panel[contains(@class,\'client-onboarding-panel\')]/div/div/mat-expansion-panel'
+String s = '//mat-expansion-panel[contains(@class,\'client-onboarding-panel\')]/div/div/mat-expansion-panel|//mat-expansion-panel[contains(@class,\'client-onboarding-panel\')]/div/div/div/mat-expansion-panel'
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -82,7 +85,7 @@ println('Number of items in client onboarding: ' + Ccount)
 //
 //println('Number of items available under client onboarding section: ' + CL_Items)
 //Documents
-String DocsF = '//mat-expansion-panel[contains(@class,\'documents-panel\')]/div/div/mat-expansion-panel'
+String DocsF = '//mat-expansion-panel[contains(@class,\'documents-panel\')]/div/div/mat-expansion-panel|//mat-expansion-panel[contains(@class,\'documents-panel\')]/div/div/div/mat-expansion-panel'
 
 List<WebElement> DocsFolder = driver.findElements(By.xpath(DocsF))
 
@@ -91,7 +94,7 @@ int countDocsFolder = DocsFolder.size()
 println('Number of folders Available in Documents: ' + countDocsFolder)
 
 //Procedures
-String ProceduresFold = '//mat-expansion-panel[contains(@class,\'procedures-main\')]/div/div/mat-expansion-panel'
+String ProceduresFold = '//mat-expansion-panel[contains(@class,\'procedures-main\')]/div/div/mat-expansion-panel|//mat-expansion-panel[contains(@class,\'procedures-main\')]/div/div/div/mat-expansion-panel'
 
 List<WebElement> ProceFolder = driver.findElements(By.xpath(ProceduresFold))
 
@@ -100,7 +103,7 @@ int countProceFolder = ProceFolder.size()
 println('Number of folders Available in Procedures: ' + countProceFolder)
 
 //Procecures_subfolder
-String ProceduresSubFold = '//mat-expansion-panel[contains(@class,\'procedures-main\')]/div/div/mat-expansion-panel/div/div/mat-expansion-panel'
+String ProceduresSubFold = '//mat-expansion-panel[contains(@class,\'procedures-main\')]/div/div/mat-expansion-panel/div/div/mat-expansion-panel|//mat-expansion-panel[contains(@class,\'procedures-main\')]/div/div/div/mat-expansion-panel/div/div/div/mat-expansion-panel'
 
 List<WebElement> ProceSubFolder = driver.findElements(By.xpath(ProceduresSubFold))
 
@@ -109,7 +112,7 @@ int countProceSubFolder = ProceSubFolder.size()
 println('Number of Sub-folders Available in Procedures: ' + countProceSubFolder)
 
 //LSCount_Procedures
-String ProceduresLS = '//mat-expansion-panel[contains(@class,\'procedures-main\')]/div/div/mat-expansion-panel/div/div/mat-expansion-panel/div/div/mat-expansion-panel'
+String ProceduresLS = '//mat-expansion-panel[contains(@class,\'procedures-main\')]/div/div/mat-expansion-panel/div/div/mat-expansion-panel/div/div/mat-expansion-panel|//mat-expansion-panel[contains(@class,\'procedures-main\')]/div/div/div/mat-expansion-panel/div/div/div/mat-expansion-panel/div/div/div/mat-expansion-panel'
 
 List<WebElement> LSCount = driver.findElements(By.xpath(ProceduresLS))
 
@@ -122,7 +125,7 @@ int proc_items = (countProceFolder + countProceSubFolder) + TotLS
 println('Number of Items Available in Procedures: ' + proc_items)
 
 //Financial_Statement_Items
-String FSItems = '//mat-expansion-panel/div/div/ul/li'
+String FSItems = '//mat-expansion-panel/div/div/ul/li|//mat-expansion-panel/div/div/div/ul/li'
 
 List<WebElement> FS = driver.findElements(By.xpath(FSItems))
 
@@ -133,7 +136,7 @@ println('Number of Items Available in FS: ' + FSItemsCount)
 WebUI.click(findTestObject('Sign-Offs_FinalReview_Object/CompletionAndSignoff'))
 
 //Completion&Signoff
-String Comp = '//mat-expansion-panel[contains(@class,\'completion-signoff\')]/div/div/mat-expansion-panel'
+String Comp = '//mat-expansion-panel[contains(@class,\'completion-signoff\')]/div/div/mat-expansion-panel|//mat-expansion-panel[contains(@class,\'completion-signoff\')]/div/div/div/mat-expansion-panel'
 
 List<WebElement> ComplSign = driver.findElements(By.xpath(Comp))
 
@@ -150,7 +153,7 @@ WebUI.click(findTestObject('Sign-Offs_FinalReview_Object/Signoffs'))
 
 WebUI.delay(2)
 
-String SignCheck = '//li/div/div[@class=\'custom-checkbox\']'
+String SignCheck = '//li[1]/div/div[@class=\'custom-checkbox\']'
 
 List<WebElement> SignCheckboxes = driver.findElements(By.xpath(SignCheck))
 
@@ -159,6 +162,13 @@ int CheckboxCount = SignCheckboxes.size()
 println('Number of checkboxes Available in Signoff page: ' + CheckboxCount)
 
 WebUI.click(findTestObject('Sign-Offs_FinalReview_Object/Client_Onboarding_Signoffs'))
+
+if (TotalItemsinLHS == CheckboxCount) {
+	println('Test Passed: LHS and Signoff pages are matching')
+} else {
+	KeywordUtil.markFailed(((('Test Fail: LHS and Signoff page are not matching. LHS Items= ' + TotalItemsinLHS) + ' And ') +
+		' Checkboxes on signoff page= ') + CheckboxCount)
+}
 
 WebUI.delay(2)
 

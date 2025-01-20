@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Duplicate</name>
+   <tag></tag>
+   <elementGuidId>17abfecc-b05f-41fa-9e1d-c1b1dd965bb4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.button-medium.mdc-button.mat-mdc-button.mdc-button--outlined.mat-mdc-outlined-button.mat-dark.mat-mdc-button-base.cdk-focused.cdk-mouse-focused > span.mdc-button__label > span.flexbox-row.gap-8 > span.button-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::span[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3419a0ad-498d-474c-969c-eff6411377ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button-label</value>
+      <webElementGuid>aa53b767-2844-4c4b-9223-d5ae2a5fe236</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Duplicate</value>
+      <webElementGuid>012cc5a5-d437-404b-a219-7504a4d22a74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dasboard-container layout-dashboard drawer-small&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;dashboard-main&quot;]/app-templates-dashboard[@class=&quot;ng-star-inserted&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container countable-drawer templates mat-drawer-container-has-open&quot;]/mat-drawer-content[@class=&quot;mat-drawer-content overflow-hidden&quot;]/div[@class=&quot;contant-block-main flex-1 h-100 overflow-x-auto templates-content dashboard-main bg-white p-0 gap-0&quot;]/app-client-acceptance-and-continuance[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;firm-templates-client-acceptance px-24 bg-gray-50&quot;]/div[@class=&quot;page-title-block&quot;]/div[@class=&quot;button-group&quot;]/button[@class=&quot;button-medium mdc-button mat-mdc-button mdc-button--outlined mat-mdc-outlined-button mat-dark mat-mdc-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mdc-button__label&quot;]/span[@class=&quot;flexbox-row gap-8&quot;]/span[@class=&quot;button-label&quot;]</value>
+      <webElementGuid>08621479-4b27-4fcb-aa14-48125b8bf4ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::span[6]</value>
+      <webElementGuid>08b513a5-92ad-4e23-9a1c-38ffdd2730de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Acceptance and Continuance'])[9]/following::span[10]</value>
+      <webElementGuid>8ba92cc8-e331-4be8-b504-090c9b5d3aaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::span[5]</value>
+      <webElementGuid>958bab0f-ed63-471c-a418-622c42192b95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Objective'])[1]/preceding::span[8]</value>
+      <webElementGuid>c412c489-09be-4b55-96d0-07df5b493d47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Duplicate']/parent::*</value>
+      <webElementGuid>b7588bd2-1bd9-4c61-97ed-e5b872d1e04b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span[2]/span/span</value>
+      <webElementGuid>cebb0696-8dae-4489-a573-40b38ff932be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Duplicate' or . = 'Duplicate')]</value>
+      <webElementGuid>3d578023-7ab7-4469-ae8f-dab0164fc57f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

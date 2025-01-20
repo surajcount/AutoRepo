@@ -6,12 +6,12 @@
    <elementGuidId>f27ba7d7-0ee6-44f4-bf5a-d4ec8a8c86da</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.ng-arrow-wrapper</value>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-step-content-0-0']/div/form/div/div/ng-select/div/span|(//input[@role='combobox'])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='cdk-step-content-0-0']/div/form/div/div/ng-select/div/span</value>
+         <key>CSS</key>
+         <value>span.ng-arrow-wrapper</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8039de59-11ee-43b2-a190-62dfa431e422</webElementGuid>
+      <webElementGuid>43d37d9c-1405-4521-bf2a-446775b55585</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-arrow-wrapper</value>
-      <webElementGuid>d1f5665b-2aa2-4eb3-b7ab-48d1066a2929</webElementGuid>
+      <webElementGuid>3b0b77e9-c60c-4edd-91ba-3c040d485cbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-step-content-0-0&quot;)/div[@class=&quot;stepper-body-main card ng-star-inserted&quot;]/form[@class=&quot;card-body gap-24 ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;form-group row-item-4&quot;]/div[@class=&quot;form-item ng-form-field ng-star-inserted&quot;]/ng-select[@class=&quot;ng-select-searchable ng-select ng-select-single ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;ng-select-container ng-appearance-outline ng-has-value&quot;]/span[@class=&quot;ng-arrow-wrapper&quot;]</value>
-      <webElementGuid>56f5ac80-0801-4d21-b603-47e84c25eb1d</webElementGuid>
+      <webElementGuid>339c8273-d04e-4eae-b77b-87037f086b76</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-step-content-0-0']/div/form/div/div/ng-select/div/span</value>
-      <webElementGuid>466d9ead-bb82-4ee5-8bdc-37015881c4e5</webElementGuid>
+      <webElementGuid>07d3a28d-dda2-4345-9c96-2a9fb2edfab6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::span[1]</value>
-      <webElementGuid>f50e4a9d-3de3-470f-98a4-a28069b3170c</webElementGuid>
+      <webElementGuid>380939e7-6b7c-4269-bab3-add387ed8ac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::span[3]</value>
-      <webElementGuid>b8ca9944-a0fe-4799-8954-685301452bb1</webElementGuid>
+      <webElementGuid>a69910d7-1183-4083-b3d4-21f24ff5308a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Point of Contact'])[1]/preceding::span[2]</value>
-      <webElementGuid>7cb14625-a320-4af3-81ad-bd9828142142</webElementGuid>
+      <webElementGuid>326e7c5c-60f3-434f-a023-af62cf3cab2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Member ID'])[1]/preceding::span[2]</value>
-      <webElementGuid>50eb21a8-dc05-46e9-921c-c8ecd7952d2a</webElementGuid>
+      <webElementGuid>8c0a3a59-aff8-4746-8e22-1ce2d1cfe2dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ng-select/div/span</value>
-      <webElementGuid>6b467ed8-a3f9-454f-a9c4-22dd53802a95</webElementGuid>
+      <webElementGuid>f7a640aa-5e5d-4c5a-8e53-b89ddc5f734c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

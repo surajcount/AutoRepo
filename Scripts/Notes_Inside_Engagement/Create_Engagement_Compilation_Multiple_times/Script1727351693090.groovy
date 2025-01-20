@@ -34,7 +34,7 @@ for (int i = 0; i < numberOfRuns; i++) {
 
     WebUI.click(findTestObject('Create_Engagement_Pravin/Client_Name_on_Popup'))
 
-    WebUI.setText(findTestObject('Create_Engagement_Pravin/Search_Client'), 'Navyuvak')
+    WebUI.setText(findTestObject('Create_Engagement_Pravin/Search_Client'), 'Auto')
 
     WebUI.click(findTestObject('Create_Engagement_Pravin/Select_Client'))
 
@@ -56,7 +56,7 @@ for (int i = 0; i < numberOfRuns; i++) {
 
     WebUI.click(findTestObject('Create_Engagement_Pravin/Select_Team_Option'))
 
-    WebUI.click(findTestObject('Create_Engagement_Pravin/First_Team_Member_FromList'))
+    WebUI.click(findTestObject('Create_Engagement_Pravin/CMS_User_Select'))
 
     WebUI.setText(findTestObject('Create_Engagement_Pravin/Time_Allocation'), '100')
 

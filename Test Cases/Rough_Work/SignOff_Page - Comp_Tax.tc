@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignOff_Page - Comp_Tax</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bc273937-a030-4898-8992-c919f44b38bf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88e15028-0e49-44e8-8c7c-98f6ab0b35ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe23dd3f-f896-4075-b147-8ee9d47d15f1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d1eb54f-dae3-44e5-a320-f653c1ea7744</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
+      <description></description>
+      <id>88e15028-0e49-44e8-8c7c-98f6ab0b35ea</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.UAT</defaultValue>
+      <description></description>
+      <id>fe23dd3f-f896-4075-b147-8ee9d47d15f1</id>
+      <masked>false</masked>
+      <name>UAT</name>
+   </variable>
+   <variable>
+      <defaultValue>'com'</defaultValue>
+      <description></description>
+      <id>8d1eb54f-dae3-44e5-a320-f653c1ea7744</id>
+      <masked>false</masked>
+      <name>SearchEntity_Type</name>
+   </variable>
+</TestCaseEntity>

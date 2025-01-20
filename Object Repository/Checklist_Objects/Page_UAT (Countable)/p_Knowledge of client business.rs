@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Knowledge of client business</name>
+   <tag></tag>
+   <elementGuidId>9184c245-4458-4429-86ff-6e0a9cac01a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-accordion-child-107']/div/mat-list/mat-list-item[3]/span/span/a/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>0baa9f16-2a44-45d3-98f5-5095b583d6ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-title</value>
+      <webElementGuid>902626c3-a494-43d2-ae5f-7c326abf9897</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Knowledge of client business</value>
+      <webElementGuid>7a9b1a25-4f5e-4c5c-86d2-e62eab7f6d7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Knowledge of client business</value>
+      <webElementGuid>ccc5759d-d53d-4841-a0bf-1fdabc92b01d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-107&quot;)/div[@class=&quot;mat-expansion-panel-body&quot;]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list templates-list-items level-one ng-star-inserted&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted&quot;]/span[@class=&quot;mdc-list-item__content&quot;]/span[@class=&quot;mat-mdc-list-item-unscoped-content mdc-list-item__primary-text&quot;]/a[@class=&quot;list-item-content&quot;]/p[@class=&quot;item-title&quot;]</value>
+      <webElementGuid>deeafb7d-e484-4301-be61-f7bcd3545961</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-107']/div/mat-list/mat-list-item[3]/span/span/a/p</value>
+      <webElementGuid>e903049a-3d26-4a0c-8f72-45ec7c8ca49c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::p[4]</value>
+      <webElementGuid>95111bd8-fe37-4be9-ba23-6e582eb7870a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Library'])[1]/following::p[4]</value>
+      <webElementGuid>b80b75d5-dbf1-41b2-a1fe-fcaa4837cace</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Templates'])[3]/preceding::p[15]</value>
+      <webElementGuid>8c1f850e-3987-420e-814a-f2e9f484b542</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Independence'])[2]/preceding::p[15]</value>
+      <webElementGuid>a962d041-d7c3-4271-8008-1ee0592f22ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Knowledge of client business']/parent::*</value>
+      <webElementGuid>a9040b6c-8187-4a22-a8c8-8d1c1c0290c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-list-item[3]/span/span/a/p</value>
+      <webElementGuid>55c70277-840e-4b0e-90cc-48dd9fb82a7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@title = 'Knowledge of client business' and (text() = ' Knowledge of client business' or . = ' Knowledge of client business')]</value>
+      <webElementGuid>486eea25-092d-43de-b1d5-5c7fe6c411df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

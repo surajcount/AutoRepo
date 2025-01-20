@@ -41,15 +41,15 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Button_Onboard Your Firm Now'))
 
-WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_Address'), 'Taber')
+WebUI.setText(findTestObject('Page_UAT (Countable)/Firm_Address'), 'Taber')
 
-WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_City'), 'Taber')
+WebUI.setText(findTestObject('Page_UAT (Countable)/Firm_City'), 'Taber')
 
-WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_ProvinceState'), 'BC')
+WebUI.setText(findTestObject('Page_UAT (Countable)/Firm_ProvinceState'), 'BC')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Firm_PostalZipCode'), 'Y1A 9Z9')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Firm_PostalZipCode'), 'Y1A 9Z9')
 
-WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_Country'), 'Canada')
+WebUI.setText(findTestObject('Page_UAT (Countable)/Firm_Country'), 'Canada')
 
 WebUI.click(findTestObject('Page_UAT (Countable)/ng-arrow-peg_pact'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -57,9 +57,9 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_UAT (Countable)/div_No'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Firm_Title'), 'Partner')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Firm_Title'), 'Partner')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Firm_First Name'), 'Surya')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Firm_First Name'), 'Surya')
 
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/div_Member IDLicense NoFirst NameLast NameB_75727a'))
 
@@ -121,11 +121,11 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/input_Point of Contact_Partner_r_btn_addtTeam'))
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_First name_AddTeam'), 'Amol')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/First name_AddTeam'), 'Amol')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Last name_AddTeam'), 'Gupta')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Last name_AddTeam'), 'Gupta')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Email_AddTeamMember'), TeamMem_Email_CANADA)
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Email_AddTeamMember'), TeamMem_Email_CANADA)
 
 WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Title_AddTeamMember'), 'Partn')
 
@@ -187,7 +187,7 @@ WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Data_Upload_Btn'))
 
 WebUI.delay(4)
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Entity Name_addClient'), 'AmolInfo')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Entity Name_addClient'), 'AmolInfo')
 
 WebUI.click(findTestObject('Page_UAT (Countable)/ng-arrow_entity_type_addClient'))
 
@@ -195,9 +195,9 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_UAT (Countable)/Entitytype_Corporation_selection'))
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_First Name_addclient'), 'cliAmol')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/First Name_addclient'), 'cliAmol')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Last Name_addclient'), 'regPravin')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Last Name_addclient'), 'regPravin')
 
 WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_Onboard/ClientAddress'), 'Taber')
 
@@ -207,7 +207,7 @@ WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_O
 
 WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_Onboard/ClientAddress_ProvienceState'), 'BC')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Email_addclient'), ClientEmail_CANADA)
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Email_addclient'), ClientEmail_CANADA)
 
 WebUI.click(findTestObject('Page_UAT (Countable)/ng-arrow-engpartner_addclient'))
 

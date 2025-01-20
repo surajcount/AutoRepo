@@ -6,12 +6,12 @@
    <elementGuidId>ed4c6296-d4d0-4618-bb38-99949a74b375</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mat-select-value-1']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-select-value-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mat-select-value-1']|//mat-select[@formcontrolname='category']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1ff86cfe-e726-4435-8373-abf56739344d</webElementGuid>
+      <webElementGuid>44f52922-681a-4a14-a07e-975f12fe5f99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-mdc-select-value ng-tns-c2400438669-28</value>
-      <webElementGuid>d47d2add-b0db-459c-84ee-cbbd5236cb1e</webElementGuid>
+      <webElementGuid>ca0608c0-4981-46a7-a66b-01abb7af18b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-select-value-1</value>
-      <webElementGuid>9e9fc955-2c23-4618-aefe-18ef0e53b3fa</webElementGuid>
+      <webElementGuid>5e7f8b0d-da58-4cef-a9f6-2b9272d6995c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Choose Category</value>
-      <webElementGuid>1852ff32-495f-422c-9ec8-99f68972d463</webElementGuid>
+      <webElementGuid>973e4ee4-22c8-40a9-bdd3-eda05bf21bf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-select-value-1&quot;)</value>
-      <webElementGuid>c19156ed-4681-43b6-912d-f966f946d002</webElementGuid>
+      <webElementGuid>e5acae78-e711-4ce7-891f-3e7428935516</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='mat-select-value-1']</value>
-      <webElementGuid>4de35440-cf24-4444-88b0-136d549339e6</webElementGuid>
+      <webElementGuid>30cc9d77-93b3-4011-bb9b-d9e053b3930a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-select[@id='mat-select-0']/div/div</value>
-      <webElementGuid>008c47ec-f24b-41cb-a5ee-37083bfeeba3</webElementGuid>
+      <webElementGuid>68a521be-6673-4982-b7e2-726d8e346c51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Category'])[1]/following::div[2]</value>
-      <webElementGuid>53b6c665-143b-4af8-9f45-f1b606284a71</webElementGuid>
+      <webElementGuid>e289e4d8-f511-48b0-ad27-eca1942c5f98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic Details'])[1]/following::div[8]</value>
-      <webElementGuid>938d5bf2-e2f6-4c19-85f8-2a789faee76f</webElementGuid>
+      <webElementGuid>d61f7388-1378-4f47-846b-52201785e7ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Member ID'])[1]/preceding::div[8]</value>
-      <webElementGuid>5fab5554-1050-4830-8f90-072edde2a085</webElementGuid>
+      <webElementGuid>a02af705-3649-400e-b59e-3a2a80b17431</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-select/div/div</value>
-      <webElementGuid>cf9760b4-757a-4382-a871-35e80f63d679</webElementGuid>
+      <webElementGuid>1f023edf-91b6-4293-8d38-43a4812c1365</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'mat-select-value-1' and (text() = 'Choose Category' or . = 'Choose Category')]</value>
-      <webElementGuid>eb385be3-0a2c-41bf-a656-8cfa414a5378</webElementGuid>
+      <webElementGuid>2729bd08-efcd-4b8d-adad-a8cbeab67473</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

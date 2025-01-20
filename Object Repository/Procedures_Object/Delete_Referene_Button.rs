@@ -6,11 +6,11 @@
    <elementGuidId>87b51f86-96e1-43e1-b517-baafd6bfeb69</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@class='list-item-content cursor-default']//img[@alt='icon']|//button[@class='button-text mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base']//i[@class='fa-regular fa-trash-can']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='list-item-content cursor-default']//img[@alt='icon']|//button[@class='button-text mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base']//i[@class='fa-regular fa-trash-can text-error']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,6 @@
       <matchCondition>equals</matchCondition>
       <type>Main</type>
       <value>//img[@src='/assets/images/ui-uplift-icons/global/trash-04.svg']</value>
-      <webElementGuid>7b1ee073-9fc7-4dd4-a3e8-b88c3d2b8429</webElementGuid>
+      <webElementGuid>c37af7a5-5ef6-4bb6-ab65-42a3726dbdbb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

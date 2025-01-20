@@ -43,15 +43,15 @@ WebUI.click(findTestObject('Page_Login/Close_Welcome_toaster'))
 
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Button_Onboard Your Firm Now'))
 
-WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_Address'), 'Taber')
+WebUI.setText(findTestObject('Page_UAT (Countable)/Firm_Address'), 'Taber')
 
-WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_City'), 'Taber')
+WebUI.setText(findTestObject('Page_UAT (Countable)/Firm_City'), 'Taber')
 
-WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_ProvinceState'), 'BC')
+WebUI.setText(findTestObject('Page_UAT (Countable)/Firm_ProvinceState'), 'BC')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Firm_PostalZipCode'), 'Y1A 9Z9')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Firm_PostalZipCode'), 'Y1A 9Z9')
 
-WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_Country'), 'Canada')
+WebUI.setText(findTestObject('Page_UAT (Countable)/Firm_Country'), 'Canada')
 
 WebUI.click(findTestObject('Page_UAT (Countable)/ng-arrow-peg_pact'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -59,12 +59,11 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_UAT (Countable)/div_No'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Firm_Title'), 'Partner')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Firm_Title'), 'Partner')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Firm_First Name'), 'Jervin')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Firm_First Name'), 'Jervin')
 
-WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/div_Member IDLicense NoFirst NameLast NameB_75727a'))
-
+//WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/div_Member IDLicense NoFirst NameLast NameB_75727a'))
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Go to Step 2'))
 
 WebUI.delay(3)
@@ -117,19 +116,21 @@ WebUI.waitForElementPresent(findTestObject('AddTeam_AllRegression_Dashboard/Data
 
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Data_Upload_Btn'))
 
+WebUI.delay(3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Page_UAT (Countable)/Go to Step 3'), 10)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/input_Point of Contact_Partner_r_btn_addtTeam'))
+WebUI.click(findTestObject('Page_UAT (Countable)/Partner_Radio'))
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_First name_AddTeam'), 'Tech')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/First name_AddTeam'), 'Tech')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Last name_AddTeam'), 'Team')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Last name_AddTeam'), 'Team')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Email_AddTeamMember'), TeamMem_Email_CANADA)
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Email_AddTeamMember'), TeamMem_Email_CANADA)
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Title_AddTeamMember'), 'Partn')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Title_AddTeamMember'), 'UA')
 
 WebUI.click(findTestObject('Page_UAT (Countable)/ng-arrow-wrapper_access_type_addteam'))
 
@@ -141,7 +142,7 @@ WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/FinalButton_A
 
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Go to Step 3'))
 
-WebUI.delay(1)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Import_Client_Radio_BTN_Onbrd'))
 
@@ -189,7 +190,7 @@ WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Data_Upload_Btn'))
 
 WebUI.delay(4)
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Entity Name_addClient'), EntityName)
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Entity Name_addClient'), EntityName)
 
 WebUI.click(findTestObject('Page_UAT (Countable)/ng-arrow_entity_type_addClient'))
 
@@ -197,9 +198,9 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_UAT (Countable)/Entitytype_Corporation_selection'))
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_First Name_addclient'), 'cliAmol')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/First Name_addclient'), 'cliAmol')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Last Name_addclient'), 'regPravin')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Last Name_addclient'), 'regPravin')
 
 WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_Onboard/ClientAddress'), 'Taber')
 
@@ -209,7 +210,7 @@ WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_O
 
 WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_Onboard/ClientAddress_ProvienceState'), 'BC')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Email_addclient'), ClientEmail_CANADA)
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Email_addclient'), ClientEmail_CANADA)
 
 WebUI.click(findTestObject('Page_UAT (Countable)/ng-arrow-engpartner_addclient'))
 
@@ -254,7 +255,7 @@ WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Counta
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/span_Login Now'))
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Email_mat-input-3'), TeamMem_Email_CANADA)
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Email_mat-input-3'), CSV_Team_Member)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Password_mat-input-4'), 
     '0yu2BuhvF5H+L+Dr3iRPjA==')
@@ -264,6 +265,12 @@ WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Counta
 WebUI.delay(2)
 
 WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Keep_Default_timezone'))
+
+WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('OnboardingObjects/Page_UAT (Countable)/TermsAcceptanceBTN_CLI_Obording'), 60, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/TermsAcceptanceBTN_CLI_Obording'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 

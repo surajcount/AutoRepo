@@ -36,25 +36,25 @@ WebUI.click(findTestObject('Page_UAT (Countable)/span_Login'))
 
 WebUI.maximizeWindow()
 
+WebUI.click(findTestObject('Page_Login/Close_Welcome_toaster'))
+
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Button_Onboard Your Firm Now'))
 
-WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_Address'), 'Bakersfield College')
+WebUI.setText(findTestObject('Page_UAT (Countable)/Firm_Address'), 'Bakersfield College')
 
-WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_City'), 'Bakersfield')
+WebUI.setText(findTestObject('Page_UAT (Countable)/Firm_City'), 'Bakersfield')
 
-WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_ProvinceState'), 'California')
+WebUI.setText(findTestObject('Page_UAT (Countable)/Firm_ProvinceState'), 'California')
 
-WebUI.setText(findTestObject('Page_UAT (Countable)/input_Firm_Country'), 'United States')
+WebUI.setText(findTestObject('Page_UAT (Countable)/Firm_Country'), 'United States')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Firm_PostalZipCode'), '93305')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Firm_PostalZipCode'), '93305')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Firm_Title'), 'Partner')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Firm_Title'), 'Partner')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Firm_First Name'), 'Satya')
-
-WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/div_Member IDLicense NoFirst NameLast NameB_75727a'))
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Firm_First Name'), 'Satya')
 
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Go to Step 2'))
 
@@ -114,11 +114,11 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/input_Point of Contact_Partner_r_btn_addtTeam'))
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_First name_AddTeam'), 'Sarya')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/First name_AddTeam'), 'Sarya')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Last name_AddTeam'), 'kumar')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Last name_AddTeam'), 'kumar')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Email_AddTeamMember'), TeamMem_Email_USA)
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Email_AddTeamMember'), TeamMem_Email_USA)
 
 WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Title_AddTeamMember'), 'Partn')
 
@@ -180,7 +180,7 @@ WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Data_Upload_Btn'))
 
 WebUI.delay(4)
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Entity Name_addClient'), 'Cleitreg')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Entity Name_addClient'), 'Cleitreg')
 
 WebUI.click(findTestObject('Page_UAT (Countable)/ng-arrow_entity_type_addClient'))
 
@@ -194,11 +194,11 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_UAT (Countable)/Page_UAT (Countable)/Entity_Sub_Type_SelectC - Corp'))
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_First Name_addclient'), 'cli')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/First Name_addclient'), 'cli')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Last Name_addclient'), 'reg')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Last Name_addclient'), 'reg')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/input_Email_addclient'), ClientEmail_USA)
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Email_addclient'), ClientEmail_USA)
 
 WebUI.click(findTestObject('Page_UAT (Countable)/ng-arrow-engpartner_addclient'))
 

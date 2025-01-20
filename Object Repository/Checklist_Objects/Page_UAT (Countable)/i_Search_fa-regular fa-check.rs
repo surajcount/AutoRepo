@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Search_fa-regular fa-check</name>
+   <tag></tag>
+   <elementGuidId>ff609699-6698-464b-baea-3b4e8ee59f02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa-regular.fa-check</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-accordion-child-284']/div/mat-list/mat-list-item/span/span/div/mat-form-field/div/div[2]/div[2]/div/button/span[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>48d346df-7a3c-49f4-b8a8-7198a120749b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa-regular fa-check</value>
+      <webElementGuid>21411070-7e22-45bd-918a-ab7f023b5901</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-284&quot;)/div[@class=&quot;mat-expansion-panel-body&quot;]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list templates-list-items level-one ng-star-inserted&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item template-child-title mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted&quot;]/span[@class=&quot;mdc-list-item__content&quot;]/span[@class=&quot;mat-mdc-list-item-unscoped-content&quot;]/div[@class=&quot;list-item-content&quot;]/mat-form-field[@class=&quot;mat-mdc-form-field fixed-label icon-form-after action-2 w-100 form-field-medium ng-tns-c508571215-242 mat-mdc-form-field-type-mat-input mat-mdc-form-field-label-always-float mat-mdc-form-field-has-icon-suffix mat-form-field-appearance-fill mat-primary ng-valid ng-star-inserted ng-dirty ng-touched&quot;]/div[@class=&quot;mat-mdc-text-field-wrapper mdc-text-field ng-tns-c508571215-242 mdc-text-field--filled mdc-text-field--no-label&quot;]/div[@class=&quot;mat-mdc-form-field-flex ng-tns-c508571215-242&quot;]/div[@class=&quot;mat-mdc-form-field-icon-suffix ng-tns-c508571215-242 ng-star-inserted&quot;]/div[@class=&quot;actions border-start ng-tns-c508571215-242&quot;]/button[@class=&quot;mdc-button mat-mdc-button mat-success mat-mdc-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mdc-button__label&quot;]/i[@class=&quot;fa-regular fa-check&quot;]</value>
+      <webElementGuid>4d058a60-daca-4423-aed3-2fb1f776a7b6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-284']/div/mat-list/mat-list-item/span/span/div/mat-form-field/div/div[2]/div[2]/div/button/span[2]/i</value>
+      <webElementGuid>d692cd3e-89c6-474a-b5f9-7ff7602fbcbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button/span[2]/i</value>
+      <webElementGuid>056a336b-cf5d-4d0a-ac6c-d96d47cee7a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/app-root[1]/app-firm-onboardin[1]/div[1]/div[1]/div[1]/div[2]/mat-stepper[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/input[1]</value>
+         <value>/html[1]/body[1]/app-root[1]/app-firm-onboardin[1]/div[1]/div[1]/div[1]/div[2]/mat-stepper[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/input[1]|(//input[@type='file'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

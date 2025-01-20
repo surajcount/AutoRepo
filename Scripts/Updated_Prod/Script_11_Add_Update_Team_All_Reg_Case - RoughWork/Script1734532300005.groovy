@@ -46,13 +46,13 @@ WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Choose Category_Obje
 
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Category_Partner_M'))
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/input_Field_First Name_M'), 'Narayan')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/First Name_Team'), 'Narayan')
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/input_Last Name_M'), 'Singh')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Last Name_Team'), 'Singh')
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/input_Title_M'), 'Mr')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Title_Team'), 'Mr')
 
-WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/span_ng-arrow-AccessType'))
+WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/AccessType_Dropdwon'))
 
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/span_Admin'))
 

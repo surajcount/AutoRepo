@@ -6,12 +6,11 @@
    <elementGuidId>2c5de66b-e922-4028-8439-7cbd33dbf1c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@name='mat-radio-group-3'])[2]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[normalize-space()='(Add entire client list in one go)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

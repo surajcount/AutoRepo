@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_PravinTest 0701</name>
+   <tag></tag>
+   <elementGuidId>06472df8-028f-4644-aa4f-18549e852800</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-expansion-panel-header-344 > span.mat-content > mat-panel-title.mat-expansion-panel-header-title > div.title-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-expansion-panel-header[@id='mat-expansion-panel-header-344']/span/mat-panel-title/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>63731a81-35d0-4a35-8eeb-82ee911e2d95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title-content</value>
+      <webElementGuid>9b3436be-1462-43a1-a30e-1fd09c033082</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PravinTest 0701</value>
+      <webElementGuid>5d71c1c5-72fe-41da-aaf4-362a7276f4f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-expansion-panel-header-344&quot;)/span[@class=&quot;mat-content&quot;]/mat-panel-title[@class=&quot;mat-expansion-panel-header-title&quot;]/div[@class=&quot;title-content&quot;]</value>
+      <webElementGuid>61744b9f-1b43-4234-b8bc-305096e3e0f4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-expansion-panel-header[@id='mat-expansion-panel-header-344']/span/mat-panel-title/div</value>
+      <webElementGuid>0b36a640-06d4-4079-9fd5-958bb1cffd53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Acceptance and Continuance'])[8]/following::div[2]</value>
+      <webElementGuid>0884a0bc-1937-4267-a85a-235b49c6f3aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New_Cheklist'])[1]/following::div[6]</value>
+      <webElementGuid>7288e083-af5b-468d-9e29-130a9e1280ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Planning'])[4]/preceding::div[1]</value>
+      <webElementGuid>da91f91a-5412-43b0-95c1-78ee6b854035</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-expansion-panel[17]/mat-expansion-panel-header/span/mat-panel-title/div</value>
+      <webElementGuid>0009e412-8999-471d-8579-18141803de14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PravinTest 0701' or . = 'PravinTest 0701')]</value>
+      <webElementGuid>7985fd4f-2d8d-457a-86f1-4d1bc1aa285b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

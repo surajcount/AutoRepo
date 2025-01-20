@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Add_fa-regular fa-message-question blue-icons</name>
+   <tag></tag>
+   <elementGuidId>52b1a165-0204-40e8-abd7-f621efc60fb2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa-regular.fa-message-question.blue-icons</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>5c313ffa-6df0-4d88-bb54-57bcf1da3523</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa-regular fa-message-question blue-icons</value>
+      <webElementGuid>7a3d2e12-0dde-4aaf-974e-ba35939cd290</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dasboard-container layout-dashboard drawer-small&quot;]/div[@class=&quot;content-body&quot;]/div[@class=&quot;dashboard-main&quot;]/app-templates-dashboard[@class=&quot;ng-star-inserted&quot;]/mat-drawer-container[@class=&quot;mat-drawer-container countable-drawer templates mat-drawer-container-has-open&quot;]/mat-drawer-content[@class=&quot;mat-drawer-content overflow-hidden&quot;]/div[@class=&quot;contant-block-main flex-1 h-100 overflow-x-auto templates-content dashboard-main bg-white p-0 gap-0&quot;]/app-firm-knowledge-of-client[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;checklist-client-knowledge px-24 bg-gray-50&quot;]/div[@class=&quot;checklist-client-knowledge-body&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;checklistCategory ng-star-inserted&quot;]/div[@class=&quot;checklist-client-knowledge-footer2&quot;]/div[@class=&quot;rounded-social-buttons&quot;]/a[@class=&quot;social-button&quot;]/i[@class=&quot;fa-regular fa-message-question blue-icons&quot;]</value>
+      <webElementGuid>ff02c642-0da9-4f3f-bbd0-0d480860b6c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/i</value>
+      <webElementGuid>5b78cac3-71a6-4be2-b250-e8fb1fd38e9b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
