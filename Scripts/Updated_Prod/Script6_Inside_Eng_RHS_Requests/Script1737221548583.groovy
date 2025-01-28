@@ -608,6 +608,8 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Available_Section_RHS'))
 
+WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/Pagenation'))
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('RHS_Objects_Client_Dashborad_Login/All_Request_Section_RHS'))

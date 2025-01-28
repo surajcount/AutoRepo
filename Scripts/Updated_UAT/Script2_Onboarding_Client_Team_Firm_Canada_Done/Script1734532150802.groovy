@@ -243,19 +243,17 @@ WebUI.click(findTestObject('Page_Inbox/a_Verify'))
 
 WebUI.switchToWindowIndex(2)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Password_password'), 
-    '0yu2BuhvF5H+L+Dr3iRPjA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/New_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Re-enter Password_confirmPassword'), 
-    '0yu2BuhvF5H+L+Dr3iRPjA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Re-Enter_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
 
-WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Re-enter Password_mat-mdc-checkbox-1-input'))
+WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Checkbox_Set_Password'))
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/span_Set Password'))
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/span_Login Now'))
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Email_mat-input-3'), CSV_Team_Member)
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Email_mat-input-3'), TeamMem_Email_CANADA)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Password_mat-input-4'), 
     '0yu2BuhvF5H+L+Dr3iRPjA==')
@@ -295,13 +293,11 @@ WebUI.click(findTestObject('Page_Inbox/a_Verify'))
 
 WebUI.switchToWindowIndex(4)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Password_password'), 
-    '0yu2BuhvF5H+L+Dr3iRPjA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/New_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Re-enter Password_confirmPassword'), 
-    '0yu2BuhvF5H+L+Dr3iRPjA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Re-Enter_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
 
-WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Re-enter Password_mat-mdc-checkbox-1-input'))
+WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Checkbox_Set_Password'))
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/span_Set Password'))
 

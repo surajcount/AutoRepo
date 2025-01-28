@@ -6,11 +6,11 @@
    <elementGuidId>7b1a52e3-2db4-47b3-93a1-1dcfccfdd0f6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//button[@title='Delete'])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@src='/assets/images/ui-uplift-icons/global/transh-Icon.svg']|(//button[@title='Delete'])[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//img[@src='/assets/images/ui-uplift-icons/global/transh-Icon.svg']</value>
-      <webElementGuid>91f6aa46-2bf7-438d-9030-8717aab35c63</webElementGuid>
+      <webElementGuid>6e655a7d-dcc5-4199-93aa-1b2eaee68764</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

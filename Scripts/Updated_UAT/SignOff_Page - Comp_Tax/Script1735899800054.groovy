@@ -136,7 +136,7 @@ int proc_items = (countProceFolder + countProceSubFolder) + TotLS
 println('Number of Items Available in Procedures: ' + proc_items)
 
 //Financial_Statement_Items
-String FSItems = '//mat-expansion-panel/div/div/ul/li|//mat-expansion-panel/div/div/div/ul/li'
+String FSItems = '//mat-expansion-panel/div/div/div/ul/li[contains(@class,"signOff-panel-wrapper")]'
 
 List<WebElement> FS = driver.findElements(By.xpath(FSItems))
 
@@ -154,6 +154,13 @@ List<WebElement> ComplSign = driver.findElements(By.xpath(Comp))
 int CompSignCount = ComplSign.size()
 
 println('Number of Items Available in Completion and Signoff: ' + CompSignCount)
+//Documents added
+//String Docsadded = '//mat-expansion-panel/div/div/div/ul/li/span'
+//List<WebElement> docs = driver.findElements(By.xpath(Docsadded))
+//
+//int docsCount = docs.size()
+//
+//println('Number of docs Available in LHS: ' + docsCount)
 
 //Total Items in LHS Count
 int TotalItemsinLHS = (((Ccount + countDocsFolder) + proc_items) + FSItemsCount) + CompSignCount

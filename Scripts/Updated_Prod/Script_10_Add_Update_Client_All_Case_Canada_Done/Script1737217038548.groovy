@@ -131,6 +131,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Client_All_RegressionCase/UploadCSV_Client/Cancel_Import_Button'))
 
+'Correct client data'
 WebUI.uploadFile(findTestObject('Client_All_RegressionCase/UploadCSV_Client/CsvUpld_Client_ClickUpload'), Correct_Client_Format)
 
 WebUI.delay(1)
@@ -256,7 +257,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Client_Section_Object/SearchBox_Assgn_Prtnr_All_Client'))
 
-WebUI.setText(findTestObject('Client_Section_Object/SearchBox_Assgn_Prtnr_All_Client'), 'Countable')
+WebUI.setText(findTestObject('Client_Section_Object/SearchBox_Assgn_Prtnr_All_Client'), 'Canada')
 
 WebUI.click(findTestObject('Client_Section_Object/Select_Asgn_Partner_FrmList_All_Client'))
 

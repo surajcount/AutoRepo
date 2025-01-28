@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(PROD)
+WebUI.navigateToUrl(UAT)
 
-WebUI.setText(findTestObject('Object Repository/LoginPage/User_Email'), PRODLogin)
+WebUI.setText(findTestObject('Object Repository/LoginPage/User_Email'), UATUSER)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/User_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
 

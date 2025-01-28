@@ -94,7 +94,7 @@
       <name>ClientEmail_CANADA</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.Team_CSV</defaultValue>
+      <defaultValue>GlobalVariable.Onboard_Team_Can</defaultValue>
       <description></description>
       <id>5f0d779a-d19e-4b56-a07a-1c62e7b3d8d8</id>
       <masked>false</masked>

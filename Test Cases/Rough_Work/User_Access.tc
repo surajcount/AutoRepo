@@ -48,6 +48,12 @@
       <value></value>
       <variableId>45264a22-f3c2-445f-a278-875fa6d99035</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b0cd0d0-4025-4e05-a787-1c1529350384</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.EmailLogin_PROD</defaultValue>
       <description></description>
@@ -70,11 +76,11 @@
       <name>CorrectDataFile</name>
    </variable>
    <variable>
-      <defaultValue>'team11812@yopmail.com'</defaultValue>
+      <defaultValue>'genteam20@yopmail.com'</defaultValue>
       <description></description>
       <id>65b98980-a1c8-471f-9a24-9dc68586c374</id>
       <masked>false</masked>
-      <name>TeamMemberEmail</name>
+      <name>General_TeamMember</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.ExistingTeam</defaultValue>
@@ -96,5 +102,12 @@
       <id>45264a22-f3c2-445f-a278-875fa6d99035</id>
       <masked>false</masked>
       <name>PROD</name>
+   </variable>
+   <variable>
+      <defaultValue>'limitedbygen@yopmail.com'</defaultValue>
+      <description></description>
+      <id>5b0cd0d0-4025-4e05-a787-1c1529350384</id>
+      <masked>false</masked>
+      <name>LimitedUserByGen</name>
    </variable>
 </TestCaseEntity>

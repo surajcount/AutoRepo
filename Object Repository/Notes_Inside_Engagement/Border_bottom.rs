@@ -6,12 +6,11 @@
    <elementGuidId>521c6fda-128a-48a8-baf7-33911bde37c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@src='../../../../assets/images/ui-uplift-icons/global/border-bottom.svg']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@title='Border Bottom']//span[@class='mat-mdc-button-touch-target']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

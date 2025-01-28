@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//p[@title='CSRS 4200 - New compilation standards']</value>
+         <value>//p[@title='Compilation']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -238,13 +238,13 @@ WebUI.click(findTestObject('Page_Inbox/a_Verify'))
 
 WebUI.switchToWindowIndex(2)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/New_Password'), 
     '0yu2BuhvF5H+L+Dr3iRPjA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Re-enter Password_confirmPassword'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Re-Enter_Password'), 
     '0yu2BuhvF5H+L+Dr3iRPjA==')
 
-WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Re-enter Password_mat-mdc-checkbox-1-input'))
+WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Checkbox_Set_Password'))
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/span_Set Password'))
 
@@ -284,13 +284,13 @@ WebUI.click(findTestObject('Page_Inbox/a_Verify'))
 
 WebUI.switchToWindowIndex(4)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/New_Password'), 
     '0yu2BuhvF5H+L+Dr3iRPjA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Re-enter Password_confirmPassword'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Re-Enter_Password'), 
     '0yu2BuhvF5H+L+Dr3iRPjA==')
 
-WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/input_Re-enter Password_mat-mdc-checkbox-1-input'))
+WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Checkbox_Set_Password'))
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/span_Set Password'))
 

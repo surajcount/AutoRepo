@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(.,'Release V27')]</value>
+         <value>//span[contains(.,'Release V34')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

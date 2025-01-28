@@ -6,12 +6,11 @@
    <elementGuidId>353e72b4-328e-49a5-bd99-55179a7b5482</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//img[@alt='Icon'])[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//i[contains(@class,'fa-magnifying-glass')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

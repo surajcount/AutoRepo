@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='title-content hover-action search-highlight']/following::thead)[1]</value>
+         <value>(//div[@class='title-content hover-action search-highlight']/following::thead)[1]|//tr[contains(@class,'mat-mdc-header-row mdc-data-table__header-row cdk-header-row ng-star-inserted')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
