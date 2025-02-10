@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='text-link']</value>
+         <value>//span[@class='text-link']|//label[normalize-space()='Create new folder']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

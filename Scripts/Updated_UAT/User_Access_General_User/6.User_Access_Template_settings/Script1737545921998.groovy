@@ -100,7 +100,7 @@ WebUI.closeBrowser()
 WebUI.openBrowser('')
 
 'This Script Covers addition and updating team member info for firm user.\r\nThis script have adding client through file upload flow where validation of \r\nduplicate/existing and incoorect file format has done.\r\nEnsure to have the respective data in corresponding uploaded file.\r\nUpdate the variable used for adding team member.'
-WebUI.navigateToUrl(PROD)
+WebUI.navigateToUrl(UAT)
 
 WebUI.setText(findTestObject('LoginPage/User_Email'), LoginEmail)
 

@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//p[@title='Compilation']</value>
+         <value>//p[normalize-space()='Compilation']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

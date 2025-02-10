@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//p[@title='Client Acceptance and Continuance']</value>
+         <value>//p[@title='Client Acceptance and Continuance']|//span[normalize-space()='Client acceptance and continuance']|//p[contains(text(),'Client Acceptance')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

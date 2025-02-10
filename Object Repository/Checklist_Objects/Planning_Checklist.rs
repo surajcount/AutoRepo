@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//p[@title='Planning']</value>
+         <value>//p[@title='Planning']|//span[normalize-space()='Planning']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

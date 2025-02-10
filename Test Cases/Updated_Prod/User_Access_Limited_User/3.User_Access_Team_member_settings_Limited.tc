@@ -16,25 +16,7 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fe7a6aff-5109-4ef2-ad4b-c174377deb52</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>20dd44a5-2ebb-4b91-95d0-f99f96f2495b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>c0c57481-0f8a-451f-a9a7-c709cf86ba3b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>a0edd070-01bd-4462-a252-094630af3d65</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -62,32 +44,11 @@
       <name>LoginEmail</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.Client_Upload_Onboarding</defaultValue>
-      <description></description>
-      <id>fe7a6aff-5109-4ef2-ad4b-c174377deb52</id>
-      <masked>false</masked>
-      <name>IncorrectFormat</name>
-   </variable>
-   <variable>
-      <defaultValue>GlobalVariable.CorrectTeam</defaultValue>
-      <description></description>
-      <id>20dd44a5-2ebb-4b91-95d0-f99f96f2495b</id>
-      <masked>false</masked>
-      <name>CorrectDataFile</name>
-   </variable>
-   <variable>
-      <defaultValue>'ltdteam20@yopmail.com'</defaultValue>
+      <defaultValue>GlobalVariable.Limited_User</defaultValue>
       <description></description>
       <id>c0c57481-0f8a-451f-a9a7-c709cf86ba3b</id>
       <masked>false</masked>
       <name>General_TeamMember</name>
-   </variable>
-   <variable>
-      <defaultValue>GlobalVariable.ExistingTeam</defaultValue>
-      <description></description>
-      <id>a0edd070-01bd-4462-a252-094630af3d65</id>
-      <masked>false</masked>
-      <name>ExistingTeam</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.UAT</defaultValue>

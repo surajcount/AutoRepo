@@ -86,6 +86,43 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>8d1b66f0-1145-4897-80fa-000c333d25cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Updated_UAT/User_Access_SuperAdmin_User/3.1.User_Access_Team_member_settings_SupAdmin_Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6e5c9e09-463b-4313-9b7a-0ca1a1a6020c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dce36cdc-2f3c-4c5d-aed5-8e926c63450d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>62ceaa8e-36c6-4f14-aa16-36aa08bb64df</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fcbd34e3-008f-4627-adaa-100c85178812</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8e7a2b5e-0440-4cec-a7f8-5af346691b27</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>a2dc58b6-c7ba-4e8d-9e00-a3fbccb4e32d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

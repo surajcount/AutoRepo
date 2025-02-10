@@ -12,59 +12,83 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>22710587-ab3c-432c-9498-ea1cfe074b4e</testSuiteGuid>
    <testCaseLink>
-      <guid>9c9e52e0-4c38-470e-a8fa-bcae1fcf5792</guid>
+      <guid>445ef664-4637-4140-9ac9-cfc85c39abd3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Countable_UAT_Environment_Scripts/Script_23_SignUp-Countable_USA</testCaseId>
+      <testCaseId>Test Cases/Updated_UAT/Script_23_SignUp-Countable_USA</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>74f07266-b39c-45c1-89d5-79b14cd2c3ca</variableId>
+         <variableId>34e9a22e-e3c6-4ce3-8fb0-8f4e60eb019b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>440efe2a-32d6-47a9-af4d-49e619e694bd</variableId>
+         <variableId>d019675f-328a-42dc-9d76-4823c1660174</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e64a48a2-fed1-4841-bfcb-21a36e176d93</variableId>
+         <variableId>6dea6f3f-249a-46cd-a870-ea0932545cf2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7b12982a-2536-42de-a7cc-a2723a84829d</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0a4eda6f-299e-40cb-a842-6bff1e16fa76</guid>
+      <guid>4fa9e57f-1333-4522-98eb-9dbbc1ffd7f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Countable_UAT_Environment_Scripts/Script_24_OnboardFirmTeamClient_USA -ManuallyAddress</testCaseId>
+      <testCaseId>Test Cases/Updated_UAT/Script_24_OnboardFirmTeamClient_USA -ManuallyAddress</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7d7cfaa1-a5ab-4362-ba82-0178abd15f1b</variableId>
+         <variableId>6c2f6319-7282-48b1-a6e4-e4989c26a0c0</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9e770771-01bc-4939-a27e-256de3f7dcdc</variableId>
+         <variableId>9e5f0c71-4cff-4cf4-88fd-86ffe2f9ce8e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>49cf9564-8e39-43c4-bc5b-bfac4cb691c4</variableId>
+         <variableId>3f303e33-ddd6-4d65-a790-a3c5e7ad93d9</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>aa7fdec5-70df-49f9-a59b-34d41d01d38a</variableId>
+         <variableId>7f6fd1a8-6690-4ae1-a045-097b1207f5fe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bc07a6b6-a487-4d3a-b97a-caa3ea4cc5f2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>040c2636-b8b7-44a3-916d-325aed4b8b14</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4272a843-b781-449c-8237-cbe3f1abb7f1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

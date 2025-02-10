@@ -61,7 +61,7 @@ WebUI.click(findTestObject('Page_UAT (Countable)/div_No'), FailureHandling.CONTI
 
 WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Firm_Title'), 'Partner')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Firm_First Name'), 'Jervin')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Firm_First Name'), 'Jason')
 
 //WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/div_Member IDLicense NoFirst NameLast NameB_75727a'))
 WebUI.click(findTestObject('Object Repository/Page_UAT (Countable)/Go to Step 2'))
@@ -198,17 +198,17 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_UAT (Countable)/Entitytype_Corporation_selection'))
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/First Name_addclient'), 'cliAmol')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/First Name_addclient'), 'Jacob')
 
-WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Last Name_addclient'), 'regPravin')
+WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Last Name_addclient'), 'Oram')
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_Onboard/ClientAddress'), 'Taber')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_Onboard/ClientAddress'), 'F.G.Bradley\'s')
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_Onboard/ClientAddress - City'), 'ABCTaber')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_Onboard/ClientAddress - City'), 'Toronto')
 
 WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_Onboard/ClientAddress_Country'), 'Canada')
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_Onboard/ClientAddress_ProvienceState'), 'BC')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/AddClientAddress_Onboard/ClientAddress_ProvienceState'), 'Ontario')
 
 WebUI.setText(findTestObject('Object Repository/Page_UAT (Countable)/Email_addclient'), ClientEmail_CANADA)
 

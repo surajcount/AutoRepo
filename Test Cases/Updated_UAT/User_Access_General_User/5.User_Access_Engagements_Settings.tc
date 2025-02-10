@@ -62,7 +62,7 @@
       <name>LoginEmail</name>
    </variable>
    <variable>
-      <defaultValue>'genteam20@yopmail.com'</defaultValue>
+      <defaultValue>GlobalVariable.General_User</defaultValue>
       <description></description>
       <id>8b8c835d-d536-4be4-b9a5-c9c5d10284c0</id>
       <masked>false</masked>

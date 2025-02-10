@@ -6,12 +6,11 @@
    <elementGuidId>985e3383-4549-4140-8c72-55361e91193f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='name']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@id='name']|//input[@placeholder='New folder name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

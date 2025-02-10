@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@title='Delete']//span//span[contains(text(),'Delete')]</value>
+         <value>//span[@class='mat-mdc-menu-item-text']/span[contains(text(),'Delete')]|(//i[contains(@class,'fa-regular fa-trash-can')])[last()]|//span[normalize-space()='Delete']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

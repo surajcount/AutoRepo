@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//p[@title='Knowledge of client business'])[last()]</value>
+         <value>(//p[@title='Knowledge of client business'])[last()]|(//p[contains(text(),'Knowledge of client business')])[last()]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

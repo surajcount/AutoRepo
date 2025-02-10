@@ -50,7 +50,7 @@ WebUI.click(findTestObject('Stripe/Remove_Flex_Addon'))
 
 WebUI.verifyTextPresent('Flex Removed Successfully', false)
 
-WebUI.click(findTestObject('Stripe/Ok_Button_onRemoved_popup'))
+WebUI.click(findTestObject('Stripe/Ok_Button'))
 
 WebUI.scrollToElement(findTestObject('Stripe/Proceed_to_Checkout_Button'), 0)
 

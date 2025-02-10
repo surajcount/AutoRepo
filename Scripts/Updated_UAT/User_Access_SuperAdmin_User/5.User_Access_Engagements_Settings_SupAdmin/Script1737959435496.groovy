@@ -177,11 +177,7 @@ WebUI.verifyTextPresent('Engagement created successfully', false)
 
 WebUI.delay(20)
 
-WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Delete_Button_AllTeam_Sec'))
-
-WebUI.click(findTestObject('Notes_Firm/Delete_on_popup'))
-
-WebUI.click(findTestObject('User_Access/Delete_Files'))
+WebUI.verifyElementClickable(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Delete_Button_AllTeam_Sec'))
 
 WebUI.verifyTextPresent('Engagement and Files deleted', false)
 

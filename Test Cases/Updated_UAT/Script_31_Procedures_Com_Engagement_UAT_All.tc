@@ -52,7 +52,7 @@
       <name>UAT</name>
    </variable>
    <variable>
-      <defaultValue>'rev'</defaultValue>
+      <defaultValue>'com'</defaultValue>
       <description></description>
       <id>a28b8e3a-7558-4585-a238-3a0bee3cc8d7</id>
       <masked>false</masked>

@@ -236,7 +236,61 @@ WebUI.click(findTestObject('Notes_Firm/Delete_on_popup'))
 
 WebUI.verifyTextPresent('Subheader(s) deleted successfully', false)
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Notes_Firm/Save_Table'))
+
+WebUI.click(findTestObject('Notes_Firm/Toast_Container'))
+
+WebUI.click(findTestObject('Notes_Firm/Table_Header'))
+
+WebUI.mouseOver(findTestObject('Notes_Firm/Total_row'))
+
+WebUI.click(findTestObject('Notes_Firm/Hide_Total'))
+
+WebUI.click(findTestObject('Notes_Firm/Save_Table'))
+
+WebUI.click(findTestObject('Notes_Firm/Toast_Container'))
+
+WebUI.verifyElementNotVisibleInViewport(findTestObject('Notes_Firm/Total_row_check'), 0)
+
+WebUI.click(findTestObject('Notes_Firm/Table_Header'))
+
+WebUI.mouseOver(findTestObject('Notes_Firm/Total_row'))
+
+WebUI.click(findTestObject('Notes_Firm/Hide_Total'))
+
+WebUI.click(findTestObject('Notes_Firm/Save_Table'))
+
+WebUI.click(findTestObject('Notes_Firm/Toast_Container'))
+
+WebUI.verifyElementVisibleInViewport(findTestObject('Notes_Firm/Total_row_check'), 0)
+
+WebUI.click(findTestObject('Notes_Firm/Table_Header'))
+
+WebUI.mouseOver(findTestObject('Notes_Firm/Table_Header'))
+
+WebUI.click(findTestObject('Notes_Firm/Hide_Header'))
+
+WebUI.verifyTextPresent('Header(s) and subheader(s) updated successfully', false)
+
 WebUI.click(findTestObject('Notes_Firm/Toast_Container'))
 
 WebUI.click(findTestObject('Notes_Firm/Save_Table'))
+
+WebUI.verifyTextNotPresent('Current Year', false)
+
+WebUI.click(findTestObject('Notes_Firm/Table_Edit'))
+
+WebUI.mouseOver(findTestObject('Notes_Firm/Table_Header'))
+
+WebUI.click(findTestObject('Notes_Firm/Hide_Header'))
+
+WebUI.verifyTextPresent('Header(s) and subheader(s) updated successfully', false)
+
+WebUI.click(findTestObject('Notes_Firm/Toast_Container'))
+
+WebUI.click(findTestObject('Notes_Firm/Save_Table'))
+
+WebUI.verifyTextPresent('Current Year', false)
 

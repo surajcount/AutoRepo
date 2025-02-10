@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//span[contains(text(),'Select Plan')])[2]</value>
+         <value>//div[contains(@class,'card')]/div/div/h3[contains(.,'Ignite')]/following::div[2]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

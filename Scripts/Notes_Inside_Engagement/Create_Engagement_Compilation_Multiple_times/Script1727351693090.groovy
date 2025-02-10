@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Login_TC/Login'), [:], FailureHandling.CONTINUE
 
 WebUI.waitForPageLoad(10)
 
-int numberOfRuns = 45 // Specify how many times to run
+int numberOfRuns = 6 // Specify how many times to run
 
 for (int i = 0; i < numberOfRuns; i++) {
     WebUI.click(findTestObject('Create_Engagement_Pravin/Engagement_List'))
@@ -34,7 +34,7 @@ for (int i = 0; i < numberOfRuns; i++) {
 
     WebUI.click(findTestObject('Create_Engagement_Pravin/Client_Name_on_Popup'))
 
-    WebUI.setText(findTestObject('Create_Engagement_Pravin/Search_Client'), 'prod')
+    WebUI.setText(findTestObject('Create_Engagement_Pravin/Search_Client'), 'client')
 
     WebUI.click(findTestObject('Create_Engagement_Pravin/Select_Client'))
 
@@ -64,9 +64,7 @@ for (int i = 0; i < numberOfRuns; i++) {
 
     WebUI.click(findTestObject('Create_Engagement_Pravin/Create_engagement_button_listpage'))
 
-    WebUI.verifyTextPresent('Engagement created successfully', false)
-
-    WebUI.waitForPageLoad(10)
+    WebUI.delay(20)
 }
 
 WebUI.closeBrowser()

@@ -38,7 +38,7 @@
       <name>EmailLogin</name>
    </variable>
    <variable>
-      <defaultValue>'automationnotes@yopmail.com'</defaultValue>
+      <defaultValue>'csvtestv26@yopmail.com'</defaultValue>
       <description></description>
       <id>d0b5cf36-4534-4908-9cfb-9d5e88873a4d</id>
       <masked>false</masked>

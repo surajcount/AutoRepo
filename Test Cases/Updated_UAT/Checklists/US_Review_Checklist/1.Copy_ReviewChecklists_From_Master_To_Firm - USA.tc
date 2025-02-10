@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.Copy_ReviewChecklists_From_Master_To_Firm - USA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f1dcbe3b-694d-4613-9dc7-14a69155ea5a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa2a0376-9e56-4850-801d-09eec550a7d1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7684f3e3-f366-4040-899a-c07664fd4d48</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c00709c1-4813-4d7c-9b42-c214e7004d88</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.UAT</defaultValue>
+      <description></description>
+      <id>aa2a0376-9e56-4850-801d-09eec550a7d1</id>
+      <masked>false</masked>
+      <name>UAT</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
+      <description></description>
+      <id>7684f3e3-f366-4040-899a-c07664fd4d48</id>
+      <masked>false</masked>
+      <name>LoginEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PROD</defaultValue>
+      <description></description>
+      <id>c00709c1-4813-4d7c-9b42-c214e7004d88</id>
+      <masked>false</masked>
+      <name>PROD</name>
+   </variable>
+</TestCaseEntity>

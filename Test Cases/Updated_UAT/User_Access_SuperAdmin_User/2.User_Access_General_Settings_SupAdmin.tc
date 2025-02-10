@@ -44,7 +44,7 @@
       <name>LoginEmail</name>
    </variable>
    <variable>
-      <defaultValue>'supadmeam20@yopmail.com'</defaultValue>
+      <defaultValue>GlobalVariable.Super_Admin</defaultValue>
       <description></description>
       <id>d390ee7b-c7ea-4ae0-b25e-17401f317ac2</id>
       <masked>false</masked>
