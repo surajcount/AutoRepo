@@ -64,6 +64,10 @@ WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Counta
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Sign_Up_Now'))
 
+WebUI.verifyTextPresent('Thank you for choosing Countable.', false)
+
+WebUI.delay(5)
+
 JavascriptExecutor js = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
 js.executeScript('window.open()')
@@ -88,11 +92,9 @@ catch (Exception e) {
 
 WebUI.switchToWindowIndex(2)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/New_Password'), 
-    '0yu2BuhvF5H+L+Dr3iRPjA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/New_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Re-Enter_Password'), 
-    '0yu2BuhvF5H+L+Dr3iRPjA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Re-Enter_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Please Specify_checkbox'))
 

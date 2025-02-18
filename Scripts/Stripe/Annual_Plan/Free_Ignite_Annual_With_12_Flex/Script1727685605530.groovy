@@ -377,5 +377,19 @@ WebUI.setText(findTestObject('Stripe/CVV_Code'), '123')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Stripe/Pay_Now'))
+WebUI.switchToDefaultContent()
+
+WebUI.mouseOver(findTestObject('Stripe/Amount_Due_PaymentPage'))
+
+WebUI.click(findTestObject('Stripe/Amount_Due_PaymentPage'))
+
+WebUI.scrollToElement(findTestObject('Stripe/Pay_Now'), 0)
+
+WebUI.click(findTestObject('Stripe/Pay_Now'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(10)
+
+WebUI.verifyTextPresent('Plan Successfully upgraded!', false)
+
+WebUI.verifyTextPresent('You have successfully upgraded your plan to the Ignite Annual.', false)
 

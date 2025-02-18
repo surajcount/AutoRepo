@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select_Payment_Method</name>
+   <name>Cross_Template</name>
    <tag></tag>
-   <elementGuidId>37e1472e-50dd-44c0-819b-a837803818fb</elementGuidId>
+   <elementGuidId>14529d1a-85d6-4f43-9dff-0986147db041</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[normalize-space()='Select Payment Methods']|//span[normalize-space()='Process Refund']</value>
+         <value>//i[@class='fa-regular fa-xmark']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

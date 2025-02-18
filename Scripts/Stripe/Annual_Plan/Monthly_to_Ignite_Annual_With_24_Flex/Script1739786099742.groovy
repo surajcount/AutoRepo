@@ -19,14 +19,48 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login_TC/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(UAT)
+
+WebUI.setText(findTestObject('LoginPage/User_Email'), LoginEmail)
+
+WebUI.setEncryptedText(findTestObject('LoginPage/User_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
+
+WebUI.click(findTestObject('LoginPage/LoginButton'))
+
+WebUI.maximizeWindow()
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Stripe/User_Profile'))
 
 WebUI.click(findTestObject('Stripe/Billing'))
 
-WebUI.verifyTextPresent('Free Trial', false)
+WebUI.delay(5)
 
+WebUI.verifyTextPresent('per user, billed monthly', false)
+
+//Add-on: Countable Flex
+//When user is on Monthly Plan the Total Commitment should be NA
+String TC = WebUI.getText(findTestObject('Stripe/Total_Commitment'))
+
+System.out.print(TC)
+
+//int Total_Commitment = Integer.parseInt(TC)
+//System.out.print(Total_Commitment)
+String Tot_Used = WebUI.getText(findTestObject('Stripe/Total_Used_Till_Date'))
+
+System.out.print(Tot_Used)
+
+//int Total_flex_used = Integer.parseInt(Tot_Used)
+//System.out.print(Total_flex_used)
+String Rem_Unused = WebUI.getText(findTestObject('Stripe/Remaining_Unused'))
+
+System.out.print(Rem_Unused)
+
+//int Remaining_Flex = Integer.parseInt(Rem_Unused)
+//System.out.print(Remaining_Flex)
 String TAS = WebUI.getText(findTestObject('Stripe/Total_Active_Seats'))
 
 int total_Active_seats = Integer.parseInt(TAS)
@@ -39,11 +73,11 @@ WebUI.click(findTestObject('Stripe/Switch_Annual'))
 
 WebUI.click(findTestObject('Stripe/Select_Plan_Ignite'))
 
-WebUI.verifyTextPresent('You are about to subscribe to the Essentials Annual Plan', false)
+WebUI.verifyTextPresent('You are about to subscribe to the Accelerate Annual Plan', false)
 
 WebUI.click(findTestObject('Stripe/Confirm_on_Popup'))
 
-WebUI.verifyTextPresent('Essentials Annual', false)
+WebUI.verifyTextPresent('Accelerate Annual', false)
 
 WebUI.verifyTextPresent('Discount Applied: 15% off', false)
 
@@ -56,9 +90,9 @@ WebUI.scrollToElement(findTestObject('Stripe/Commitment_Dropdown'), 0)
 
 WebUI.click(findTestObject('Stripe/Commitment_Dropdown'))
 
-WebUI.click(findTestObject('Stripe/12 Engagement commitment'))
+WebUI.click(findTestObject('Stripe/24_Engagements_Commitment'))
 
-WebUI.verifyTextPresent('Discount Applied: 25% off', false)
+WebUI.verifyTextPresent('Discount Applied: 20% off', false)
 
 WebUI.scrollToElement(findTestObject('Stripe/Proceed_to_Checkout_Button'), 0)
 
@@ -365,31 +399,19 @@ if (AmountDueNowCheck == Amount_Due_Now_On_Payment_Page) {
         ' ') + 'Amount due now on payment page=') + Amount_Due_Now_On_Payment_Page) + ' ')
 }
 
-WebUI.switchToFrame(findTestObject('Stripe/Secure_Payment_Frame'), 5)
-
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Stripe/Card_Number_Payment_Page'), '4242424242424242')
+WebUI.click(findTestObject('Stripe/Pay_Now'))
 
-WebUI.setText(findTestObject('Stripe/Expiration_Date_Payment'), '1225')
-
-WebUI.setText(findTestObject('Stripe/CVV_Code'), '123')
-
-WebUI.delay(5)
-
-WebUI.switchToDefaultContent()
-
-WebUI.mouseOver(findTestObject('Stripe/Amount_Due_PaymentPage'))
-
-WebUI.click(findTestObject('Stripe/Amount_Due_PaymentPage'))
-
-WebUI.scrollToElement(findTestObject('Stripe/Pay_Now'), 0)
-
-WebUI.click(findTestObject('Stripe/Pay_Now'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(10)
+WebUI.waitForPageLoad(10)
 
 WebUI.verifyTextPresent('Plan Successfully upgraded!', false)
 
-WebUI.verifyTextPresent('You have successfully upgraded your plan to the Monthly Accelerate.', false)
+WebUI.verifyTextPresent('You have successfully upgraded your plan to the Annual Ignite.', false)
+
+WebUI.click(findTestObject('Stripe/Close_Plan_upgrade_toaster'))
+
+WebUI.verifyTextPresent('per user/month, billed annually', false)
+
+WebUI.callTestCase(findTestCase('Stripe/Annual_Plan/Billing_Page_Annual_User'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

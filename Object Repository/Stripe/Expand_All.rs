@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select_Payment_Method</name>
+   <name>Expand_All</name>
    <tag></tag>
-   <elementGuidId>37e1472e-50dd-44c0-819b-a837803818fb</elementGuidId>
+   <elementGuidId>6e4bc660-91a9-4bae-aba6-0e96b9edea5b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[normalize-space()='Select Payment Methods']|//span[normalize-space()='Process Refund']</value>
+         <value>//button[@title='Expand All']|//button[contains(@class,'btn-expand-bg-tmp')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

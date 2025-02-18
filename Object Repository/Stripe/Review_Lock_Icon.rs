@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select_Payment_Method</name>
+   <name>Review_Lock_Icon</name>
    <tag></tag>
-   <elementGuidId>37e1472e-50dd-44c0-819b-a837803818fb</elementGuidId>
+   <elementGuidId>adab400b-4122-44f0-b14d-6fbe9454556a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[normalize-space()='Select Payment Methods']|//span[normalize-space()='Process Refund']</value>
+         <value>(//i[@class='fa-regular fa-lock-keyhole'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

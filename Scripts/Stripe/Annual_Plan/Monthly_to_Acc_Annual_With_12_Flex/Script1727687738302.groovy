@@ -19,7 +19,19 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login_TC/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(UAT)
+
+WebUI.setText(findTestObject('LoginPage/User_Email'), LoginEmail)
+
+WebUI.setEncryptedText(findTestObject('LoginPage/User_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
+
+WebUI.click(findTestObject('LoginPage/LoginButton'))
+
+WebUI.maximizeWindow()
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Stripe/User_Profile'))
 

@@ -6,12 +6,11 @@
    <elementGuidId>70287707-2267-43b7-b4ba-7ff5f45cff80</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//h3[contains(.,'Amount Due Now (incl.taxes)')]/following-sibling::h3|//h3[contains(.,'Refund Due Now (incl.taxes)')]/following-sibling::h3</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//h3[contains(.,'Amount Due Now (incl.taxes)')]/following-sibling::h3</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

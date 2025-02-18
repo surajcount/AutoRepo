@@ -91,4 +91,42 @@
          <variableId>4272a843-b781-449c-8237-cbe3f1abb7f1</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7475b963-dd82-453a-9b46-efdc4720826e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Stripe/Monthly_Plan/1.Free_Flex_Engagement</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c625088-07fd-4908-b21e-5bc54c0843e8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4dee013f-b7cf-4560-8282-75fc5c0eb3c9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>33768313-f615-47eb-8051-87c31b1d8bde</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Stripe/Monthly_Plan/2.Free_Trial_User_Operations</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ed167000-df9e-44ee-9067-40a5dcd90638</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>15da0c35-2e5b-47f3-be7d-62cbc55b7768</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

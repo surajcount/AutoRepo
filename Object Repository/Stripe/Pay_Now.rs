@@ -6,12 +6,11 @@
    <elementGuidId>b08cfb47-015f-430b-814b-123f88f3f4b0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[normalize-space()='Pay Now']|//span[normalize-space()='Process Refund']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[normalize-space()='Pay Now']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

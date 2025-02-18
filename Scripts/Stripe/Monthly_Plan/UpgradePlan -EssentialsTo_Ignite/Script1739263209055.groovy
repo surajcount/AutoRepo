@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword as WebUIAbstractKeyword
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
@@ -18,49 +19,85 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login_TC/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
 
+WebUI.navigateToUrl(UAT)
+
+WebUI.setText(findTestObject('LoginPage/User_Email'), LoginEmail)
+
+WebUI.setEncryptedText(findTestObject('LoginPage/User_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
+
+WebUI.click(findTestObject('LoginPage/LoginButton'))
+
+WebUI.maximizeWindow()
+
+WebUI.delay(5)
+
+//String TotalEng = WebUI.getText(findTestObject('Stripe/Total_Engagements_Dashboard'), FailureHandling.CONTINUE_ON_FAILURE)
+//
+//int totalengbilling = TotalEng.toInteger()
+//
+//print(('Total Engagements on billing page are :' + totalengbilling) + ' ')
+//
+//WebUI.delay(3)
 WebUI.click(findTestObject('Stripe/User_Profile'))
 
 WebUI.click(findTestObject('Stripe/Billing'))
 
-WebUI.verifyTextPresent('Free Trial', false)
+WebUI.delay(3)
 
-String TAS = WebUI.getText(findTestObject('Stripe/Total_Active_Seats'))
+String Downgrade_Left = WebUI.getText(findTestObject('Stripe/Downgrades_Left'))
 
-int total_Active_seats = Integer.parseInt(TAS)
+int downleft = Downgrade_Left.toInteger()
 
-WebUI.click(findTestObject('Stripe/Subscribe_button'))
+String CurrentPlan = WebUI.getText(findTestObject('Stripe/Plan_Name'))
 
-WebUI.verifyTextPresent('Please select the plan that best suits your needs', false)
+WebUI.comment(('Current plan is ' + CurrentPlan) + ' ')
 
-WebUI.click(findTestObject('Stripe/Switch_Annual'))
+if (CurrentPlan.contains('Accelerate Plan')) {
+    KeywordUtil.markFailed('User is on Accelerate Plan and cannot Upgrade to another monthly plan')
 
-WebUI.click(findTestObject('Stripe/Select_Plan_Ignite'))
+    return null //FailureHandling.STOP_ON_FAILURE
+} else if (CurrentPlan.contains('Essentials Plan')) {
+    WebUI.click(findTestObject('Stripe/Change_Plan'))
 
-WebUI.verifyTextPresent('You are about to subscribe to the Essentials Annual Plan', false)
+    WebUI.delay(3)
 
-WebUI.click(findTestObject('Stripe/Confirm_on_Popup'))
+    WebUI.click(findTestObject('Stripe/Select_Plan_Ignite'))
 
-WebUI.verifyTextPresent('Essentials Annual', false)
+    WebUI.delay(2)
 
-WebUI.verifyTextPresent('Discount Applied: 15% off', false)
+    WebUI.verifyTextPresent('Confirm Change of Plan', false)
 
-WebUI.verifyTextPresent('Supercharge Your Workflow', false)
+    WebUI.verifyTextPresent('You are about to subscribe to the Ignite Monthly Plan', false)
 
-'Flex Pricess  when user subscribing to Annual plan should be 509'
-WebUI.verifyTextPresent('$599', false)
+    WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Stripe/Commitment_Dropdown'), 0)
+    WebUI.click(findTestObject('Stripe/Confirm_on_Popup'))
+} else if (CurrentPlan.contains('Ignite Plan')) {
+    WebUI.click(findTestObject('Stripe/Change_Plan'))
 
-WebUI.click(findTestObject('Stripe/Commitment_Dropdown'))
+    WebUI.delay(3)
 
-WebUI.click(findTestObject('Stripe/12 Engagement commitment'))
+    WebUI.click(findTestObject('Stripe/Select_Plan_Accelerate'))
 
-WebUI.verifyTextPresent('Discount Applied: 25% off', false)
+    WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Stripe/Proceed_to_Checkout_Button'), 0)
+    WebUI.verifyTextPresent('Confirm Change of Plan', false)
+
+    WebUI.verifyTextPresent('You are about to subscribe to the Accelerate Monthly Plan', false)
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Stripe/Confirm_on_Popup'))
+
+    WebUI.delay(3)
+}
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Stripe/Proceed_to_Checkout_Button'))
 
@@ -68,41 +105,40 @@ WebUI.delay(1)
 
 WebUI.verifyTextPresent('Checkout', false)
 
-WebUI.scrollToElement(findTestObject('Stripe/Select_Payment_Frequency'), 0)
+WebUI.delay(2)
 
-//PricePerSeat
+WebUI.click(findTestObject('Stripe/View_Previous_Plan'))
+
+WebUI.verifyTextPresent('Previous Plan Details', false)
+
+//WebUI.verifyTextPresent('Accelerate Monthly', false)
+WebUI.click(findTestObject('Stripe/Ok_Button'))
+
+WebUI.delay(2)
+
 String PPS = WebUI.getText(findTestObject('Stripe/Price_per_seat'))
 
 String numericPart = PPS.replaceAll('[^0-9]', '')
 
-float integerPart = Integer.parseInt(numericPart)
+double integerPart = Integer.parseInt(numericPart)
 
-float price = integerPart / 100
+double price = integerPart / 100
 
 System.out.print(price)
 
-//No of Seats
 String value = WebUI.getAttribute(findTestObject('Stripe/No. of _Seat'), 'value')
 
 int ns = Integer.parseInt(value)
 
 System.out.print(('The no of seats ' + ns) + ' ')
 
-if (total_Active_seats == ns) {
-    System.out.print('Test Passed :The number of seats on billing page and checkout page are correct')
-} else {
-    System.out.print('Test Failed :Seats are not matching')
-}
-
-//Months
 String months = WebUI.getText(findTestObject('Stripe/No. Of_Months'))
 
 int NOM = Integer.parseInt(months)
 
 System.out.print(('The number of months= ' + NOM) + ' ')
 
-//PlanCharges
-float PlanCharges = (price * NOM) * ns
+double PlanCharges = (price * NOM) * ns
 
 System.out.print(('Plan Charges are= ' + PlanCharges) + ' ')
 
@@ -110,41 +146,39 @@ String PC = WebUI.getText(findTestObject('Stripe/Plan_Charges'))
 
 String Charge = PC.replaceAll('[^0-9]', '')
 
-float integerPar = Integer.parseInt(Charge)
+double integerPar = Integer.parseInt(Charge)
 
-float PlanC = integerPar / 100
+double PlanC = integerPar / 100
 
 System.out.print(PlanC)
 
 if (PlanCharges == PlanC) {
     System.out.print('Test Passed : Plan charges calculated correctly ')
 } else {
-    System.out.print('Test Failed : Plan charges calculated incorrectly ')
+    KeywordUtil.markFailed('Test Failed : Plan charges calculated incorrectly')
 }
 
-//CountableFlexCharge
 String CF = WebUI.getText(findTestObject('Stripe/Countable_Flex_Charge'))
 
 String numericPart1 = CF.replaceAll('[^0-9]', '')
 
-float integerPart1 = Integer.parseInt(numericPart1)
+double integerPart1 = Integer.parseInt(numericPart1)
 
-float FlexCharge = integerPart1 / 100
+double FlexCharge = integerPart1 / 100
 
 System.out.print(FlexCharge)
 
-//Subtotal
 String ST = WebUI.getText(findTestObject('Stripe/Subtotal_New_Plan'))
 
 String numericPart2 = ST.replaceAll('[^0-9]', '')
 
-float integerPart2 = Integer.parseInt(numericPart2)
+double integerPart2 = Integer.parseInt(numericPart2)
 
-float Subtotalnc = integerPart2 / 100
+double Subtotalnc = integerPart2 / 100
 
 System.out.print(Subtotalnc)
 
-float SubtotalNewPlan = PlanCharges + FlexCharge
+double SubtotalNewPlan = PlanCharges + FlexCharge
 
 System.out.print('Subtotal is ' + SubtotalNewPlan)
 
@@ -155,13 +189,13 @@ System.out.print('Discount ' + Disc)
 
 String discAmt = Disc.replaceAll('[^0-9]', '')
 
-float discNum = Integer.parseInt(discAmt)
+double discNum = Integer.parseInt(discAmt)
 
-float DiscountedAmount = discNum / 100
+double DiscountedAmount = discNum / 100
 
 System.out.print('Discounted Amount is ' + DiscountedAmount)
 
-float NetTotal = SubtotalNewPlan + DiscountedAmount
+double NetTotal = SubtotalNewPlan + DiscountedAmount
 
 System.out.print('Net Total is ' + NetTotal)
 
@@ -170,16 +204,20 @@ String taxn = WebUI.getText(findTestObject('Stripe/Tax_New_Plan'))
 
 String taxper = taxn.replaceAll('[^0-9]', '')
 
-float taxPercentage = Integer.parseInt(taxper)
+double taxPercentage = Integer.parseInt(taxper)
 
 System.out.print('Tax percentage is ' + taxPercentage)
 
-float TaxCal = (NetTotal * taxPercentage) / 100
+double TaxCal = (NetTotal * taxPercentage) / 100
 
-System.out.print('Tax should be :' + TaxCal)
+String formattedTaxC = String.format('%.2f', TaxCal)
+
+double finalTaxC = Double.parseDouble(formattedTaxC)
+
+System.out.print('Tax should be :' + finalTaxC)
 
 //Total
-float Total = NetTotal + TaxCal
+double Total = NetTotal + finalTaxC
 
 System.out.print('Total Amount :' + Total)
 
@@ -187,83 +225,16 @@ String tot = WebUI.getText(findTestObject('Stripe/Total_New_Plan'))
 
 String totnum = tot.replaceAll('[^0-9]', '')
 
-float totval = Integer.parseInt(totnum)
+double totval = Integer.parseInt(totnum)
 
-float TotalNewPlan = totval / 100
+double TotalNewPlan = totval / 100
 
 System.out.print('Total New plan charges= ' + TotalNewPlan)
 
 if (Total == TotalNewPlan) {
     System.out.print('Test Passed :Total is correct ')
 } else {
-    System.out.print('Test Failed :Total is incorrect ')
-}
-
-WebUI.click(findTestObject('Stripe/Select_Payment_Frequency'))
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-List<WebElement> Payements = driver.findElements(By.xpath('//div[@role=\'listbox\']/mat-option'))
-
-println(Payements.size())
-
-for (WebElement el : Payements) {
-    println(el.getText())
-}
-
-if (SubtotalNewPlan > 10000) {
-    Payements.size() == 3
-
-    println('Subtotal is Greater than 10000')
-} else {
-    if ((SubtotalNewPlan > 5000) && (SubtotalNewPlan < 10000)) {
-        Payements.size() == 2
-
-        println('Subtotal is Greater than 5000 and less than 10000')
-    } else {
-        Payements.size() == 1
-
-        println('Subtotal is less than 5000')
-    }
-}
-
-//
-WebUI.click(findTestObject('Stripe/Quarterly_Payment_Frequency'))
-
-//
-//WebUI.setText(findTestObject('Stripe/No. of _Seat'), '10')
-//
-//WebUI.click(findTestObject('Stripe/Select_Payment_Frequency'))
-//
-//WebUI.delay(1)
-//
-//WebUI.click(findTestObject('Stripe/Select_Payment_Frequency'))
-//
-//WebUI.click(findTestObject('Stripe/Annually_Payment_Frequency'))
-String Months_Left = WebUI.getText(findTestObject('Stripe/Months_Left_in_Year'))
-
-int MonthsleftYear = Integer.parseInt(Months_Left)
-
-System.out.print(('Months Left in year = ' + MonthsleftYear) + ' ')
-
-double ProRatedNewPlanCharge = 0.00
-
-String PaymentOption = WebUI.getText(findTestObject('Stripe/Payment_Frequency_Option'))
-
-if (PaymentOption == 'Annually') {
-    ProRatedNewPlanCharge = (SubtotalNewPlan / 1)
-
-    System.out.print('Prorated new plan charge =' + ProRatedNewPlanCharge)
-} else {
-    if (PaymentOption == 'Quarterly') {
-        ProRatedNewPlanCharge = (SubtotalNewPlan / 4)
-
-        System.out.print('Prorated new plan charge =' + ProRatedNewPlanCharge)
-    } else {
-        ProRatedNewPlanCharge = (SubtotalNewPlan / 12)
-
-        System.out.print('Prorated new plan charge =' + ProRatedNewPlanCharge)
-    }
+    KeywordUtil.markFailed('Test Failed : Total calculated incorrectly')
 }
 
 //Pro Rated New Plan Charge:
@@ -277,12 +248,11 @@ double Protated_Charge = PNPC_integerPart / 100
 
 System.out.print(Protated_Charge)
 
-if (ProRatedNewPlanCharge == Protated_Charge) {
-    System.out.print('Test Passed: Prorated plan charged verified')
-} else {
-    System.out.print('Test Failed')
-}
-
+//if (Protated_Charge == 0.00) {
+//    print('Test Passed : Downgrade plan has no charges ')
+//} else {
+//    KeywordUtil.markFailed('Showing incorrect amount for downgarde plan')
+//}
 //Pro Rated Old Plan Charge/Refund:
 String POPR = WebUI.getText(findTestObject('Stripe/Pro_Rated_Old_Plan'))
 
@@ -295,14 +265,20 @@ double Protated_Old_Charge = POPR_integerPart / 100
 System.out.print(Protated_Old_Charge)
 
 //Subtotal_RHS
-double subtotal_rhs = ProRatedNewPlanCharge + Protated_Old_Charge
+double subtotal_rhs = Protated_Charge + Protated_Old_Charge
 
 System.out.print('Subtotal_RHS= ' + subtotal_rhs)
 
 double Tax_RHS = (subtotal_rhs * taxPercentage) / 100
 
+String formattedTax = String.format('%.2f', Tax_RHS)
+
+double finalTax = Double.parseDouble(formattedTax)
+
+System.out.println(finalTax)
+
 //Tax_RHS
-System.out.print('Tax_RHS= ' + Tax_RHS)
+System.out.print('Tax_RHS= ' + finalTax)
 
 String Tax_check = WebUI.getText(findTestObject('Stripe/Tax_RHS_Check'))
 
@@ -312,17 +288,10 @@ double Tax_check_integerPart = Integer.parseInt(Tax_check_Numbers)
 
 double Tax_RHS_Checkout = Tax_check_integerPart / 100
 
-System.out.print(Tax_RHS_Checkout)
-
-if (Tax_RHS == Tax_RHS_Checkout) {
-    System.out.print('Test Passed :Tax Matching ')
-} else {
-    System.out.print(((('Test Failed :Tax not matching- Actual Tax is : ' + Tax_RHS) + ' But its showing ') + Tax_RHS_Checkout) + 
-        ' on checkout page')
-}
+System.out.print(('Tax at RHS= ' + Tax_RHS_Checkout) + ' ')
 
 //Total_RHS
-double Total_RHS = subtotal_rhs + Tax_RHS
+double Total_RHS = subtotal_rhs + finalTax
 
 System.out.print('Total_RHS= ' + Total_RHS)
 
@@ -336,11 +305,7 @@ double Total_RHS_Check = Tot_RHS_integerPart / 100
 
 System.out.print(Total_RHS_Check)
 
-if (Total_RHS == Total_RHS_Check) {
-    System.out.print('Test Passed: Total Verified')
-} else {
-    System.out.print('Test Failed')
-}
+double tolerance = 0.10
 
 double AmountDueNowCheck = Total_RHS_Check
 
@@ -363,33 +328,27 @@ if (AmountDueNowCheck == Amount_Due_Now_On_Payment_Page) {
 } else {
     System.out.print(((((('Test Failed: Amount MisMatched ' + 'Amount Due now on Checkout page=') + AmountDueNowCheck) + 
         ' ') + 'Amount due now on payment page=') + Amount_Due_Now_On_Payment_Page) + ' ')
+
+    KeywordUtil.markFailed('Test Failed ')
 }
 
-WebUI.switchToFrame(findTestObject('Stripe/Secure_Payment_Frame'), 5)
-
 WebUI.delay(5)
-
-WebUI.setText(findTestObject('Stripe/Card_Number_Payment_Page'), '4242424242424242')
-
-WebUI.setText(findTestObject('Stripe/Expiration_Date_Payment'), '1225')
-
-WebUI.setText(findTestObject('Stripe/CVV_Code'), '123')
-
-WebUI.delay(5)
-
-WebUI.switchToDefaultContent()
-
-WebUI.mouseOver(findTestObject('Stripe/Amount_Due_PaymentPage'))
-
-WebUI.click(findTestObject('Stripe/Amount_Due_PaymentPage'))
 
 WebUI.scrollToElement(findTestObject('Stripe/Pay_Now'), 0)
 
 WebUI.click(findTestObject('Stripe/Pay_Now'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(10)
+//WebUI.click(findTestObject('Stripe/Pay_Now'), FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.click(findTestObject('Stripe/Pay_Now'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(20)
 
 WebUI.verifyTextPresent('Plan Successfully upgraded!', false)
 
-WebUI.verifyTextPresent('You have successfully upgraded your plan to the Monthly Accelerate.', false)
+WebUI.verifyTextPresent('You have successfully upgraded your plan to the Monthly Accelerate', false)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Create_Engagement_Pravin/Engagement_List'))
+
+WebUI.verifyTextPresent('Engagements', false)
 

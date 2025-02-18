@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Free_Trial_Engagement_Limit</name>
+   <name>Create_Engagement_Compilation_MultipleFlex</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e511e950-6ae5-4924-9f8d-3af98a796259</testCaseGuid>
+   <testCaseGuid>fa6dabaf-ccc0-4043-b611-ea0e16641be1</testCaseGuid>
 </TestCaseEntity>

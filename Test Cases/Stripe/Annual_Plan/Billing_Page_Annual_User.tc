@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>92a6b28d-cc9d-4b19-bc1a-c53df6f96853</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d02e740-7de9-4aa3-9cf0-17b8faff7cf5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c14f07d5-8664-46a2-88ba-17cd6d5512e1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.UAT</defaultValue>
+      <description></description>
+      <id>6d02e740-7de9-4aa3-9cf0-17b8faff7cf5</id>
+      <masked>false</masked>
+      <name>UAT</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
+      <description></description>
+      <id>c14f07d5-8664-46a2-88ba-17cd6d5512e1</id>
+      <masked>false</masked>
+      <name>LoginEmail</name>
+   </variable>
 </TestCaseEntity>

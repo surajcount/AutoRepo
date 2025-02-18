@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Free_Trial_Engagement_Limit - Copy</name>
+   <name>Create_Flex_Engagement_Compilation</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>66b00f95-0a52-4262-b1a4-8d8d754a15ac</testCaseGuid>
+   <testCaseGuid>b743e2d2-4a15-4d3a-9d9e-9a8818615b3a</testCaseGuid>
 </TestCaseEntity>

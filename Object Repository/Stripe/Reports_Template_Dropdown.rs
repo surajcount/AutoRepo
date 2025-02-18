@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select_Payment_Method</name>
+   <name>Reports_Template_Dropdown</name>
    <tag></tag>
-   <elementGuidId>37e1472e-50dd-44c0-819b-a837803818fb</elementGuidId>
+   <elementGuidId>e9196d76-d359-4317-a7bc-3b04cd5e6652</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[normalize-space()='Select Payment Methods']|//span[normalize-space()='Process Refund']</value>
+         <value>//span[normalize-space()='Reports']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

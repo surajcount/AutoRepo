@@ -17,7 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login_TC/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(UAT)
+
+WebUI.setText(findTestObject('LoginPage/User_Email'), LoginEmail)
+
+WebUI.setEncryptedText(findTestObject('LoginPage/User_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
+
+WebUI.click(findTestObject('LoginPage/LoginButton'))
+
+WebUI.maximizeWindow()
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Stripe/User_Profile'))
 
@@ -47,14 +59,12 @@ int remaining_seats = Total_Seats - Used_Seats
 System.out.print(('Remaining Seats under plan details are : ' + remaining_seats) + ' ')
 
 String payment_fre = WebUI.getText(findTestObject('Stripe/Payment_Frequency_PlanDetails'))
+
 System.out.print(('Payment frequency is : ' + payment_fre) + ' ')
 
-
-
 String Next_payment_Date = WebUI.getText(findTestObject('Stripe/Next_Payment_date'))
+
 System.out.print(('Next Payment date is : ' + Next_payment_Date) + ' ')
-
-
 
 String NPA = WebUI.getText(findTestObject('Stripe/Next_Payment_Amount'))
 
@@ -66,56 +76,32 @@ float Next_Amount = NPA_integerPart1 / 100
 
 System.out.print(('Next Payment amount is : ' + Next_Amount) + ' ')
 
-
-
 //Add-on: Countable Flex
-
-String TC = WebUI.getText(findTestObject('Stripe/Total_Commitment'))
-int total_commitment=Integer.parseInt(TC)
-
-System.out.print("Total Commitments= "+total_commitment+" ")
-
-//int Total_Commitment = Integer.parseInt(TC)
-//System.out.print(Total_Commitment)
 String Tot_Used = WebUI.getText(findTestObject('Stripe/Total_Used_Till_Date'))
 
-int Total_Flex_Used=Integer.parseInt(Tot_Used)
+int Total_Flex_Used = Integer.parseInt(Tot_Used)
 
-System.out.print("Total Flex used till date= "+Total_Flex_Used+" ")
-//int Total_flex_used = Integer.parseInt(Tot_Used)
-//System.out.print(Total_flex_used)
-//String Rem_Unused = WebUI.getText(findTestObject('Stripe/Remaining_Unused'))
-int remaining_unused_flex=total_commitment-Total_Flex_Used
+System.out.print(('Total Flex used till date= ' + Total_Flex_Used) + ' ')
 
+String TC = WebUI.getText(findTestObject('Stripe/Total_Commitment'))
 
-boolean commitmentMet = total_commitment == Total_Flex_Used
-
-System.out.println("Total Commitment: " + (commitmentMet ? "Commitment Met" : "Commitment Not Met"));
-
-if (commitmentMet) {
-	System.out.println("Remaining Unused: NA")
+if (TC.equalsIgnoreCase('NA')) {
+    print('User dont have any flex commitment ')
 } else {
-	System.out.println("Remaining Unused: " + remaining_unused_flex);
+    int total_commitment = Integer.parseInt(TC)
+
+    System.out.print(('Total Commitments= ' + total_commitment) + ' ')
+
+    int remaining_unused_flex = total_commitment - Total_Flex_Used
+
+    boolean commitmentMet = total_commitment == Total_Flex_Used
+
+    System.out.println('Total Commitment: ' + commitmentMet ? 'Commitment Met' : 'Commitment Not Met')
+
+    if (commitmentMet) {
+        System.out.println('Remaining Unused: NA')
+    } else {
+        System.out.println('Remaining Unused: ' + remaining_unused_flex)
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//int Remaining_Flex = Integer.parseInt(Rem_Unused)
-//System.out.print(Remaining_Flex)
-
-
 

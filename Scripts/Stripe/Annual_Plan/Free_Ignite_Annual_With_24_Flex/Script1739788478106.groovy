@@ -19,7 +19,19 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login_TC/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(UAT)
+
+WebUI.setText(findTestObject('LoginPage/User_Email'), LoginEmail)
+
+WebUI.setEncryptedText(findTestObject('LoginPage/User_Password'), '0yu2BuhvF5H+L+Dr3iRPjA==')
+
+WebUI.click(findTestObject('LoginPage/LoginButton'))
+
+WebUI.maximizeWindow()
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Stripe/User_Profile'))
 
@@ -37,7 +49,7 @@ WebUI.verifyTextPresent('Please select the plan that best suits your needs', fal
 
 WebUI.click(findTestObject('Stripe/Switch_Annual'))
 
-WebUI.click(findTestObject('Stripe/Select_Plan_Ignite'))
+WebUI.click(findTestObject('Stripe/Select_Plan_Essentials'))
 
 WebUI.verifyTextPresent('You are about to subscribe to the Essentials Annual Plan', false)
 
@@ -56,7 +68,7 @@ WebUI.scrollToElement(findTestObject('Stripe/Commitment_Dropdown'), 0)
 
 WebUI.click(findTestObject('Stripe/Commitment_Dropdown'))
 
-WebUI.click(findTestObject('Stripe/12 Engagement commitment'))
+WebUI.click(findTestObject('Stripe/24_Engagements_Commitment'))
 
 WebUI.verifyTextPresent('Discount Applied: 25% off', false)
 
@@ -391,5 +403,5 @@ WebUI.delay(10)
 
 WebUI.verifyTextPresent('Plan Successfully upgraded!', false)
 
-WebUI.verifyTextPresent('You have successfully upgraded your plan to the Monthly Accelerate.', false)
+WebUI.verifyTextPresent('You have successfully upgraded your plan to the Ignite Annual.', false)
 

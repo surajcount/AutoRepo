@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Free_Trial_User_Operations</name>
+   <name>Free_Ignite_Annual_With_24_Flex</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d71a0c80-7adc-4416-88bf-eb13f6a9b58e</testCaseGuid>
+   <testCaseGuid>a74729ee-ecd5-461f-9653-daf74952958c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ed167000-df9e-44ee-9067-40a5dcd90638</variableId>
+      <variableId>170b38b6-adc4-4ea5-9c85-0676339e9f6a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>15da0c35-2e5b-47f3-be7d-62cbc55b7768</variableId>
+      <variableId>10ee05fd-02c4-422b-8d74-c6ec00e39965</variableId>
    </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.UAT</defaultValue>
       <description></description>
-      <id>ed167000-df9e-44ee-9067-40a5dcd90638</id>
+      <id>170b38b6-adc4-4ea5-9c85-0676339e9f6a</id>
       <masked>false</masked>
       <name>UAT</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
       <description></description>
-      <id>15da0c35-2e5b-47f3-be7d-62cbc55b7768</id>
+      <id>10ee05fd-02c4-422b-8d74-c6ec00e39965</id>
       <masked>false</masked>
       <name>LoginEmail</name>
    </variable>
