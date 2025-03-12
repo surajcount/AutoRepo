@@ -38,7 +38,7 @@
       <name>EmailLogin</name>
    </variable>
    <variable>
-      <defaultValue>'sdprod@yopmail.com'</defaultValue>
+      <defaultValue>'automationnotesv31@yopmail.com'</defaultValue>
       <description></description>
       <id>9a540d67-1175-4b18-a8e8-9dbd2fdea922</id>
       <masked>false</masked>

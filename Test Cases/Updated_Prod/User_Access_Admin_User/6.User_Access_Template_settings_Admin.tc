@@ -83,7 +83,7 @@
       <name>PROD</name>
    </variable>
    <variable>
-      <defaultValue>'genbyadm@yopmail.com'</defaultValue>
+      <defaultValue>GlobalVariable.Admin_User</defaultValue>
       <description></description>
       <id>fa507ee3-508a-4619-b9fe-38aea55b1a1e</id>
       <masked>false</masked>

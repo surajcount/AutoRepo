@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete_From_Next_Billing_Cycle</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>29ac8dee-4fe7-477f-a204-e418bdad7198</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56b59e4c-0044-4d19-a2a7-cc674fd2d95f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91ed661e-59bd-46ae-9126-8b35e37d7ccf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.UAT</defaultValue>
+      <description></description>
+      <id>56b59e4c-0044-4d19-a2a7-cc674fd2d95f</id>
+      <masked>false</masked>
+      <name>UAT</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
+      <description></description>
+      <id>91ed661e-59bd-46ae-9126-8b35e37d7ccf</id>
+      <masked>false</masked>
+      <name>LoginEmail</name>
+   </variable>
+</TestCaseEntity>

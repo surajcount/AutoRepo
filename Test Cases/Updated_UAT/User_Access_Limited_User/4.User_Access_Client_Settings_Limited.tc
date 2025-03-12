@@ -56,7 +56,7 @@
       <name>LoginEmail</name>
    </variable>
    <variable>
-      <defaultValue>'ltdteam20@yopmail.com'</defaultValue>
+      <defaultValue>GlobalVariable.Limited_User</defaultValue>
       <description></description>
       <id>7ca6ae68-d6b9-44e4-abed-310605aac3d1</id>
       <masked>false</masked>

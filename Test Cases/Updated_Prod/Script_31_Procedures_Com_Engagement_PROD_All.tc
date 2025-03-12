@@ -52,7 +52,7 @@
       <name>PROD</name>
    </variable>
    <variable>
-      <defaultValue>'rev'</defaultValue>
+      <defaultValue>'Com'</defaultValue>
       <description></description>
       <id>46d4bca4-74f0-4b21-ac0e-347fb3c1563a</id>
       <masked>false</masked>

@@ -26,7 +26,7 @@
       <name>UAT</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.Onboard_Login_USA</defaultValue>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
       <description></description>
       <id>15da0c35-2e5b-47f3-be7d-62cbc55b7768</id>
       <masked>false</masked>

@@ -138,17 +138,25 @@ float NetTotal = SubtotalNewPlan + DiscountedAmount
 System.out.print('Net Total is ' + NetTotal)
 
 //Tax
+float TaxCal
+
+float taxPercentage
+
 String taxn = WebUI.getText(findTestObject('Stripe/Tax_New_Plan'))
 
-String taxper = taxn.replaceAll('[^0-9]', '')
+if (taxn.equalsIgnoreCase('Tax (N/A):')) {
+    print('US user')
+} else {
+    String taxper = taxn.replaceAll('[^0-9]', '')
 
-float taxPercentage = Integer.parseInt(taxper)
+    taxPercentage = Integer.parseInt(taxper)
 
-System.out.print('Tax percentage is ' + taxPercentage)
+    System.out.print('Tax percentage is ' + taxPercentage)
 
-float TaxCal = (NetTotal * taxPercentage) / 100
+    TaxCal = ((NetTotal * taxPercentage) / 100)
 
-System.out.print('Tax should be :' + TaxCal)
+    System.out.print('Tax should be :' + TaxCal)
+}
 
 //Total
 float Total = NetTotal + TaxCal

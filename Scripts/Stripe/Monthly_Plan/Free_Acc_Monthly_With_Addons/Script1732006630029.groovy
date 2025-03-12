@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword as WebUIAbstractKeyword
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
@@ -141,17 +141,25 @@ float NetTotal = SubtotalNewPlan + DiscountedAmount
 System.out.print('Net Total is ' + NetTotal)
 
 //Tax
+float TaxCal
+
+float taxPercentage
+
 String taxn = WebUI.getText(findTestObject('Stripe/Tax_New_Plan'))
 
-String taxper = taxn.replaceAll('[^0-9]', '')
+if (taxn.equalsIgnoreCase('Tax (N/A):')) {
+    print('US user')
+} else {
+    String taxper = taxn.replaceAll('[^0-9]', '')
 
-float taxPercentage = Integer.parseInt(taxper)
+    taxPercentage = Integer.parseInt(taxper)
 
-System.out.print('Tax percentage is ' + taxPercentage)
+    System.out.print('Tax percentage is ' + taxPercentage)
 
-float TaxCal = (NetTotal * taxPercentage) / 100
+    TaxCal = ((NetTotal * taxPercentage) / 100)
 
-System.out.print('Tax should be :' + TaxCal)
+    System.out.print('Tax should be :' + TaxCal)
+}
 
 //Total
 float Total = NetTotal + TaxCal
@@ -352,7 +360,11 @@ WebUI.setText(findTestObject('Stripe/CVV_Code'), '123')
 
 WebUI.delay(5)
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ESCAPE))
+WebUI.switchToDefaultContent()
+
 WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Stripe/Pay_Now'), 0)
+
 WebUI.click(findTestObject('Stripe/Pay_Now'))
 

@@ -81,7 +81,7 @@ WebUI.click(findTestObject('Stripe/CMS_Team_member'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Stripe/Team_Member_Email'), 'pravinp@countable.co')
+WebUI.setText(findTestObject('Stripe/Team_Member_Email'), 'mohamade@countable.co')
 
 WebUI.click(findTestObject('Stripe/Access_Type'))
 

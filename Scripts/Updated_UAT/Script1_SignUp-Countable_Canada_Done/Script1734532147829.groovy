@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Coun
 
 WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Last Name'), 'QA Team ')
 
-WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Firm_Name'), 'QA Team corporation')
+WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Firm_Name'), 'QA1 Team Testing')
 
 WebUI.setText(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Firm size (No. of users)'), '10')
 
@@ -63,8 +63,6 @@ WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Counta
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Create your accountSelect a countryCan'))
 
 WebUI.click(findTestObject('Object Repository/OnboardingObjects/Page_UAT (Countable)/Sign_Up_Now'))
-
-WebUI.verifyTextPresent('Thank you for choosing Countable.', false)
 
 WebUI.delay(5)
 

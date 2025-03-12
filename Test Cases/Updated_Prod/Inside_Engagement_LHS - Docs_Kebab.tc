@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Inside_Engagement_LHS - Docs_Kebab</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ee474a8b-2180-4870-8801-a84ab980b07c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c2487f93-6167-4263-8c93-7fb833eacaa7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9e9b124-bd5c-4362-b3dd-78d01b65efd6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3067393a-f682-486b-8828-eea303d48b5e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.EmailLogin_PROD</defaultValue>
+      <description></description>
+      <id>c2487f93-6167-4263-8c93-7fb833eacaa7</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PROD</defaultValue>
+      <description></description>
+      <id>e9e9b124-bd5c-4362-b3dd-78d01b65efd6</id>
+      <masked>false</masked>
+      <name>UAT</name>
+   </variable>
+   <variable>
+      <defaultValue>'com'</defaultValue>
+      <description></description>
+      <id>3067393a-f682-486b-8828-eea303d48b5e</id>
+      <masked>false</masked>
+      <name>Search_Engagement</name>
+   </variable>
+</TestCaseEntity>

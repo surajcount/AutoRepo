@@ -31,27 +31,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'qateam02@yopmail.com'</initValue>
+      <initValue>'uatvv35@yopmail.com'</initValue>
       <name>Email_Signup_Canada</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'qateam02@yopmail.com'</initValue>
+      <initValue>'uatvv35@yopmail.com'</initValue>
       <name>Onboard_Login_Canada</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'qateammember02@yopmail.com'</initValue>
+      <initValue>'uatv35team06@yopmail.com'</initValue>
       <name>Onboard_Team_Can</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'qaclient02@yopmail.com'</initValue>
+      <initValue>'uatv35client06@yopmail.com'</initValue>
       <name>Onboard_Client_Can</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'lucaai31@yopmail.com'</initValue>
+      <initValue>'pravinpatiluat@yopmail.com'</initValue>
       <name>EmailLogin_UAT_Canada</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -61,12 +61,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'usangular@yopmail.com'</initValue>
+      <initValue>'canadaqaretesting@yopmail.com'</initValue>
       <name>EmailLogin_PROD_USA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Auto QA 01'</initValue>
+      <initValue>'Auto UAT V35'</initValue>
       <name>Client_Entity_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -136,22 +136,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'usatech06@yopmail.com'</initValue>
+      <initValue>'usatech08@yopmail.com'</initValue>
       <name>Email_Signup_USA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'usatech06@yopmail.com'</initValue>
+      <initValue>'usatech08@yopmail.com'</initValue>
       <name>Onboard_Login_USA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'usatechteam06@yopmail.com'</initValue>
+      <initValue>'usatechteam08@yopmail.com'</initValue>
       <name>Onboard_Team_USA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'usatechclient06@yopmail.com'</initValue>
+      <initValue>'usatechclient08@yopmail.com'</initValue>
       <name>Onboard_Client_USA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -176,12 +176,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'adminqarf@yopmail.com'</initValue>
+      <initValue>'adminv35test@yopmail.com'</initValue>
       <name>Admin_User</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'generalv34.1@yopmail.com'</initValue>
+      <initValue>'generalv35chan@yopmail.com'</initValue>
       <name>General_User</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -191,7 +191,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'limitedv34@yopmail.com'</initValue>
+      <initValue>'limitedv34.1@yopmail.com'</initValue>
       <name>Limited_User</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

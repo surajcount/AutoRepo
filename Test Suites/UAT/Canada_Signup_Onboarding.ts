@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>6630c0b9-1723-43f4-9764-d986f964b3c9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Updated_UAT/Script1_SignUp-Countable_Canada_Done</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -51,7 +51,7 @@
    <testCaseLink>
       <guid>bce9a59d-7ff3-4e6d-a603-526bb6b343af</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Updated_UAT/Script2_Onboarding_Client_Team_Firm_Canada_Done</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -122,7 +122,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2000da11-765e-4fd3-8714-0549409b4255</guid>
+      <guid>7fbaf74e-6674-486d-95c8-3cc3fe6fdd13</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Stripe/Monthly_Plan/1.Free_Flex_Engagement</testCaseId>
@@ -139,9 +139,15 @@
          <value></value>
          <variableId>4dee013f-b7cf-4560-8282-75fc5c0eb3c9</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f5e6f0a1-20f2-4d7d-b96f-8cead68250ba</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>462b35dd-d67d-47b0-8e85-7fcd5baccff3</guid>
+      <guid>b9357191-9348-454f-b94f-ff0e65989589</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Stripe/Monthly_Plan/2.Free_Trial_User_Operations</testCaseId>

@@ -237,7 +237,7 @@ if (SubtotalNewPlan > 10000) {
 }
 
 //
-WebUI.click(findTestObject('Stripe/Quarterly_Payment_Frequency'))
+WebUI.click(findTestObject('Stripe/Monthly_Frequency'))
 
 //
 //WebUI.setText(findTestObject('Stripe/No. of _Seat'), '10')

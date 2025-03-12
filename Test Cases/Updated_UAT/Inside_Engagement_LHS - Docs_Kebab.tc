@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Inside_Engagement_LHS - Docs_Kebab</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a46b5ad-ad0a-4b6c-9162-7caac4df2715</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26aabb59-6fa5-49a9-b5d3-ef1d5ef37496</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9aeab06c-3155-4a4a-ad06-e3c0f9d870b7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7db316f-984e-4a57-b228-1780ecfd3fe8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
+      <description></description>
+      <id>26aabb59-6fa5-49a9-b5d3-ef1d5ef37496</id>
+      <masked>false</masked>
+      <name>EmailLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.UAT</defaultValue>
+      <description></description>
+      <id>9aeab06c-3155-4a4a-ad06-e3c0f9d870b7</id>
+      <masked>false</masked>
+      <name>UAT</name>
+   </variable>
+   <variable>
+      <defaultValue>'com'</defaultValue>
+      <description></description>
+      <id>d7db316f-984e-4a57-b228-1780ecfd3fe8</id>
+      <masked>false</masked>
+      <name>Search_Engagement</name>
+   </variable>
+</TestCaseEntity>

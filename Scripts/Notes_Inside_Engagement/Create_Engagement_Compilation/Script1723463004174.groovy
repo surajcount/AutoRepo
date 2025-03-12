@@ -31,7 +31,7 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Create_Engagement_Pravin/Client_Name_on_Popup'))
 
-WebUI.setText(findTestObject('Create_Engagement_Pravin/Search_Client'), 'Auto')
+WebUI.setText(findTestObject('Create_Engagement_Pravin/Search_Client'), 'Automation')
 
 WebUI.click(findTestObject('Create_Engagement_Pravin/Select_Client'))
 

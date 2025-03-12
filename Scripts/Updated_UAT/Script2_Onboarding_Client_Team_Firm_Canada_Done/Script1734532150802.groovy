@@ -266,11 +266,11 @@ WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/Keep_Default_
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('OnboardingObjects/Page_UAT (Countable)/TermsAcceptanceBTN_CLI_Obording'), 60, FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.scrollToElement(findTestObject('OnboardingObjects/Page_UAT (Countable)/TermsAcceptanceBTN_CLI_Obording'), 60, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/TermsAcceptanceBTN_CLI_Obording'), FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.click(findTestObject('OnboardingObjects/Page_UAT (Countable)/TermsAcceptanceBTN_CLI_Obording'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+//WebUI.delay(2)
 
 WebUI.click(findTestObject('Client_Section_Object/Dashboard_Client_Sec'))
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pause_Immediately</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>802a8f48-fd19-4cba-8ac5-912c9d6166a8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>715ad575-75e9-4369-95a8-c0fa41ffe77d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>23c3a4c0-6d87-435d-90ae-1e46a231fdc8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.UAT</defaultValue>
+      <description></description>
+      <id>715ad575-75e9-4369-95a8-c0fa41ffe77d</id>
+      <masked>false</masked>
+      <name>UAT</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
+      <description></description>
+      <id>23c3a4c0-6d87-435d-90ae-1e46a231fdc8</id>
+      <masked>false</masked>
+      <name>LoginEmail</name>
+   </variable>
+</TestCaseEntity>

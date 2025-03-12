@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[normalize-space()='Ok']</value>
+         <value>//span[normalize-space()='Ok']|//span[normalize-space()='Okay']</value>
       </entry>
       <entry>
          <key>BASIC</key>

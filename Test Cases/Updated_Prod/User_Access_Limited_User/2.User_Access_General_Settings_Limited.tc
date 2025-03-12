@@ -65,7 +65,7 @@
       <name>PROD</name>
    </variable>
    <variable>
-      <defaultValue>'ltdaddedbyltd@yopmail.com'</defaultValue>
+      <defaultValue>GlobalVariable.Limited_User</defaultValue>
       <description></description>
       <id>72be9fcd-c3f7-4b8e-b5e6-2111609c760d</id>
       <masked>false</masked>

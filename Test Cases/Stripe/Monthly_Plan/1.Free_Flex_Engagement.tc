@@ -18,6 +18,12 @@
       <value></value>
       <variableId>4dee013f-b7cf-4560-8282-75fc5c0eb3c9</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f5e6f0a1-20f2-4d7d-b96f-8cead68250ba</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.UAT</defaultValue>
       <description></description>
@@ -26,10 +32,17 @@
       <name>UAT</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.Onboard_Login_USA</defaultValue>
+      <defaultValue>GlobalVariable.EmailLogin_UAT_Canada</defaultValue>
       <description></description>
       <id>4dee013f-b7cf-4560-8282-75fc5c0eb3c9</id>
       <masked>false</masked>
       <name>LoginEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PROD</defaultValue>
+      <description></description>
+      <id>f5e6f0a1-20f2-4d7d-b96f-8cead68250ba</id>
+      <masked>false</masked>
+      <name>PROD</name>
    </variable>
 </TestCaseEntity>

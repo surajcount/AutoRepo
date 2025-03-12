@@ -12,10 +12,22 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>a34a3b38-68d8-4272-8b90-db4c9db6d483</testSuiteGuid>
    <testCaseLink>
-      <guid>1c50659d-bc6b-4970-8876-1c03ae0188d9</guid>
+      <guid>e226c41e-850f-472f-86b2-766a964cf035</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Notes to FS/5.Automated_Column_Format</testCaseId>
+      <testCaseId>Test Cases/Stripe/Annual_Plan/Flex_Counter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>13663b2f-674f-4868-b61d-34a6198ee3c3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d32f7449-940d-4f1e-a81b-80d0e195681e</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

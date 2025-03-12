@@ -76,7 +76,7 @@
       <name>CorrectDataFile</name>
    </variable>
    <variable>
-      <defaultValue>'ltdteam20@yopmail.com'</defaultValue>
+      <defaultValue>GlobalVariable.Limited_User</defaultValue>
       <description></description>
       <id>cc9f9497-4995-4011-b02a-69359ef8393c</id>
       <masked>false</masked>

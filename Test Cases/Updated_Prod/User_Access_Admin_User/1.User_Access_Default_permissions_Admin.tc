@@ -28,13 +28,13 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e7795504-108c-49eb-b96f-1e687dd2b75d</variableId>
+      <variableId>375bd311-ad53-457c-af6e-148d157f2625</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>375bd311-ad53-457c-af6e-148d157f2625</variableId>
+      <variableId>e7795504-108c-49eb-b96f-1e687dd2b75d</variableId>
    </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.EmailLogin_PROD</defaultValue>
@@ -58,17 +58,17 @@
       <name>UAT</name>
    </variable>
    <variable>
+      <defaultValue>GlobalVariable.Admin_User</defaultValue>
+      <description></description>
+      <id>375bd311-ad53-457c-af6e-148d157f2625</id>
+      <masked>false</masked>
+      <name>LimitedUserByGen</name>
+   </variable>
+   <variable>
       <defaultValue>GlobalVariable.PROD</defaultValue>
       <description></description>
       <id>e7795504-108c-49eb-b96f-1e687dd2b75d</id>
       <masked>false</masked>
       <name>PROD</name>
-   </variable>
-   <variable>
-      <defaultValue>'genbyadm@yopmail.com'</defaultValue>
-      <description></description>
-      <id>375bd311-ad53-457c-af6e-148d157f2625</id>
-      <masked>false</masked>
-      <name>LimitedUserByGen</name>
    </variable>
 </TestCaseEntity>
