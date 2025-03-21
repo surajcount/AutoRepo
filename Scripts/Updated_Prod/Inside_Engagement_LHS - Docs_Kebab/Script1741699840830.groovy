@@ -30,7 +30,7 @@ import org.junit.Assert as Assert
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(UAT)
+WebUI.navigateToUrl(PROD)
 
 WebUI.maximizeWindow()
 

@@ -6,12 +6,11 @@
    <elementGuidId>6b953304-3f8a-47af-95c8-2f936cec230e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//p[contains(text(),'Review')])[last()]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//p[contains(text(),'Review Section 2400')])[last()]|(//p[@title='Review SSARS 21-23'])[last()]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

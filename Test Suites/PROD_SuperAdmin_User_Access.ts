@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>30518ade-d11e-469d-987e-713e5739e7ca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Updated_Prod/User_Access_SuperAdmin_User/1.User_Access_Default_permissions_SupAdmin</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -51,7 +51,7 @@
    <testCaseLink>
       <guid>f94b9616-f3a0-4d8f-9220-da08e01fc95b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Updated_Prod/User_Access_SuperAdmin_User/2.User_Access_General_Settings_SupAdmin</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -83,6 +83,43 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>f6cb4993-8c49-4d08-8a57-48d1981caeb9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a49b0314-60e3-4a32-b810-6fab69c76299</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Updated_Prod/User_Access_SuperAdmin_User/3.1.User_Access_Team_member_settings_SupAdmin_Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>10e674fb-1e14-4d4b-a6dd-2ea074615c08</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7930f3e0-4563-4049-b0df-f11c57d62891</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d44f5179-e5df-4e1a-8ba9-bd91cccb6006</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1c748cea-2bce-4b03-b73a-4fd26387ab52</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>42f1db76-0297-4c23-9e4b-8e72a01a16fa</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

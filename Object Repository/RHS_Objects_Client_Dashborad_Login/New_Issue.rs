@@ -6,11 +6,11 @@
    <elementGuidId>fb3c9fd8-be13-4333-aef8-c2be59b40be4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//span[contains(text(),'New')])[last()]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'New')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

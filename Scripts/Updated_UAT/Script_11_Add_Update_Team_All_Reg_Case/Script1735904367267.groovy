@@ -46,9 +46,9 @@ WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Choose Category_Obje
 
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Category_Partner_M'))
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/First Name_Team'), 'Narayan')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/First Name_Team'), 'Jaganlal')
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Last Name_Team'), 'Singh')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Last Name_Team'), 'Mehta')
 
 WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Title_Team'), 'Mr')
 
@@ -108,7 +108,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/DashBoard_Team_Icon'))
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Search Button_Team'), 'Narayan')
+WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Search Button_Team'), 'jagan')
 
 WebUI.clearText(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Search Button_Team'))
 
@@ -198,11 +198,30 @@ WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCa
 
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Edit_Button_Team_Staff_Sec'))
 
-WebUI.setText(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Edit_Detail_LastName'), 'Agni')
+WebUI.delay(2)
+
+// Get the email from the field
+String teamEmail = WebUI.getAttribute(findTestObject('User_Access/Team_Email'), 'value')
+
+// Ensure the email is not empty
+assert teamEmail != null && !teamEmail.isEmpty() : "Team email is empty or null!"
+
+WebUI.click(findTestObject('User_Access/Choose_Category'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Partner_Category'))
 
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/SaveButton_Edit_Details'))
 
 WebUI.click(findTestObject('AddTeam_AllRegression_Dashboard/Additional AddTeamCase/Confirmation_SaveButton_Edit_Details'))
+
+// Verify success message
+WebUI.verifyTextPresent('Team member record updated successfully', false)
+
+// Wait for the search result to appear
+WebUI.waitForElementPresent(findTestObject('SearchResultObject'), 10)
+
+// Verify the email is in search results
+WebUI.verifyTextPresent(teamEmail, false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(4)
 

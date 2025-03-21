@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uat.adinovis.com/login'</initValue>
+      <initValue>'https://platform.countable.co/login'</initValue>
       <name>UAT</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,12 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'pravinpatiluat@yopmail.com'</initValue>
+      <initValue>'usnannualprod30@yopmail.com'</initValue>
       <name>EmailLogin_UAT_Canada</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'canadaannual01@yopmail.com'</initValue>
+      <initValue>'canadaangular@yopmail.com'</initValue>
       <name>EmailLogin_PROD</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -176,7 +176,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'adminv35test@yopmail.com'</initValue>
+      <initValue>'adminv35.2@yopmail.com'</initValue>
       <name>Admin_User</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -186,12 +186,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'superv34@yopmail.com'</initValue>
+      <initValue>'superv35@yopmail.com'</initValue>
       <name>Super_Admin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'limitedv34.1@yopmail.com'</initValue>
+      <initValue>'limitedv35@yopmail.com'</initValue>
       <name>Limited_User</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

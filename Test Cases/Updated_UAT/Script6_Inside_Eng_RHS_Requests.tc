@@ -38,7 +38,7 @@
       <name>EmailLogin</name>
    </variable>
    <variable>
-      <defaultValue>'releasev26qbo@yopmail.com'</defaultValue>
+      <defaultValue>'limitedeclientv27@yopmail.com'</defaultValue>
       <description></description>
       <id>d0b5cf36-4534-4908-9cfb-9d5e88873a4d</id>
       <masked>false</masked>
@@ -52,7 +52,7 @@
       <name>UAT</name>
    </variable>
    <variable>
-      <defaultValue>'com'</defaultValue>
+      <defaultValue>'rev'</defaultValue>
       <description></description>
       <id>cffa6990-de0e-418d-a9a5-3119150c11b7</id>
       <masked>false</masked>

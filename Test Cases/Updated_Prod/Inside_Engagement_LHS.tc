@@ -36,7 +36,7 @@
       <description></description>
       <id>92197828-3e46-4f03-ada7-27d9bc61c9cf</id>
       <masked>false</masked>
-      <name>UAT</name>
+      <name>PROD</name>
    </variable>
    <variable>
       <defaultValue>'com'</defaultValue>

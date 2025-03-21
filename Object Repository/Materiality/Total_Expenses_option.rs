@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[normalize-space()='Total Expenses']</value>
+         <value>//div[@role='listbox']/mat-option/span[.='Total Expenses ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

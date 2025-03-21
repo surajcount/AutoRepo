@@ -70,7 +70,7 @@
       <name>CorrectDataFile</name>
    </variable>
    <variable>
-      <defaultValue>'team11812@yopmail.com'</defaultValue>
+      <defaultValue>'teamedittest1@yopmail.com'</defaultValue>
       <description></description>
       <id>023a47cc-9a3f-46bc-9259-bbecca75866c</id>
       <masked>false</masked>

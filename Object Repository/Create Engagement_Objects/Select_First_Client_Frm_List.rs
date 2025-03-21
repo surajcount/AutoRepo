@@ -6,16 +6,14 @@
    <elementGuidId>08789e0e-1100-4d55-be23-3f697884f737</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='ng-option-label ng-star-inserted']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
+         <value>(//span[@class='ng-option-label ng-star-inserted'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

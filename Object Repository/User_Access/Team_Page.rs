@@ -6,12 +6,11 @@
    <elementGuidId>727a6189-2890-412d-af69-f29dba22b206</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@routerlink='/dashboard/members/teammember']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[@routerlink='/dashboard/members/team']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

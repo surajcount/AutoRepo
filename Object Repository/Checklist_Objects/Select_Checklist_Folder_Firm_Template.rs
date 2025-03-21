@@ -6,12 +6,11 @@
    <elementGuidId>a5ba3250-9ac1-487f-99c7-dd80781d49b2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//mat-radio-button/div/label[contains(text(),'Release V34')]|(//mat-radio-button/div/label)[last()]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-radio-button/div/label[contains(text(),'Release V34')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

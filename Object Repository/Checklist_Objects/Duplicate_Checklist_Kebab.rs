@@ -6,12 +6,11 @@
    <elementGuidId>47eab9ee-996f-45aa-8bd9-ebb2afc7215b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//button[@title='Duplicate'])[last()]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@title='Duplicate']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

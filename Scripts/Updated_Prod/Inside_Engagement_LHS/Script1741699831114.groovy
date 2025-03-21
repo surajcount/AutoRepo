@@ -30,7 +30,7 @@ import org.junit.Assert as Assert
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(UAT)
+WebUI.navigateToUrl(PROD)
 
 WebUI.maximizeWindow()
 
@@ -363,7 +363,7 @@ List<Map> FSfelements = driver.findElements(By.xpath('//div/div[@role=\'menu\']/
 
 // Expected values for comparison
 String[] FSfexpectedValues = ['Reorder', 'Renumber', 'Raise a request', 'Raise issue', 'Add comment', 'Add document', 'renameDocumentDoc'
-    , 'Delete']
+    , 'Delete', 'Reorder', 'Renumber', 'Raise a request', 'Raise issue', 'Add comment', 'Add document', 'Rename', 'Delete']
 
 // Iterate through each WebElement and compare with expected values
 for (int i = 0; i < FSfelements.size(); i++) {
